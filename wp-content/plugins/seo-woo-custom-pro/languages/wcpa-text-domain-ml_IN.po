@@ -1,0 +1,1778 @@
+# Copyright (C) 2019
+# This file is distributed under the same license as the Woocommerce Custom Product Addons plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Custom Product Addons 3.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"custom-product-addons\n"
+"Language-Team: മലയാളം\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-09-25T15:22:39+02:00\n"
+"PO-Revision-Date: 2019-09-25 13:47+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: wcpa-text-domain\n"
+"Last-Translator: admin@wp <jamsheer.k@acodez.in>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ml_IN\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#. Plugin Name of the plugin
+msgid "Woocommerce Custom Product Addons"
+msgstr "Woocommerce ഇഷ്‌ടാനുസൃത ഉൽപ്പന്ന ആഡോണുകൾ"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://acowebs.com"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Woocommerce Product add-on plugin. Add custom fields to your Woocommerce "
+"product page. With an easy-to-use Custom Form Builder, now you can add extra "
+"product options quickly."
+msgstr ""
+"Woocommerce ഉൽപ്പന്ന ആഡ്-ഓൺ പ്ലഗിൻ. നിങ്ങളുടെ Woocommerce ഉൽപ്പന്ന "
+"പേജിലേക്ക് ഇഷ്‌ടാനുസൃത ഫീൽഡുകൾ ചേർക്കുക. ഉപയോഗിക്കാൻ എളുപ്പമുള്ള ഇഷ്‌ടാനുസൃത "
+"ഫോം ബിൽഡർ ഉപയോഗിച്ച്, ഇപ്പോൾ നിങ്ങൾക്ക് അധിക ഉൽപ്പന്ന ഓപ്ഷനുകൾ വേഗത്തിൽ "
+"ചേർക്കാൻ കഴിയും."
+
+#. Author of the plugin
+msgid "Acowebs"
+msgstr "അക്കോവെബ്സ്"
+
+#: includes/class-wcpa-backend.php:208 includes/class-wcpa-backend.php:214
+#: includes/class-wcpa-backend.php:220
+msgid "WCPA Forms"
+msgstr "WCPA ഫോമുകൾ"
+
+#: includes/class-wcpa-backend.php:279
+msgid "Imported Form"
+msgstr "ഇറക്കുമതി ചെയ്ത ഫോം"
+
+#: includes/class-wcpa-backend.php:328 includes/translations.php:19
+msgid "Copy"
+msgstr "പക‍ര്പ്പ്"
+
+#: includes/class-wcpa-backend.php:389
+msgid "Duplicate Form"
+msgstr ""
+"പകര്പ്പ് \n"
+"ഫോം"
+
+#: includes/class-wcpa-backend.php:544
+msgid "Product Forms"
+msgstr "ഉൽപ്പന്ന ഫോം "
+
+#: includes/class-wcpa-backend.php:566
+msgid "Products"
+msgstr "ഉൽപ്പന്നങ്ങൾ"
+
+#: includes/class-wcpa-form-editor.php:158
+msgid "Build your form"
+msgstr "നിങ്ങളുടെ ഫോം നിർമ്മിക്കുക"
+
+#: includes/class-wcpa-form-editor.php:159
+msgid "Form Settings"
+msgstr "ഫോം ക്രമീകരണങ്ങൾ"
+
+#: includes/class-wcpa-form.php:173 includes/class-wcpa-form.php:175
+msgid "The uploaded file exceeds the maximum upload limit"
+msgstr "അപ്‌ലോഡുചെയ്‌ത ഫയൽ പരമാവധി അപ്‌ലോഡ് പരിധി കവിയുന്നു"
+
+#: includes/class-wcpa-form.php:177
+msgid "The uploaded file error"
+msgstr "അപ്‌ലോഡുചെയ്‌ത ഫയൽ പിശക്"
+
+#: includes/class-wcpa-form.php:183
+msgid "File exceeds maximum upload size limit of %s MB"
+msgstr "ഫയൽ പരമാവധി അപ്‌ലോഡ് വലുപ്പ പരിധി %s MB കവിയുന്നു"
+
+#: includes/class-wcpa-form.php:188 includes/class-wcpa-form.php:802
+msgid "File is too small in size, Need %s MB or above"
+msgstr "ഫയലിന്റെ വലുപ്പം വളരെ ചെറുതാണ്, %s MB അല്ലെങ്കിൽ ഉയർന്നത് ആവശ്യമാണ്"
+
+#: includes/class-wcpa-form.php:207 includes/class-wcpa-form.php:212
+msgid "The uploaded file type is not supported"
+msgstr "അപ്‌ലോഡുചെയ്‌ത ഫയൽ തരം പിന്തുണയ്‌ക്കുന്നില്ല"
+
+#: includes/class-wcpa-form.php:734
+msgid "Please verify you are not a bot"
+msgstr "നിങ്ങൾ ഒരു ബോട്ട് അല്ലെന്ന് സ്ഥിരീകരിക്കുക"
+
+#. translators: %s: field label
+#: includes/class-wcpa-form.php:748 includes/class-wcpa-form.php:778
+#: includes/class-wcpa-form.php:783
+msgid "Field %s is required"
+msgstr "ഫീൽഡ് %s ആവശ്യമാണ്"
+
+#: includes/class-wcpa-form.php:756 includes/class-wcpa-form.php:761
+msgid "You have to select minimum %s items for  field %s"
+msgstr ""
+"ഫീൽഡ് %s എന്നതിനായി നിങ്ങൾ ഏറ്റവും കുറഞ്ഞത് %s ഇനങ്ങൾ തിരഞ്ഞെടുക്കേണ്ടതുണ്ട്"
+
+#: includes/class-wcpa-form.php:769
+msgid "You can select only maximum %s items for  field %s"
+msgstr ""
+"ഫീൽഡ് %s എന്നതിന് നിങ്ങൾക്ക് പരമാവധി %s ഇനങ്ങൾ മാത്രമേ തിരഞ്ഞെടുക്കാൻ കഴിയൂ"
+
+#: includes/class-wcpa-form.php:787 includes/class-wcpa-form.php:789
+msgid "The uploaded file exceeds the maximum upload limit for field %s"
+msgstr "അപ്‌ലോഡുചെയ്‌ത ഫയൽ, %s ഫീൽഡിനായുള്ള പരമാവധി അപ്‌ലോഡ് പരിധി കവിയുന്നു"
+
+#: includes/class-wcpa-form.php:791
+msgid "The uploaded file error for field %s"
+msgstr "%s ഫീൽഡിനായി അപ്‌ലോഡുചെയ്‌ത ഫയൽ പിശക്"
+
+#: includes/class-wcpa-form.php:798
+msgid "Field %s exceeds maximum upload size limit of %s MB"
+msgstr ""
+"\n"
+"ഫീൽഡ് %s പരമാവധി അപ്‌ലോഡ് വലുപ്പ പരിധി %s MB കവിയുന്നു"
+
+#: includes/class-wcpa-form.php:807 includes/class-wcpa-form.php:812
+msgid "The uploaded file type is not supported for field %s"
+msgstr "%s ഫീൽഡിനായി അപ്‌ലോഡുചെയ്‌ത ഫയൽ തരം പിന്തുണയ്‌ക്കുന്നില്ല"
+
+#: includes/class-wcpa-form.php:831
+msgid "Characters %s is not supported for field %s"
+msgstr "%s ഫീൽഡിനായി %s പ്രതീകങ്ങൾ പിന്തുണയ്ക്കുന്നില്ല"
+
+#: includes/class-wcpa-form.php:2486 includes/class-wcpa-form.php:2499
+msgid "File %s could not be uploaded."
+msgstr "%s ഫയൽ അപ്‌ലോഡുചെയ്യാനായില്ല."
+
+#: includes/class-wcpa-form.php:3524 includes/class-wcpa-form.php:3534
+#: includes/class-wcpa-form.php:3689 includes/class-wcpa-form.php:3697
+#: includes/class-wcpa-form.php:4183 includes/class-wcpa-form.php:4191
+#: includes/class-wcpa-form.php:4372 includes/class-wcpa-form.php:4380
+#: includes/translations.php:60
+msgid "Other"
+msgstr "മറ്റുള്ളവ"
+
+#: includes/class-wcpa-form.php:3812 includes/class-wcpa-form.php:3817
+msgid "Choose File"
+msgstr "ഫയൽ തിരഞ്ഞെടുക്കുക"
+
+#: includes/class-wcpa-form.php:4460
+msgid "Street address"
+msgstr "സ്ട്രീറ്റ് വിലാസം"
+
+#: includes/class-wcpa-form.php:4465
+msgid "City"
+msgstr "നഗരം"
+
+#: includes/class-wcpa-form.php:4469
+msgid "State"
+msgstr "സംസ്ഥാനം"
+
+#: includes/class-wcpa-form.php:4471
+msgid "Zip code"
+msgstr "പിൻ കോഡ്"
+
+#: includes/class-wcpa-form.php:4475
+msgid "Country"
+msgstr "രാജ്യം"
+
+#: includes/class-wcpa-form.php:4485 includes/class-wcpa-front-end.php:1200
+#: includes/class-wcpa-order-meta.php:100
+#: includes/class-wcpa-order-meta.php:293
+#: includes/views/order-meta-line-item.php:204
+#: includes/views/order-meta-line-item.php:226
+msgid "Latitude:"
+msgstr "അക്ഷാംശം:"
+
+#: includes/class-wcpa-form.php:4487 includes/class-wcpa-front-end.php:1201
+#: includes/class-wcpa-order-meta.php:101
+#: includes/class-wcpa-order-meta.php:294
+#: includes/views/order-meta-line-item.php:205
+#: includes/views/order-meta-line-item.php:227
+msgid "Longitude:"
+msgstr "രേഖാംശം:"
+
+#: includes/class-wcpa-front-end.php:278 includes/class-wcpa-front-end.php:279
+msgid "Product Form"
+msgstr "ഉൽപ്പന്ന ഫോം"
+
+#: includes/class-wcpa-front-end.php:281
+msgid "Add New Product Form"
+msgstr "പുതിയ ഉൽപ്പന്ന ഫോം ചേർക്കുക"
+
+#: includes/class-wcpa-front-end.php:282
+msgid "Add New %s"
+msgstr "പുതിയ %s ചേർക്കുക"
+
+#: includes/class-wcpa-front-end.php:283
+msgid "Edit %s"
+msgstr "%s എഡിറ്റുചെയ്യുക"
+
+#: includes/class-wcpa-front-end.php:284
+msgid "New %s"
+msgstr "പുതിയ %s"
+
+#: includes/class-wcpa-front-end.php:285
+msgid "Custom Product Options"
+msgstr "ഇഷ്‌ടാനുസൃത ഉൽപ്പന്ന ഓപ്‌ഷനുകൾ"
+
+#: includes/class-wcpa-front-end.php:286
+msgid "View %s"
+msgstr "%s കാണുക"
+
+#: includes/class-wcpa-front-end.php:287
+msgid "Search %s"
+msgstr "%s തിരയുക"
+
+#: includes/class-wcpa-front-end.php:288
+msgid "No %s Found"
+msgstr "%s കണ്ടെത്തിയില്ല"
+
+#: includes/class-wcpa-front-end.php:289
+msgid "No %s Found In Trash"
+msgstr "ട്രാഷിൽ %s കണ്ടെത്തിയില്ല"
+
+#: includes/class-wcpa-front-end.php:540
+msgid " - Discount"
+msgstr "- കിഴിവ്"
+
+#: includes/class-wcpa-front-end.php:1185 includes/class-wcpa-order-meta.php:85
+#: includes/class-wcpa-order-meta.php:278
+#: includes/views/order-meta-line-item.php:189
+#: includes/views/order-meta-line-item.php:219
+msgid "Street address:"
+msgstr "സ്ട്രീറ്റ് വിലാസം:"
+
+#: includes/class-wcpa-front-end.php:1188 includes/class-wcpa-order-meta.php:88
+#: includes/class-wcpa-order-meta.php:281
+#: includes/views/order-meta-line-item.php:192
+#: includes/views/order-meta-line-item.php:222
+msgid "City:"
+msgstr "നഗരം:"
+
+#: includes/class-wcpa-front-end.php:1191 includes/class-wcpa-order-meta.php:91
+#: includes/class-wcpa-order-meta.php:284
+#: includes/views/order-meta-line-item.php:195
+#: includes/views/order-meta-line-item.php:223
+msgid "State:"
+msgstr ""
+"സംസ്ഥാനം:\n"
+
+#: includes/class-wcpa-front-end.php:1194 includes/class-wcpa-order-meta.php:94
+#: includes/class-wcpa-order-meta.php:287
+#: includes/views/order-meta-line-item.php:198
+#: includes/views/order-meta-line-item.php:224
+msgid "Zip code:"
+msgstr "പിൻ കോഡ്:"
+
+#: includes/class-wcpa-front-end.php:1197 includes/class-wcpa-order-meta.php:97
+#: includes/class-wcpa-order-meta.php:290
+#: includes/views/order-meta-line-item.php:201
+#: includes/views/order-meta-line-item.php:225
+msgid "Country:"
+msgstr "രാജ്യം:"
+
+#: includes/class-wcpa-front-end.php:1202
+#: includes/class-wcpa-order-meta.php:102
+#: includes/views/order-meta-line-item.php:206
+msgid "View on map"
+msgstr ""
+"\n"
+"മാപ്പിൽ കാണുക"
+
+#: includes/class-wcpa-front-end.php:1519
+msgid "Files are being uploaded..."
+msgstr "ഫയലുകൾ അപ്‌ലോഡുചെയ്യുന്നു ..."
+
+#: includes/class-wcpa-front-end.php:1520
+msgid "Upload error"
+msgstr "അപ്‌ലോഡ് പിശക്"
+
+#: includes/class-wcpa-front-end.php:1521
+msgid "You have to select minimum %d items"
+msgstr "നിങ്ങൾ ഏറ്റവും കുറഞ്ഞത് %d ഇനങ്ങൾ തിരഞ്ഞെടുക്കേണ്ടതുണ്ട്"
+
+#: includes/class-wcpa-front-end.php:1522
+msgid "You can select maximum %d items"
+msgstr "നിങ്ങൾക്ക് പരമാവധി %d  ഇനങ്ങൾ തിരഞ്ഞെടുക്കാനാകും"
+
+#: includes/class-wcpa-front-end.php:1523
+msgid "Please correct the errors shown for fields"
+msgstr "ഫീൽഡുകൾക്കായി കാണിച്ചിരിക്കുന്ന പിശകുകൾ ദയവായി ശരിയാക്കുക"
+
+#: includes/class-wcpa-front-end.php:1524
+msgid "This field is requied"
+msgstr "ഈ ഫീൽഡ് നിർബന്ധമാണ്"
+
+#: includes/class-wcpa-front-end.php:1525
+msgid "Character %s is not supported"
+msgstr "പ്രതീകം %s പിന്തുണയ്‌ക്കുന്നില്ല"
+
+#: includes/class-wcpa-order-meta.php:402
+msgid "Other:"
+msgstr "മറ്റുള്ളവ:"
+
+#: includes/class-wcpa-product-meta.php:81
+msgid "Select Form"
+msgstr "ഫോം തിരഞ്ഞെടുക്കുക"
+
+#: includes/class-wcpa-product-meta.php:105
+msgid "Enter order (Keep blank for default)"
+msgstr "ഓർ‌ഡർ‌ നൽ‌കുക (സ്ഥിരസ്ഥിതി ഓർ‌ഡറിനായി ശൂന്യമായി സൂക്ഷിക്കുക)"
+
+#: includes/class-wcpa-product-meta.php:110
+msgid "Configurations"
+msgstr "കോൺഫിഗറേഷനുകൾ"
+
+#: includes/class-wcpa-product-meta.php:118
+msgid "Custom Fields"
+msgstr "ഇഷ്‌ടാനുസൃത ഫീൽഡുകൾ"
+
+#: includes/translations.php:3
+msgid "Add Option +"
+msgstr "ഓപ്ഷൻ ചേർക്കുക +"
+
+#: includes/translations.php:4
+msgid "All fields were removed."
+msgstr "എല്ലാ ഫീൽഡുകളും നീക്കംചെയ്‌തു."
+
+#: includes/translations.php:5
+msgid "Allow users to upload multiple files"
+msgstr "ഒന്നിലധികം ഫയലുകൾ അപ്‌ലോഡ് ചെയ്യാൻ ഉപയോക്താക്കളെ അനുവദിക്കുക"
+
+#: includes/translations.php:6
+msgid "Autocomplete"
+msgstr "യാന്ത്രിക പൂർത്തിയാക്കൽ"
+
+#: includes/translations.php:7
+msgid "Button"
+msgstr "ബട്ടൺ"
+
+#: includes/translations.php:8
+msgid "This field cannot be empty"
+msgstr "ഈ ഫീൽഡ് ശൂന്യമായിരിക്കരുത്"
+
+#: includes/translations.php:9
+msgid "Checkbox Group"
+msgstr "ചെക്ക്ബോക്സ് ഗ്രൂപ്പ്"
+
+#: includes/translations.php:10
+msgid "Checkbox"
+msgstr ""
+"\n"
+"ചെക്ക്ബോക്സ്"
+
+#: includes/translations.php:11
+msgid "Checkboxes"
+msgstr ""
+"\n"
+"ചെക്ക്ബോക്സുകൾ"
+
+#: includes/translations.php:12
+msgid "Class"
+msgstr "ക്ലാസ്"
+
+#: includes/translations.php:13
+msgid "Are you sure you want to clear all fields?"
+msgstr "എല്ലാ ഫീൽഡുകളും മായ്‌ക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?"
+
+#: includes/translations.php:14
+msgid "Clear"
+msgstr "മായ്‌ക്കുക"
+
+#: includes/translations.php:15
+msgid "Close"
+msgstr "അടയ്ക്കുക"
+
+#: includes/translations.php:16
+msgid "Content"
+msgstr "ഉള്ളടക്കം"
+
+#: includes/translations.php:17
+msgid "Copy To Clipboard"
+msgstr "ക്ലിപ്പ്ബോർഡിലേയ്ക്ക് പകർത്തുക"
+
+#: includes/translations.php:18
+msgid "&#43;"
+msgstr "+"
+
+#: includes/translations.php:20
+msgid "Date Field"
+msgstr ""
+"\n"
+"തീയതി ഫീൽഡ്"
+
+#: includes/translations.php:21
+msgid "Help Text"
+msgstr "സഹായ വാചകം"
+
+#: includes/translations.php:22
+msgid "Description"
+msgstr "വിവരണം"
+
+#: includes/translations.php:23
+msgid "Developer Mode"
+msgstr "ഡവലപ്പർ മോഡ്"
+
+#: includes/translations.php:24
+msgid "Edit Names"
+msgstr ""
+"\n"
+"പേരുകൾ എഡിറ്റുചെയ്യുക"
+
+#: includes/translations.php:25
+msgid "Form Elements"
+msgstr ""
+"\n"
+"ഫോം ഘടകങ്ങൾ"
+
+#: includes/translations.php:26
+msgid "Edit XML"
+msgstr "XML എഡിറ്റുചെയ്യുക"
+
+#: includes/translations.php:27
+msgid "Enable &quot;Other&quot;"
+msgstr "&quot; മറ്റുള്ളവ &quot; പ്രവർത്തനക്ഷമമാക്കുക."
+
+#: includes/translations.php:28
+msgid "Let users to enter an unlisted option"
+msgstr "ലിസ്റ്റുചെയ്യാത്ത ഓപ്ഷൻ നൽകാൻ ഉപയോക്താക്കളെ അനുവദിക്കുക"
+
+#: includes/translations.php:29
+msgid "This field cannot be edited."
+msgstr "ഈ ഫീൽഡ് എഡിറ്റുചെയ്യാൻ കഴിയില്ല."
+
+#: includes/translations.php:30
+msgid "Are you sure you want to remove this field?"
+msgstr "ഈ ഫീൽഡ് നീക്കംചെയ്യണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?"
+
+#: includes/translations.php:31
+msgid "File Upload"
+msgstr "ഫയൽ അപ്ലോഡ്"
+
+#: includes/translations.php:32
+msgid "Form Updated"
+msgstr "ഫോം അപ്‌ഡേറ്റുചെയ്‌തു"
+
+#: includes/translations.php:33
+msgid "Drag a field from the right to this area"
+msgstr "വലതുവശത്ത് നിന്ന് ഈ പ്രദേശത്തേക്ക് ഒരു ഫീൽഡ് വലിച്ചിടുക"
+
+#: includes/translations.php:34
+msgid "Header"
+msgstr "തലക്കെട്ട്"
+
+#: includes/translations.php:35
+msgid "Edit"
+msgstr "എഡിറ്റുചെയ്യുക"
+
+#: includes/translations.php:36
+msgid "Hidden Input"
+msgstr "മറച്ച ഇൻപുട്ട് "
+
+#: includes/translations.php:37
+msgid "Inline"
+msgstr ""
+"ഇൻലൈൻ\n"
+
+#: includes/translations.php:38
+msgid "Display {type} inline"
+msgstr "{type} ഇൻ‌ലൈനായി പ്രദർശിപ്പിക്കുക"
+
+#: includes/translations.php:39 includes/translations.php:57
+#: includes/translations.php:66
+msgid "Label"
+msgstr "ലേബൽ"
+
+#: includes/translations.php:40
+msgid "Field Label cannot be empty"
+msgstr "ഫീൽഡ് ലേബൽ ശൂന്യമായിരിക്കരുത്"
+
+#: includes/translations.php:41
+msgid "Limit access to one or more of the following roles:"
+msgstr ""
+"ഇനിപ്പറയുന്ന ഒന്നോ അതിലധികമോ റോളുകളിലേക്കുള്ള ആക്സസ് പരിമിതപ്പെടുത്തുക:"
+
+#: includes/translations.php:42
+msgid "Mandatory"
+msgstr "നിർബന്ധിതം"
+
+#: includes/translations.php:43
+msgid "Max Length"
+msgstr "പരമാവധി നീളം"
+
+#: includes/translations.php:44
+msgid "This field requires a minimum of 2 options"
+msgstr ""
+"\n"
+"ഈ ഫീൽഡിന് കുറഞ്ഞത് 2 ഓപ്ഷനുകൾ ആവശ്യമാണ്"
+
+#: includes/translations.php:45
+msgid "Minimum {min} selections required"
+msgstr "കുറഞ്ഞത് {min} തിരഞ്ഞെടുക്കലുകൾ ആവശ്യമാണ്"
+
+#: includes/translations.php:46
+msgid "Multiple Files"
+msgstr "ഒന്നിലധികം ഫയലുകൾ"
+
+#: includes/translations.php:47
+msgid "Name"
+msgstr "പേര്"
+
+#: includes/translations.php:48 includes/translations.php:268
+msgid "No"
+msgstr "ഇല്ല"
+
+#: includes/translations.php:49 includes/translations.php:65
+#: includes/views/form-settings.php:29 includes/views/settings-main.php:37
+msgid "Price"
+msgstr "വില"
+
+#: includes/translations.php:50
+msgid "There are no fields to clear"
+msgstr "മായ്‌ക്കാൻ ഫീൽഡുകളൊന്നുമില്ല"
+
+#: includes/translations.php:51
+msgid "Number"
+msgstr "നമ്പർ"
+
+#: includes/translations.php:52
+msgid "Off"
+msgstr "ഓഫാണ്"
+
+#: includes/translations.php:53
+msgid "On"
+msgstr "ഓണാണ്"
+
+#: includes/translations.php:54
+msgid "Option"
+msgstr "ഓപ്ഷൻ"
+
+#: includes/translations.php:55 includes/translations.php:85
+#: includes/views/order-meta-line-item.php:6
+msgid "Options"
+msgstr "ഓപ്ഷനുകൾ"
+
+#: includes/translations.php:56
+msgid "optional"
+msgstr "ഓപ്ഷണൽ"
+
+#: includes/translations.php:58 includes/translations.php:64
+#: includes/translations.php:110 includes/translations.php:124
+#: includes/views/order-meta-line-item.php:7
+msgid "Value"
+msgstr ""
+"\n"
+"മൂല്യം"
+
+#: includes/translations.php:59
+msgid "Option value required"
+msgstr "ഓപ്ഷൻ മൂല്യം ആവശ്യമാണ്"
+
+#: includes/translations.php:61 includes/translations.php:250
+msgid "Paragraph"
+msgstr "ഖണ്ഡിക"
+
+#: includes/translations.php:62
+msgid "Separator"
+msgstr "സെപ്പറേറ്റർ"
+
+#: includes/translations.php:63
+msgid "Placeholder"
+msgstr ""
+"\n"
+"പ്ലെയ്‌സ്‌ഹോൾഡർ"
+
+#: includes/translations.php:69
+msgid "Enter your email"
+msgstr "നിങ്ങളുടെ ഇമെയിൽ നൽകുക"
+
+#: includes/translations.php:71
+msgid "space separated classes"
+msgstr "സ്‌പേസ് വേർതിരിച്ച ക്ലാസുകൾ"
+
+#: includes/translations.php:72
+msgid "Enter your password"
+msgstr "നിങ്ങളുടെ പാസ്‌വേഡ് നൽകുക"
+
+#: includes/translations.php:73
+msgid "ToolTip/Description"
+msgstr "ടൂൾടിപ്പ് / വിവരണം"
+
+#: includes/translations.php:74
+msgid "Preview"
+msgstr ""
+"\n"
+"പ്രിവ്യൂ"
+
+#: includes/translations.php:75
+msgid "Radio Group"
+msgstr "റേഡിയോ ഗ്രൂപ്പ്"
+
+#: includes/translations.php:76
+msgid "Radio"
+msgstr "റേഡിയോ"
+
+#: includes/translations.php:77
+msgid "Remove Element"
+msgstr "ഘടകം നീക്കംചെയ്യുക"
+
+#: includes/translations.php:78
+msgid "Remove Option"
+msgstr "ഓപ്ഷൻ നീക്കംചെയ്യുക"
+
+#: includes/translations.php:79
+msgid "&#215"
+msgstr "&#215"
+
+#: includes/translations.php:80
+msgid "Required"
+msgstr "ആവശ്യമാണ്"
+
+#: includes/translations.php:81
+msgid "Rich Text Editor"
+msgstr "റിച്ച് ടെക്സ്റ്റ് എഡിറ്റർ"
+
+#: includes/translations.php:82
+msgid "Access"
+msgstr "പവേശം"
+
+#: includes/translations.php:83
+msgid "Rows"
+msgstr "വരികൾ"
+
+#: includes/translations.php:84
+msgid "Save"
+msgstr "സംരക്ഷിക്കുക"
+
+#: includes/translations.php:86
+msgid "Select"
+msgstr "തിരഞ്ഞെടുക്കുക"
+
+#: includes/translations.php:87
+msgid "Select Relation"
+msgstr "ബന്ധം തിരഞ്ഞെടുക്കുക"
+
+#: includes/translations.php:88
+msgid "Select Color"
+msgstr "നിറം തിരഞ്ഞെടുക്കുക"
+
+#: includes/translations.php:89
+msgid "Allow Multiple Selections"
+msgstr "ഒന്നിലധികം തിരഞ്ഞെടുപ്പുകൾ അനുവദിക്കുക"
+
+#: includes/translations.php:90
+msgid "Size"
+msgstr "വലുപ്പം"
+
+#: includes/translations.php:92
+msgid "Extra Small"
+msgstr "അധിക ചെറുത്"
+
+#: includes/translations.php:93
+msgid "Small"
+msgstr "ചെറുത്"
+
+#: includes/translations.php:94 includes/translations.php:97
+msgid "Default"
+msgstr "സ്ഥിരസ്ഥിതി"
+
+#: includes/translations.php:95
+msgid "Large"
+msgstr "വലുത്"
+
+#: includes/translations.php:96
+msgid "Style"
+msgstr ""
+"\n"
+"ശൈലി"
+
+#: includes/translations.php:98
+msgid "Danger"
+msgstr "അപായം"
+
+#: includes/translations.php:99
+msgid "Info"
+msgstr "വിവരം"
+
+#: includes/translations.php:100
+msgid "Primary"
+msgstr ""
+"\n"
+"പ്രാഥമികം"
+
+#: includes/translations.php:101
+msgid "Success"
+msgstr "വിജയിച്ചു"
+
+#: includes/translations.php:102
+msgid "Warning"
+msgstr "മുന്നറിയിപ്പ്"
+
+#: includes/translations.php:103
+msgid "Type"
+msgstr "തരം"
+
+#: includes/translations.php:104
+msgid "Text Field"
+msgstr "വാചകം ഫീൽഡ്"
+
+#: includes/translations.php:105
+msgid "Password"
+msgstr "പാസ്word"
+
+#: includes/translations.php:106
+msgid "Email"
+msgstr "ഇമെയിൽ"
+
+#: includes/translations.php:107
+msgid "Text Area"
+msgstr ""
+"\n"
+"ടെക്സ്റ്റ് ഏരിയ"
+
+#: includes/translations.php:108
+msgid "Toggle"
+msgstr ""
+"\n"
+"ടോഗിൾ ചെയ്യുക"
+
+#: includes/translations.php:109
+msgid "Warning!"
+msgstr ""
+"\n"
+"മുന്നറിയിപ്പ്!"
+
+#: includes/translations.php:111
+msgid "{  }"
+msgstr "{  }"
+
+#: includes/translations.php:112
+msgid "&lt;/&gt;"
+msgstr "&lt;/&gt;"
+
+#: includes/translations.php:113
+msgid "Yes"
+msgstr "അതെ"
+
+#: includes/translations.php:114
+msgid "Price Options"
+msgstr "വില ഓപ്ഷനുകൾ"
+
+#: includes/translations.php:115 includes/translations.php:292
+msgid "Enable Price"
+msgstr ""
+"വില പ്രവർത്തനക്ഷമമാക്കുക\n"
+
+#: includes/translations.php:116 includes/translations.php:285
+msgid "Pricing Type"
+msgstr "വിലനിർണ്ണയ തരം"
+
+#: includes/translations.php:117
+msgid "Clear Selection"
+msgstr "തിരഞ്ഞെടുപ്പ് മായ്‌ക്കുക"
+
+#: includes/translations.php:118
+msgid "Color Picker"
+msgstr "കളർ പിക്കർ"
+
+#: includes/translations.php:119
+msgid "Date Time"
+msgstr "തീയതി സമയം"
+
+#: includes/translations.php:120
+msgid "Time"
+msgstr "സമയം"
+
+#: includes/translations.php:121
+msgid "Fields"
+msgstr "ഫീൽഡുകൾ"
+
+#: includes/translations.php:122
+msgid "Logic Action"
+msgstr "ലോജിക് പ്രവർത്തനം"
+
+#: includes/translations.php:123
+msgid "Relation"
+msgstr "ബന്ധം"
+
+#: includes/translations.php:126
+msgid "Image Group"
+msgstr "ഇമേജ് ഗ്രൂപ്പ്"
+
+#: includes/translations.php:128
+msgid "Max File Size(in MB)"
+msgstr "പരമാവധി ഫയൽ വലുപ്പം (MB- യിൽ)"
+
+#: includes/translations.php:129
+msgid "(Leave blank for no limit)"
+msgstr "(പരിധിയില്ലെങ്കിൽ ശൂന്യമായി വിടുക)"
+
+#: includes/translations.php:132
+msgid "Enable PopUp"
+msgstr "പോപ്പ് അപ്പ് പ്രാപ്തമാക്കുക"
+
+#: includes/translations.php:133
+msgid "Users can see full image on clicking the zoom icon provided"
+msgstr ""
+"നൽകിയിരിക്കുന്ന സൂം ഐക്കണിൽ ക്ലിക്കുചെയ്യുന്നതിലൂടെ ഉപയോക്താക്കൾക്ക് പൂർണ്ണ "
+"ചിത്രം കാണാൻ കഴിയും"
+
+#: includes/translations.php:137
+msgid "Min File Size Required(in MB)"
+msgstr "കുറഞ്ഞ ഫയൽ വലുപ്പം ആവശ്യമാണ് (MB- യിൽ)"
+
+#: includes/translations.php:138
+msgid "Leave blank for no limit"
+msgstr "പരിധിയില്ലെങ്കിൽ ശൂന്യമായി വിടുക"
+
+#: includes/translations.php:141
+msgid "Select form"
+msgstr "ഫോം തിരഞ്ഞെടുക്കുക"
+
+#: includes/translations.php:142
+msgid "You can select a form to include here"
+msgstr "ഇവിടെ ഉൾപ്പെടുത്തുന്നതിന് നിങ്ങൾക്ക് ഒരു ഫോം തിരഞ്ഞെടുക്കാം"
+
+#: includes/translations.php:144
+msgid "Google Place Selector"
+msgstr "Google പ്ലേസ് സെലക്ടർ"
+
+#: includes/translations.php:145
+msgid "Global Form"
+msgstr "Global ഫോം"
+
+#: includes/translations.php:146
+msgid "Map Height (in px)"
+msgstr "മാപ്പ് ഉയരം (px- ൽ)"
+
+#: includes/translations.php:147
+msgid "Color Group"
+msgstr "കളർ ഗ്രൂപ്പ്"
+
+#: includes/translations.php:148
+msgid "Item selection style"
+msgstr "ഇനം തിരഞ്ഞെടുക്കൽ ശൈലി"
+
+#: includes/translations.php:149
+msgid "Item display size in pixel(px)"
+msgstr "ഇനം പ്രദർശന വലുപ്പം (പിക്സലിൽ)"
+
+#: includes/translations.php:151
+msgid "Image display size in pixel"
+msgstr "ചിത്ര പ്രദർശന വലുപ്പം (പിക്സലിൽ)"
+
+#: includes/translations.php:152
+msgid "(Leave blank or 0 to use default image size)"
+msgstr ""
+"(സ്ഥിര ഇമേജ് വലുപ്പം ഉപയോഗിക്കാൻ ശൂന്യമായി വിടുക അല്ലെങ്കിൽ 0 ഉപയോഗിക്കുക)"
+
+#: includes/translations.php:154
+msgid "Box display type"
+msgstr "ബോക്സ് ഡിസ്പ്ലേ തരം"
+
+#: includes/translations.php:156
+msgid "Display color box in cart"
+msgstr "കാർട്ടിൽ കളർ ബോക്സ് പ്രദർശിപ്പിക്കുക"
+
+#: includes/translations.php:157
+msgid "It can be the same box as like in product page or just label/values"
+msgstr "ഇത് ഉൽപ്പന്ന പേജിലെ പോലെ തന്നെ ബോക്സ് അല്ലെങ്കിൽ ലേബൽ / മൂല്യങ്ങൾ ആകാം"
+
+#: includes/translations.php:160
+msgid "Characters to exlude"
+msgstr "ഒഴിവാക്കേണ്ട പ്രതീകങ്ങൾ"
+
+#: includes/translations.php:161
+msgid ""
+"Enter all characters to exlude for counting, use \\s for space, or enable "
+"regular expression from below and enter regex code "
+msgstr ""
+"എണ്ണുന്നതിന് ഒഴിവാക്കാൻ എല്ലാ പ്രതീകങ്ങളും നൽകുക. സ്‌പെയ്‌സിനായി  \\s "
+"ഉപയോഗിക്കുക. അല്ലെങ്കിൽ ചുവടെ നിന്ന് regular expression പ്രവർത്തനക്ഷമമാക്കി "
+"regex കോഡ് നൽകുക."
+
+#: includes/translations.php:164
+msgid "Allowed Characters(Regex)"
+msgstr "അനുവദനീയമായ പ്രതീകങ്ങൾ (Regex)"
+
+#: includes/translations.php:165
+msgid "Use regular expression "
+msgstr "Regular Expression ഉപയോഗിക്കുക"
+
+#: includes/translations.php:167
+msgid "Image selection type"
+msgstr "ഇമേജ് തിരഞ്ഞെടുക്കൽ തരം"
+
+#: includes/translations.php:169
+msgid "Configuration (JSON format)"
+msgstr "കോൺഫിഗറേഷൻ (JSON ഫോർമാറ്റ്)"
+
+#: includes/translations.php:170
+msgid "Wordpress SHORTCODE is also supported"
+msgstr "വേർഡ്പ്രസ്സ് SHORTCODE ഉം പിന്തുണയ്ക്കുന്നു"
+
+#: includes/translations.php:172
+msgid "Element ID"
+msgstr "ഘടക ഐഡി"
+
+#: includes/translations.php:174
+msgid "File extentions Supported"
+msgstr "പിന്തുണയ്‌ക്കുന്ന ഫയൽ Extensions "
+
+#: includes/translations.php:175
+msgid ""
+"Example: jpg,jpeg,png,gif (leave blank for using default wordpress types)"
+msgstr ""
+"ഉദാഹരണം: jpg, jpeg, png, gif (സ്ഥിരസ്ഥിതി വേർഡ്പ്രസ്സ് തരങ്ങൾ "
+"ഉപയോഗിക്കുന്നതിന് ശൂന്യമായി ഇടുക)"
+
+#: includes/translations.php:178
+msgid "Fee Label"
+msgstr "ഫീസ് ലേബൽ"
+
+#: includes/translations.php:179
+msgid "(Applicable in case it is fee type, Leave blank to use label itself)"
+msgstr "(ഇത് ഫീസ് തരമാണെങ്കിൽ ബാധകമാണ്, ലേബൽ ഉപയോഗിക്കാൻ ശൂന്യമായി വിടുക)"
+
+#: includes/translations.php:182
+msgid "Minimum fields to select"
+msgstr "തിരഞ്ഞെടുക്കാനുള്ള ഏറ്റവും കുറഞ്ഞ ഫീൽഡുകൾ"
+
+#: includes/translations.php:183 includes/translations.php:187
+msgid "(Leave blank for no restriction )"
+msgstr "(നിയന്ത്രണമില്ലെങ്കിൽ ശൂന്യമായി വിടുക)"
+
+#: includes/translations.php:186
+msgid "Maximum fields can select"
+msgstr "പരമാവധി ഫീൽഡുകൾ തിരഞ്ഞെടുക്കാനാകും"
+
+#: includes/translations.php:190
+msgid "Max Date"
+msgstr "പരമാവധി തീയതി"
+
+#: includes/translations.php:191
+msgid "(Disable all days after this)"
+msgstr "(ഇതിന് ശേഷമുള്ള എല്ലാ ദിവസവും അപ്രാപ്തമാക്കുക)"
+
+#: includes/translations.php:194
+msgid "Min Date"
+msgstr "കുറഞ്ഞ തീയതി"
+
+#: includes/translations.php:195
+msgid "(Disable all days before this)"
+msgstr "(ഇതിന് മുമ്പുള്ള എല്ലാ ദിവസവും അപ്രാപ്തമാക്കുക)"
+
+#: includes/translations.php:198
+msgid "Show as Product Image"
+msgstr "ഉൽപ്പന്ന ചിത്രമായി കാണിക്കുക"
+
+#: includes/translations.php:199
+msgid "Image selected will be shown as product gallery image"
+msgstr "തിരഞ്ഞെടുത്ത ചിത്രം ഉൽപ്പന്ന ഗാലറി ചിത്രമായി കാണിക്കും"
+
+#: includes/translations.php:201
+msgid "In Stock"
+msgstr "സ്റ്റോക്കുണ്ട്"
+
+#: includes/translations.php:202
+msgid "Out of Stock"
+msgstr "ശേഖരം തീർന്നു പോയി"
+
+#: includes/translations.php:203
+msgid "On Backorder"
+msgstr "ബാക്ക്‌ഓർഡറിൽ"
+
+#: includes/translations.php:204
+msgid ""
+"You must setup Google Map API keys in plugin settings at (Settings>>Custom "
+"Product Addons>>Others) in order to work this place selector"
+msgstr ""
+"ഈ Place Selector പ്രവർത്തിക്കുന്നതിന് നിങ്ങൾ (ക്രമീകരണങ്ങൾ >> ഇഷ്‌ടാനുസൃത "
+"ഉൽപ്പന്ന ആഡോണുകൾ >> മറ്റുള്ളവ) പ്ലഗിൻ ക്രമീകരണങ്ങളിൽ Google മാപ്പ് API കീകൾ "
+"സജ്ജമാക്കണം."
+
+#: includes/translations.php:205
+msgid "Is"
+msgstr "ആണ്"
+
+#: includes/translations.php:206
+msgid "Is Not"
+msgstr "അല്ല"
+
+#: includes/translations.php:207
+msgid "Is In"
+msgstr "അകത്തുണ്ട്"
+
+#: includes/translations.php:208
+msgid "Is Not In"
+msgstr "ഉള്ളിലല്ല"
+
+#: includes/translations.php:209
+msgid "Is Empty"
+msgstr ""
+"\n"
+"കാലിയാണ്"
+
+#: includes/translations.php:210
+msgid "Is Not Empty"
+msgstr "ശൂന്യമല്ല"
+
+#: includes/translations.php:211
+msgid "Is Greater Than"
+msgstr "വലുതാണ്"
+
+#: includes/translations.php:212
+msgid "Is Less Than"
+msgstr "കുറവാണ്"
+
+#: includes/translations.php:213
+msgid "Is Greater Than Or Equal"
+msgstr "വലുതോ തുല്യമോ ആണ്"
+
+#: includes/translations.php:214
+msgid "Is Less Than Or Equal"
+msgstr "കുറവാണ് അല്ലെങ്കിൽ തുല്യമാണ്"
+
+#: includes/translations.php:215
+msgid "Text Contains"
+msgstr "വാചകം അടങ്ങിയിരിക്കുന്നു"
+
+#: includes/translations.php:216
+msgid "Text Not Contains"
+msgstr "വാചകം അടങ്ങിയിട്ടില്ല"
+
+#: includes/translations.php:217
+msgid "Text Starts With"
+msgstr "വാചകം ആരംഭിക്കുന്നു"
+
+#: includes/translations.php:218
+msgid "Text Ends With"
+msgstr "വാചകം അവസാനിക്കുന്നു"
+
+#: includes/translations.php:219
+msgid "Date Is"
+msgstr "തീയതി"
+
+#: includes/translations.php:220
+msgid "Date Is Before"
+msgstr "തീയതി മുമ്പാണ്"
+
+#: includes/translations.php:221
+msgid "Date Is After"
+msgstr "തീയതി കഴിഞ്ഞാണ്"
+
+#: includes/translations.php:222
+msgid "Time Is"
+msgstr "സമയം ആണ്"
+
+#: includes/translations.php:223
+msgid "Time Is Before"
+msgstr ""
+"\n"
+"സമയം മുമ്പാണ്"
+
+#: includes/translations.php:224
+msgid "Time Is After"
+msgstr "സമയം കഴിഞ്ഞാണ്"
+
+#: includes/translations.php:225
+msgid "[empty label]"
+msgstr "[ശൂന്യമായ ലേബൽ]"
+
+#: includes/translations.php:226
+msgid "[Product Quantity]"
+msgstr "[ഉൽപ്പന്ന അളവ്]"
+
+#: includes/translations.php:227
+msgid "[Attributes/Variations]"
+msgstr "[ആട്രിബ്യൂട്ടുകൾ / വ്യതിയാനങ്ങൾ]"
+
+#: includes/translations.php:228
+msgid "[Product IDs]"
+msgstr "[ഉൽപ്പന്ന ഐഡികൾ]"
+
+#: includes/translations.php:229
+msgid "[Stock Status]"
+msgstr "[സ്റ്റോക്ക് നില]"
+
+#: includes/translations.php:230
+msgid "[Stock Quantity]"
+msgstr "[സ്റ്റോക്ക് അളവ്]"
+
+#: includes/translations.php:231
+msgid "[WCPA Custom Field]"
+msgstr "[WCPA കസ്റ്റം ഫീൽഡ്]"
+
+#: includes/translations.php:232
+msgid "Select Field"
+msgstr "Select ഫീൽഡ്"
+
+#: includes/translations.php:233
+msgid "Show"
+msgstr "കാണിക്കുക"
+
+#: includes/translations.php:234
+msgid "Hide"
+msgstr "മറയ്‌ക്കുക"
+
+#: includes/translations.php:235
+msgid "Field if below condtions are true"
+msgstr "ചുവടെയുള്ള ഉപാധികൾ ശരിയാണെങ്കിൽ, ഫീൽഡ്"
+
+#: includes/translations.php:236
+msgid "Remove Group"
+msgstr "ഗ്രൂപ്പ് നീക്കംചെയ്യുക"
+
+#: includes/translations.php:237
+msgid "+ Add Group"
+msgstr "+ ഗ്രൂപ്പ് ചേർക്കുക"
+
+#: includes/translations.php:238
+msgid "Enable Conditional Logic"
+msgstr ""
+"Conditional Logic പ്രവർത്തനക്ഷമമാക്കുക\n"
+
+#: includes/translations.php:239
+msgid "Show helptext as Tooltip"
+msgstr "സഹായ വാചകം ടൂൾടിപ്പായി കാണിക്കുക"
+
+#: includes/translations.php:240
+msgid "WPML/PolyLang"
+msgstr "WPML / പോളിലാംഗ്"
+
+#: includes/translations.php:242
+msgid "Tooltip/Description for each items"
+msgstr "ഓരോ ഇനങ്ങൾക്കുമായുള്ള ടൂൾടിപ്പ് / വിവരണം"
+
+#: includes/translations.php:243
+msgid "Enable tooltip/description option for each items"
+msgstr "ഓരോ ഇനങ്ങൾക്കും ടൂൾടിപ്പ് / വിവരണ ഓപ്ഷൻ പ്രാപ്തമാക്കുക"
+
+#: includes/translations.php:244
+msgid "Ajax File Upload"
+msgstr "AJAX ഫയൽ അപ്‌ലോഡ്"
+
+#: includes/translations.php:245
+msgid "Enable Ajax file upload"
+msgstr "AJAX ഫയൽ അപ്‌ലോഡ് പ്രാപ്തമാക്കുക"
+
+#: includes/translations.php:246
+msgid "Disable Manual input"
+msgstr "സ്വമേധയാലുള്ള ഇൻപുട്ട് പ്രവർത്തനരഹിതമാക്കുക"
+
+#: includes/translations.php:247
+msgid "Will disable entering value manually"
+msgstr "മൂല്യം സ്വമേധയാ നൽകുന്നത് പ്രവർത്തനരഹിതമാക്കും"
+
+#: includes/translations.php:248
+msgid "Custom styled Upload button"
+msgstr "ഇഷ്‌ടാനുസൃത ശൈലിയിലുള്ള അപ്‌ലോഡ് ബട്ടൺ"
+
+#: includes/translations.php:249
+msgid "Enable custom styled upload button"
+msgstr "ഇഷ്‌ടാനുസൃത ശൈലിയിലുള്ള അപ്‌ലോഡ് ബട്ടൺ പ്രവർത്തനക്ഷമമാക്കുക"
+
+#: includes/translations.php:251
+msgid "Show this in Cart, Checkout and Order Details pages"
+msgstr "കാർട്ട്, Checkout, ഓർഡർ വിശദാംശ പേജുകളിൽ ഇത് കാണിക്കുക"
+
+#: includes/translations.php:252
+msgid "Show Google Map"
+msgstr "Google മാപ്പ് കാണിക്കുക"
+
+#: includes/translations.php:253
+msgid "Show Address fields"
+msgstr "വിലാസ ഫീൽഡുകൾ കാണിക്കുക"
+
+#: includes/translations.php:254
+msgid "(City, State, Country, Postal code and so on)"
+msgstr "(നഗരം, സംസ്ഥാനം, രാജ്യം, പോസ്റ്റൽ കോഡ് തുടങ്ങിയവ)"
+
+#: includes/translations.php:255
+msgid "None"
+msgstr "ഒന്നുമില്ല"
+
+#: includes/translations.php:256
+msgid "Today"
+msgstr ""
+"\n"
+"ഇന്ന്"
+
+#: includes/translations.php:257
+msgid "Yesterday"
+msgstr "ഇന്നലെ"
+
+#: includes/translations.php:258
+msgid "Tomorrow"
+msgstr "നാളെ"
+
+#: includes/translations.php:259
+msgid "Squircle"
+msgstr "സ്ക്വയർ-സർക്കിൾ"
+
+#: includes/translations.php:260
+msgid "Square"
+msgstr "സമചതുരം "
+
+#: includes/translations.php:261
+msgid "Circle"
+msgstr "സർക്കിൾ"
+
+#: includes/translations.php:262
+msgid "Tick"
+msgstr "ടിക്ക് "
+
+#: includes/translations.php:263
+msgid "Tick with Border"
+msgstr "ബോർഡർ ഉപയോഗിച്ച് ടിക്ക് ചെയ്യുക"
+
+#: includes/translations.php:264
+msgid "Border"
+msgstr "ബോർഡർ"
+
+#: includes/translations.php:265
+msgid "Text Mode"
+msgstr "ടെക്സ്റ്റ് മോഡ്"
+
+#: includes/translations.php:266
+msgid "Box"
+msgstr "പെട്ടി"
+
+#: includes/translations.php:267
+msgid "Zoom Image On Hover"
+msgstr "ഇമേജ് സൂം ഓൺ ഹോവർ"
+
+#: includes/translations.php:269
+msgid "All devices"
+msgstr "എല്ലാ ഉപകരണങ്ങൾക്കും"
+
+#: includes/translations.php:270
+msgid "In touch devices only"
+msgstr "ടച്ച് ഉപകരണങ്ങളിൽ മാത്രം"
+
+#: includes/translations.php:271
+msgid "Desktop only"
+msgstr "ഡെസ്ക്ടോപ്പ് മാത്രം"
+
+#: includes/translations.php:272
+msgid "Outline"
+msgstr "രൂപരേഖ"
+
+#: includes/translations.php:273
+msgid "Shadow"
+msgstr "നിഴൽ"
+
+#: includes/translations.php:274
+msgid "Tick with Shadow"
+msgstr "ഷാഡോ ഉപയോഗിച്ച് ടിക്ക് ചെയ്യുക"
+
+#: includes/translations.php:275
+msgid "Show Label inside of the color field"
+msgstr "വർണ്ണ ഫീൽഡിനുള്ളിൽ ലേബൽ കാണിക്കുക"
+
+#: includes/translations.php:276
+msgid "Adjust width based on the label inside"
+msgstr "ഉള്ളിലെ ലേബലിനെ അടിസ്ഥാനമാക്കി വീതി ക്രമീകരിക്കുക"
+
+#: includes/translations.php:277
+msgid "Pricing Options"
+msgstr "വിലനിർണ്ണയ ഓപ്ഷനുകൾ"
+
+#: includes/translations.php:278
+msgid "Different Price for Each Options"
+msgstr "ഓരോ ഓപ്ഷനുകൾക്കും വ്യത്യസ്ത വില"
+
+#: includes/translations.php:279
+msgid "Same Price for All Options"
+msgstr "എല്ലാ ഓപ്ഷനുകൾക്കും ഒരേ വില"
+
+#: includes/translations.php:280
+msgid "Fixed Price"
+msgstr "നിശ്ചിത വില"
+
+#: includes/translations.php:281
+msgid "Multiply by Value"
+msgstr "മൂല്യം കൊണ്ട് ഗുണിക്കുക"
+
+#: includes/translations.php:282
+msgid "Percentage of Product Price"
+msgstr "ഉൽപ്പന്ന വിലയുടെ ശതമാനം"
+
+#: includes/translations.php:283
+msgid "Custom Formula"
+msgstr "ഇഷ്‌ടാനുസൃത ഫോർമുല"
+
+#: includes/translations.php:284
+msgid "Per Character"
+msgstr "ഓരോ പ്രതീകത്തിനും"
+
+#: includes/translations.php:286
+msgid "Use Regular expression"
+msgstr "Regular എക്‌സ്‌പ്രഷൻ ഉപയോഗിക്കുക"
+
+#: includes/translations.php:287
+msgid "Regular expression can be used to exlude/include charactes"
+msgstr ""
+"പ്രതീകങ്ങൾ ഒഴിവാക്കാൻ / ഉൾപ്പെടുത്തുന്നതിന് പതിവ് എക്‌സ്‌പ്രഷൻ ഉപയോഗിക്കാം"
+
+#: includes/translations.php:288
+msgid "Use price as Fee"
+msgstr "വില ഫീസായി ഉപയോഗിക്കുക"
+
+#: includes/translations.php:289
+msgid "Price will be counting once per order irresepective of quantity"
+msgstr "അളവ് കണക്കിലെടുക്കാതെ ഒരു ഓർഡറിന് ഒരു തവണ വില കണക്കാക്കും"
+
+#: includes/translations.php:290
+msgid "Use just for show"
+msgstr "പ്രദർശനത്തിനായി മാത്രം ഉപയോഗിക്കുക"
+
+#: includes/translations.php:291
+msgid ""
+"It can use just to show the price value, price will not count in total amount"
+msgstr ""
+"വില മൂല്യം കാണിക്കാൻ ഇത് ഉപയോഗിക്കാം, ഈ വില മൊത്തം തുകയിൽ കണക്കാക്കില്ല"
+
+#: includes/translations.php:293
+msgid "Is Field Required?"
+msgstr "ഫീൽഡ് നിർബന്ധമാണോ?"
+
+#: includes/translations.php:294
+msgid "+ Add Condition"
+msgstr "+ കണ്ടീഷൻ ചേർക്കുക"
+
+#: includes/translations.php:295
+msgid "Select or Upload Media Of Your Chosen "
+msgstr "മീഡിയ തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ അപ്‌ലോഡുചെയ്യുക"
+
+#: includes/translations.php:296
+msgid "Use this media"
+msgstr "ഈ മീഡിയ ഉപയോഗിക്കുക"
+
+#: includes/translations.php:297
+msgid "(This will be multiplied by the value customer enter)"
+msgstr "(ഉപഭോക്തൃ എന്റർ മൂല്യം കൊണ്ട് ഇത് ഗുണിക്കും)"
+
+#: includes/translations.php:298
+msgid "Percentage of the product base price"
+msgstr "ഉൽപ്പന്ന അടിസ്ഥാന വിലയുടെ ശതമാനം"
+
+#: includes/translations.php:299
+msgid "Percentage "
+msgstr "ശതമാനം"
+
+#: includes/translations.php:300
+msgid "Price per character"
+msgstr "ഓരോ പ്രതീകത്തിനും വില"
+
+#: includes/translations.php:301
+msgid ""
+" (eg: ({value}>2?{value}*10:0), here value will be the value entered by "
+"customer)"
+msgstr ""
+"(ഉദാ: ({മൂല്യം}> 2? {മൂല്യം} * 10: 0), ഇവിടെ മൂല്യം ഉപഭോക്താവ് നൽകിയ "
+"മൂല്യമായിരിക്കും)"
+
+#: includes/translations.php:302
+msgid "General"
+msgstr "ജനറൽ"
+
+#: includes/translations.php:303
+msgid "Advanced"
+msgstr "വിപുലമായത്"
+
+#: includes/translations.php:304
+msgid "Conditional Logic"
+msgstr "സോപാധികമായ യുക്തി"
+
+#: includes/translations.php:305
+msgid "Select a Form"
+msgstr "ഒരു ഫോം തിരഞ്ഞെടുക്കുക"
+
+#: includes/views/form-edit.php:23
+msgid ""
+"This editor can use only for translating Labels, Values, Help Text, Place "
+"holder and condtional logic value. All other configurations and paramaters "
+"will be populating from original form."
+msgstr ""
+"ലേബലുകൾ‌, മൂല്യങ്ങൾ‌, സഹായ വാചകം, പ്ലേസ് ഹോൾ‌ഡർ‌, കണ്ടീഷണൽ‌ ലോജിക് മൂല്യം "
+"എന്നിവ വിവർ‌ത്തനം ചെയ്യുന്നതിന് മാത്രമേ ഈ എഡിറ്റർ‌ക്ക് ഉപയോഗിക്കാൻ‌ കഴിയൂ. "
+"മറ്റെല്ലാ കോൺഫിഗറേഷനുകളും പാരാമീറ്ററുകളും യഥാർത്ഥ രൂപത്തിൽ നിന്ന് ജനകീയമാകും."
+
+#: includes/views/form-settings.php:13 includes/views/settings-main.php:18
+msgid "Display Settings"
+msgstr "ഡിസ്പ്ലേ സെറ്റിംഗ്സ്"
+
+#: includes/views/form-settings.php:14
+msgid "Pricing Settings"
+msgstr "വില ക്രമീകരണങ്ങൾ"
+
+#: includes/views/form-settings.php:15 includes/views/settings-main.php:22
+msgid "Contents/Strings"
+msgstr "ഉള്ളടക്കം / സ്ട്രിംഗുകൾ"
+
+#: includes/views/form-settings.php:16
+msgid "Other settings"
+msgstr "മറ്റ് ക്രമീകരണങ്ങൾ"
+
+#: includes/views/form-settings.php:17 includes/views/settings-main.php:393
+msgid "Export Form"
+msgstr "എക്‌സ്‌പോർട്ട് ഫോം"
+
+#: includes/views/form-settings.php:25 includes/views/form-settings.php:121
+msgid "Use Global settings"
+msgstr "ആഗോള ക്രമീകരണങ്ങൾ ഉപയോഗിക്കുക"
+
+#: includes/views/form-settings.php:35 includes/views/settings-main.php:43
+msgid "Show price against each fields"
+msgstr "ഓരോ ഫീൽഡുകൾക്കും എതിരായി വില കാണിക്കുക"
+
+#: includes/views/form-settings.php:40
+msgid "Hide options price ( applicable for fields having options)"
+msgstr "ഓപ്ഷനുകളുടെ വില മറയ്ക്കുക (ഓപ്ഷനുകൾ ഉള്ള ഫീൽഡുകൾക്ക് ബാധകമാണ്)"
+
+#: includes/views/form-settings.php:45 includes/views/settings-main.php:47
+msgid "Price Summary Section"
+msgstr "വില സംഗ്രഹ വിഭാഗം"
+
+#: includes/views/form-settings.php:51 includes/views/settings-main.php:54
+msgid "Show Total"
+msgstr "ആകെ കാണിക്കുക"
+
+#: includes/views/form-settings.php:57
+msgid "Show Product price"
+msgstr "ഉൽപ്പന്ന വില കാണിക്കുക"
+
+#: includes/views/form-settings.php:64 includes/views/settings-main.php:68
+msgid "Show Options Price"
+msgstr "ഓപ്ഷനുകളുടെ വില കാണിക്കുക"
+
+#: includes/views/form-settings.php:78
+msgid " Overide product base price if options price is higher"
+msgstr "ഓപ്ഷനുകളുടെ വില കൂടുതലാണെങ്കിൽ ഉൽപ്പന്ന അടിസ്ഥാന വിലയെ മറികടക്കുക"
+
+#: includes/views/form-settings.php:86
+msgid " Overide product base price if options price is greater than zero"
+msgstr ""
+"ഓപ്ഷനുകളുടെ വില പൂജ്യത്തേക്കാൾ വലുതാണെങ്കിൽ ഉൽപ്പന്ന അടിസ്ഥാന വിലയെ "
+"മറികടക്കുക\n"
+
+#: includes/views/form-settings.php:93
+msgid ""
+"Set this form price as Fee - Fee will be counted once irrespective of the "
+"quntity"
+msgstr ""
+"ഈ ഫോം വില ഫീസായി സജ്ജമാക്കുക - അളവ് പരിഗണിക്കാതെ തന്നെ ഫീസ് കണക്കാക്കപ്പെടും"
+
+#: includes/views/form-settings.php:100
+msgid "Exlude this form price from applying discounts"
+msgstr "കിഴിവുകൾ പ്രയോഗിക്കുന്നതിൽ നിന്ന് ഈ ഫോം വില ഒഴിവാക്കുക"
+
+#: includes/views/form-settings.php:107
+msgid ""
+"Count the options price only once for a product irrespective of the quantity"
+msgstr ""
+"അളവ് പരിഗണിക്കാതെ ഒരു ഉൽപ്പന്നത്തിന് ഓപ്ഷനുകളുടെ വില ഒരു തവണ മാത്രം "
+"കണക്കാക്കുക"
+
+#: includes/views/form-settings.php:109
+msgid ""
+"Please use fee insted of this feature, This wont be no longer supporting"
+msgstr "ഈ സവിശേഷതയ്‌ക്ക് പകരം ഫീസ് ഉപയോഗിക്കുക, ഇത് മേലിൽ പിന്തുണയ്‌ക്കില്ല"
+
+#: includes/views/form-settings.php:128 includes/views/settings-main.php:136
+msgid "Options Price Label:"
+msgstr "ഓപ്ഷനുകൾ വില ലേബൽ:"
+
+#: includes/views/form-settings.php:136 includes/views/settings-main.php:145
+msgid "Product Price Label:"
+msgstr "ഉൽപ്പന്ന വില ലേബൽ:"
+
+#: includes/views/form-settings.php:146 includes/views/settings-main.php:154
+msgid "Total Label:"
+msgstr "ആകെ ലേബൽ:"
+
+#: includes/views/form-settings.php:154
+msgid "Fee:"
+msgstr "നിരക്ക്:"
+
+#: includes/views/form-settings.php:169
+msgid ""
+"Allow direct purchase from archive/listing pages without selecting options"
+msgstr ""
+"ഓപ്ഷനുകൾ തിരഞ്ഞെടുക്കാതെ ആർക്കൈവ് / ലിസ്റ്റിംഗ് പേജുകളിൽ നിന്ന് നേരിട്ട് "
+"വാങ്ങാൻ അനുവദിക്കുക"
+
+#: includes/views/form-settings.php:175
+msgid ""
+"Please ensure you have not added any mandatory fields, else it will throw "
+"validation errors"
+msgstr ""
+"നിങ്ങൾ നിർബന്ധിത ഫീൽഡുകളൊന്നും ചേർത്തിട്ടില്ലെന്ന് ഉറപ്പുവരുത്തുക, "
+"അല്ലാത്തപക്ഷം ഇത് മൂല്യനിർണ്ണയ പിശകുകൾ എറിയും"
+
+#: includes/views/form-settings.php:183
+msgid "Enable reCAPTCHA for this forms"
+msgstr "ഈ ഫോമുകൾക്കായി reCAPTCHA പ്രാപ്തമാക്കുക"
+
+#: includes/views/form-settings.php:185
+msgid ""
+"You need to configure the reCAPTCHA keys at %s. Enabling Captcha is not "
+"recommended always, Avoid using captcha if there is no partcular reason"
+msgstr ""
+"നിങ്ങൾ %s ൽ reCAPTCHA കീകൾ ക്രമീകരിക്കേണ്ടതുണ്ട്. ക്യാപ്‌ച "
+"പ്രവർത്തനക്ഷമമാക്കുന്നത് എല്ലായ്‌പ്പോഴും ശുപാർശ ചെയ്യുന്നില്ല, ഭാഗിക "
+"കാരണമൊന്നുമില്ലെങ്കിൽ ക്യാപ്‌ച ഉപയോഗിക്കുന്നത് ഒഴിവാക്കുക"
+
+#: includes/views/form-settings.php:192
+msgid "Bind field with quantity"
+msgstr "ഫീൽഡ് അളവുമായി ബന്ധിപ്പിക്കുക"
+
+#: includes/views/form-settings.php:194
+msgid "You can use custom formula for binding to quantity "
+msgstr ""
+"അളവിലേക്ക് ബന്ധിപ്പിക്കുന്നതിന് നിങ്ങൾക്ക് ഇഷ്‌ടാനുസൃത ഫോർമുല ഉപയോഗിക്കാം"
+
+#: includes/views/form-settings.php:198
+msgid "If you want to bind a field with quantity, You can use %s"
+msgstr ""
+"ഒരു ഫീൽഡ് അളവുമായി ബന്ധിപ്പിക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുവെങ്കിൽ, നിങ്ങൾക്ക് "
+"%s ഉപയോഗിക്കാം"
+
+#: includes/views/form-settings.php:211
+msgid "You can copy this data to export the form"
+msgstr "ഫോം എക്‌സ്‌പോർട്ടുചെയ്യാൻ നിങ്ങൾക്ക് ഈ ഡാറ്റ പകർത്താനാകും"
+
+#: includes/views/order-meta-line-item.php:8
+msgid "Cost"
+msgstr "വില"
+
+#: includes/views/order-meta-line-item.php:31
+#: includes/views/order-meta-line-item.php:42
+#: includes/views/order-meta-line-item.php:47
+#: includes/views/order-meta-line-item.php:59
+#: includes/views/order-meta-line-item.php:73
+msgid "Label:"
+msgstr "ലേബൽ:"
+
+#: includes/views/order-meta-line-item.php:43
+#: includes/views/order-meta-line-item.php:48
+#: includes/views/order-meta-line-item.php:64
+#: includes/views/order-meta-line-item.php:68
+#: includes/views/order-meta-line-item.php:75
+msgid "Value:"
+msgstr "മൂല്യം:"
+
+#: includes/views/settings-main.php:25 includes/views/settings-main.php:210
+msgid "Other Settings"
+msgstr "മറ്റ് ക്രമീകരണങ്ങൾ"
+
+#: includes/views/settings-main.php:28
+msgid "Import/Export"
+msgstr ""
+"ഇറക്കുമതി കയറ്റുമതി\n"
+
+#: includes/views/settings-main.php:31 includes/views/settings-main.php:434
+msgid "License Key"
+msgstr "അനുവാദ പത്രം"
+
+#: includes/views/settings-main.php:61
+msgid "Show Product Price"
+msgstr "ഉൽപ്പന്ന വില കാണിക്കുക"
+
+#: includes/views/settings-main.php:72
+msgid "Custom options data"
+msgstr "ഇഷ്‌ടാനുസൃത ഓപ്‌ഷനുകളുടെ ഡാറ്റ"
+
+#: includes/views/settings-main.php:78
+msgid "Show in Cart"
+msgstr "കാർട്ടിൽ കാണിക്കുക"
+
+#: includes/views/settings-main.php:85 includes/views/settings-main.php:108
+msgid "Show in Checkout"
+msgstr ""
+"\n"
+"Checkout ൽ കാണിക്കുക"
+
+#: includes/views/settings-main.php:92 includes/views/settings-main.php:115
+msgid "Show in Order"
+msgstr "ഓർ‌ഡർ‌പേജിൽ‌ കാണിക്കുക"
+
+#: includes/views/settings-main.php:95
+msgid "Show or Hide Price In"
+msgstr "വില കാണിക്കുക അല്ലെങ്കിൽ മറയ്‌ക്കുക"
+
+#: includes/views/settings-main.php:101
+msgid "Show in cart"
+msgstr "Cart ൽ കാണിക്കുക"
+
+#: includes/views/settings-main.php:122
+msgid ""
+"Add in Order Meta( Price will be saved along with order meta, Third party "
+"plugins will be using this data)"
+msgstr ""
+"ഓർഡർ മെറ്റാ ചേർക്കുക (ഓർഡർ മെറ്റാ സഹിതം വില സംരക്ഷിക്കപ്പെടും, മൂന്നാം കക്ഷി "
+"പ്ലഗിനുകൾക്ക് ഈ ഡാറ്റ ഉപയോഗിക്കാം)"
+
+#: includes/views/settings-main.php:131
+msgid "Price Summary Section Labels"
+msgstr "വില സംഗ്രഹം വിഭാഗം ലേബലുകൾ"
+
+#: includes/views/settings-main.php:161
+msgid "Fee Label:"
+msgstr "ഫീസ് ലേബൽ:"
+
+#: includes/views/settings-main.php:168
+msgid "Format for showing price in field options:"
+msgstr "ഫീൽഡ് ഓപ്ഷനുകളിൽ വില കാണിക്കുന്നതിനുള്ള ഫോർമാറ്റ്:"
+
+#: includes/views/settings-main.php:175
+msgid "Preview:"
+msgstr "പ്രിവ്യൂ:"
+
+#: includes/views/settings-main.php:187
+msgid "Add to Cart button text"
+msgstr "Add to Cart ബട്ടൺ വാചകം"
+
+#: includes/views/settings-main.php:188
+msgid ""
+"Add to cart button text in archive/product listing page in case product has "
+"additional fields"
+msgstr ""
+"ഉൽപ്പന്നത്തിന് അധിക ഫീൽഡുകൾ ഉണ്ടെങ്കിൽ ആർക്കൈവ് / ഉൽപ്പന്ന ലിസ്റ്റിംഗ് "
+"പേജിലെ Add to cart ബട്ടൺ വാചകം"
+
+#: includes/views/settings-main.php:196
+msgid "Product Price prefix"
+msgstr "ഉൽപ്പന്ന വില പ്രിഫിക്‌സ്"
+
+#: includes/views/settings-main.php:197
+msgid ""
+"Set a prefix text before the price in archive and product page. Leave blank "
+"if no prefix needed. eg: 'Starting at' "
+msgstr ""
+"ആർക്കൈവിലും ഉൽപ്പന്ന പേജിലും വിലയ്‌ക്ക് മുമ്പായി ഒരു പ്രിഫിക്‌സ് വാചകം "
+"സജ്ജമാക്കുക. പ്രിഫിക്‌സ് ആവശ്യമില്ലെങ്കിൽ ശൂന്യമായി വിടുക. ഉദാ: "
+"'ആരംഭിക്കുന്നു'"
+
+#: includes/views/settings-main.php:217
+msgid "Load form in recency order"
+msgstr "സമീപകാല ക്രമത്തിൽ ഫോം ലോഡുചെയ്യുക"
+
+#: includes/views/settings-main.php:219
+msgid ""
+"If a product has assigned multiple forms, it will be loaded based on form "
+"created order"
+msgstr ""
+"ഒരു ഉൽപ്പന്നം ഒന്നിലധികം ഫോമുകൾ നൽകിയിട്ടുണ്ടെങ്കിൽ, ഫോം സൃഷ്ടിച്ച ക്രമത്തെ "
+"അടിസ്ഥാനമാക്കി അത് ലോഡുചെയ്യപ്പെടും"
+
+#: includes/views/settings-main.php:232
+msgid "Hide empty fields in cart"
+msgstr "ശൂന്യമായ ഫീൽഡുകൾ കാർട്ടിൽ മറയ്‌ക്കുക"
+
+#: includes/views/settings-main.php:234
+msgid "Hide empty fields in cart, checkout and order"
+msgstr "കാർട്ട്, Checkout , ഓർഡർ എന്നിവയിൽ ശൂന്യമായ ഫീൽഡുകൾ മറയ്‌ക്കുക"
+
+#: includes/views/settings-main.php:247
+msgid "Update summary price as quantity change"
+msgstr "അളവ് മാറ്റമായി സംഗ്രഹ വില അപ്‌ഡേറ്റുചെയ്യുക"
+
+#: includes/views/settings-main.php:249
+msgid "In price summary section, price will be updated as quantity change"
+msgstr "വില സംഗ്രഹ വിഭാഗത്തിൽ, അളവ് മാറ്റമായി വില അപ്‌ഡേറ്റുചെയ്യും"
+
+#: includes/views/settings-main.php:257
+msgid "Custom fields for products"
+msgstr "ഉൽപ്പന്നങ്ങൾക്കായുള്ള ഇഷ്‌ടാനുസൃത ഫീൽഡുകൾ"
+
+#: includes/views/settings-main.php:262
+msgid "This fields can be used in custom price formula with prefix 'wcpa_pcf_'"
+msgstr ""
+"'wcpa_pcf_' പ്രിഫിക്‌സ് ഉപയോഗിച്ച് Custom Formulaയിൽ ഈ ഫീൽഡുകൾ ഉപയോഗിക്കാൻ "
+"കഴിയും."
+
+#: includes/views/settings-main.php:264
+msgid "Example: "
+msgstr "ഉദാഹരണം:"
+
+#: includes/views/settings-main.php:268 includes/views/settings-main.php:278
+#: includes/views/settings-main.php:295
+msgid "Custom Field Slug"
+msgstr "ഇഷ്‌ടാനുസൃത ഫീൽഡ് സ്ലഗ്"
+
+#: includes/views/settings-main.php:269 includes/views/settings-main.php:282
+#: includes/views/settings-main.php:298
+msgid "Default Value"
+msgstr "സ്ഥിര മൂല്യം"
+
+#: includes/views/settings-main.php:311
+msgid "reCAPTCHA Site Key:"
+msgstr "reCAPTCHA സൈറ്റ് കീ:"
+
+#: includes/views/settings-main.php:330
+msgid "reCAPTCHA Secret Key:"
+msgstr "reCAPTCHA രഹസ്യ കീ:"
+
+#: includes/views/settings-main.php:351
+msgid "Google Map API Key:"
+msgstr "Google മാപ്പ് API കീ:"
+
+#: includes/views/settings-main.php:373
+msgid "This can be used to import single product form"
+msgstr "ഒരൊറ്റ ഉൽപ്പന്ന ഫോം ഇറക്കുമതി ചെയ്യാൻ ഇത് ഉപയോഗിക്കാം"
+
+#: includes/views/settings-main.php:377
+msgid "Input the exported data here and press <strong>Import From</strong>"
+msgstr ""
+"എക്‌സ്‌പോർട്ടുചെയ്‌ത ഡാറ്റ ഇവിടെ നൽകി <strong> ഇമ്പോർട്ടുചെയ്യുക </strong> "
+"അമർത്തുക"
+
+#: includes/views/settings-main.php:382
+msgid "Import Form"
+msgstr "ഫോം ഇറക്കുമതി ചെയ്യുക"
+
+#: includes/views/settings-main.php:387
+msgid "Export All Forms"
+msgstr "എല്ലാ ഫോമുകളും എക്‌സ്‌പോർട്ടുചെയ്യുക"
+
+#: includes/views/settings-main.php:399
+msgid "Import All Forms"
+msgstr "എല്ലാ ഫോമുകളും ഇറക്കുമതി ചെയ്യുക"
+
+#: includes/views/settings-main.php:400
+msgid ""
+"You can import the xml file using Wordpress default post import option at <a "
+"href=\""
+msgstr ""
+"<a href = \"ൽ വേർഡ്പ്രസ്സ് സ്ഥിരസ്ഥിതി പോസ്റ്റ് ഇറക്കുമതി ഓപ്ഷൻ ഉപയോഗിച്ച് "
+"നിങ്ങൾക്ക് XML ഫയൽ ഇറക്കുമതി ചെയ്യാൻ കഴിയും."
+
+#: includes/views/settings-main.php:419
+msgid "Plugin License"
+msgstr "പ്ലഗിൻ ലൈസൻസ്"
+
+#: includes/views/settings-main.php:421
+msgid "Status: "
+msgstr "അവസ്ഥ:"
+
+#: includes/views/settings-main.php:423
+msgid "Active"
+msgstr "സജീവമാണ്"
+
+#: includes/views/settings-main.php:427
+msgid "Inactive"
+msgstr "നിഷ്‌ക്രിയം"
+
+#: includes/views/settings-main.php:443
+msgid "Enter your license key here"
+msgstr "നിങ്ങളുടെ ലൈസൻസ് കീ ഇവിടെ നൽകുക"
+
+#: includes/views/settings-main.php:453
+msgid "Deactivate License"
+msgstr "ലൈസൻസ് നിർജ്ജീവമാക്കുക"
+
+#: includes/views/settings-main.php:460
+msgid "Activate License"
+msgstr "ലൈസൻസ് സജീവമാക്കുക"

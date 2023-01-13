@@ -1,0 +1,809 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Fixed TOC\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 06:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#: admin/field-data/class-general-field-data.php:176
+msgid ""
+"4 or more letters are good. <br>In order to keep the document structure safe,"
+" you should set it."
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:206
+msgid "Accordion List"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:57
+msgid "Active Link"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:156
+msgid "After the 1st heading"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:175
+msgid "Alignment In Post"
+msgstr ""
+
+#: admin/setting/class-setting-sections.php:70
+msgid "Appearance"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:157
+msgid ""
+"Automatically convert The heading to HTML id attribute. <b>Only supports "
+"English language headings.</b><br>For example: &quot;Download Source "
+"File&quot; to &quot;download-source-file&quot; or &quot;ftoc-download-source-"
+"file&quot; if set the &quot;ftoc&quot; prefix below."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:250
+msgid "Available when the TOC displays in the post or in the Widget."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:155
+msgid "Before the 1st heading"
+msgstr ""
+
+#: admin/field-data/class-field-data.php:140
+msgid "Bold"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:108 
+#: admin/field-data/class-trigger-field-data.php:108
+msgid "Border"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:80
+msgid "Border Fade"
+msgstr ""
+
+#: admin/field-data/class-location-field-data.php:42
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/field-data/class-location-field-data.php:39
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:66
+msgid "Bounce To Left"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:65
+msgid "Bounce To Right"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:255
+msgid ""
+"Browser will scroll to the target heading then show a short color hint when "
+"clicking a contents link."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:181
+msgid "Center"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:249
+msgid ""
+"Check or uncheck for collapsing or expanding the contents after the page "
+"loaded."
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:64
+msgid "Check the post types to be applied. Multiple choice."
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:90
+msgid "Check which HTML headings automatically generated table of contents."
+msgstr ""
+
+#: admin/field-data/class-contents-header-field-data.php:204
+msgid "Choose which element to collapse/expand the TOC."
+msgstr ""
+
+#: admin/field-data/class-field-data.php:120 
+#: admin/field-data/class-field-data.php:160
+msgid "Circle"
+msgstr ""
+
+#: admin/setting/class-setting-sections.php:85
+msgid "Click on the link to set the appearance options."
+msgstr ""
+
+#: admin/metabox/class-metabox.php:250
+msgid ""
+"Click the pen icon from blue to gray, it will cancel the special option and "
+"restore the default global option."
+msgstr ""
+
+#: admin/metabox/class-metabox.php:247
+msgid ""
+"Click the pen icon from gray to blue, then you can set the special option "
+"for this page."
+msgstr ""
+
+#: frontend/html/class-element-trigger.php:36
+msgid "click To Maximize The Table Of Contents"
+msgstr ""
+
+#: admin/field-data/class-contents-header-field-data.php:197
+msgid "Clickable"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:232
+msgid "Collapse All"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:245
+msgid "Collapsing For Initiation(Desktop)"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:266
+msgid "Collapsing For Initiation(Mobile)"
+msgstr ""
+
+#: admin/widget/class-widget-sections.php:139 
+#: admin/customizer/class-customize-sections.php:260 
+#: admin/metabox/class-metabox-sections.php:184
+msgid "Color Scheme"
+msgstr ""
+
+#: admin/widget/class-widget-sections.php:50 
+#: admin/customizer/class-customize-sections.php:119 
+#: admin/metabox/class-metabox-sections.php:102
+msgid "Contents"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:99
+msgid "Contents Border Color"
+msgstr ""
+
+#: admin/widget/class-widget-sections.php:83 
+#: admin/customizer/class-customize-sections.php:159 
+#: admin/metabox/class-metabox-sections.php:127
+msgid "Contents Header"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:137
+msgid "Contents Header Background Color"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:118
+msgid "Contents Header Color"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:232
+msgid "Contents Link Active Background Color"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:213
+msgid "Contents Link Active Color"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:175
+msgid "Contents Link Color"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:194
+msgid "Contents Link Hover Color"
+msgstr ""
+
+#: admin/widget/class-widget-sections.php:102 
+#: admin/customizer/class-customize-sections.php:194 
+#: admin/metabox/class-metabox-sections.php:146
+msgid "Contents List"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:156
+msgid "Contents List Background Color"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:154
+msgid "Convert Heading Into ID"
+msgstr ""
+
+#: inc/init.php:72 admin/field-data/class-field-data.php:86
+msgid "Customize"
+msgstr ""
+
+#: admin/customizer/class-customize-sections.php:308
+msgid "Customize CSS"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:202
+msgid "Customize CSS:"
+msgstr ""
+
+#: admin/field-data/class-developer-field-data.php:23
+msgid "Debug"
+msgstr ""
+
+#: admin/field-data/class-field-data.php:119
+msgid "Decimal"
+msgstr ""
+
+#: admin/setting/class-setting-sections.php:98
+msgid "Developer"
+msgstr ""
+
+#: admin/metabox/class-metabox.php:273
+msgid "Disable/Enable"
+msgstr ""
+
+#: admin/widget/class-widget.php:56
+msgid "Display a Fixed TOC to the current page content."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:129
+msgid "Display In Post"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:225
+msgid "Display In Widget"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:105
+msgid "Display TOC when"
+msgstr ""
+
+#: admin/widget/class-widget-sections.php:125 
+#: admin/customizer/class-customize-sections.php:233 
+#: admin/metabox/class-metabox-sections.php:169
+msgid "Effects"
+msgstr ""
+
+#: admin/field-data/class-trigger-field-data.php:42
+msgid "Ellipsis"
+msgstr ""
+
+#: admin/field-data/class-trigger-field-data.php:43
+msgid "Ellipsis Vertical"
+msgstr ""
+
+#: admin/field-data/class-field-data.php:121
+msgid "Empty Circle"
+msgstr ""
+
+#: admin/field-data/class-field-data.php:123
+msgid "Empty Square"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:166
+msgid "Enable Collapse/Expand Sub List"
+msgstr ""
+
+#: admin/field-data/class-developer-field-data.php:26
+msgid ""
+"Enable Debug mode.<br>Use the uncompressed version of CSS and JavaScript "
+"files, console log, etc."
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:42
+msgid "Enable Fixed TOC"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:229
+#, php-format
+msgid ""
+"Ensure that you have added the Fixed TOC widget in the <a href=\"%s\" "
+"target=\"_blank\">admin widgets page</a>."
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:252
+msgid "Enter Max"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:251
+msgid "Esc Min"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:127
+msgid "Exclude Headings"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:230
+msgid "Expand All"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:37 
+#: admin/field-data/class-effects-field-data.php:62
+msgid "Fade"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:269
+msgid "Fixed Headers"
+msgstr ""
+
+#: admin/field-data/class-widget-field-data.php:31
+msgid "Fixed The Widget"
+msgstr ""
+
+#. Base ID
+#. Name of the plugin
+#: admin/widget/class-widget.php:53 admin/metabox/class-metabox.php:76 
+#: admin/setting/class-setting.php:75 admin/setting/class-setting.php:76
+msgid "Fixed TOC"
+msgstr ""
+
+#: admin/customizer/class-customize.php:70
+msgid "Fixed TOC Plugin"
+msgstr ""
+
+#: admin/setting/class-setting.php:100
+msgid "Fixed TOC Settings"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:179
+msgid "Float to left"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:180
+msgid "Float to right"
+msgstr ""
+
+#: admin/field-data/class-contents-header-field-data.php:145
+msgid "Font Bold"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:72 
+#: admin/field-data/class-contents-header-field-data.php:95
+msgid "Font Family"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:40 
+#: admin/field-data/class-contents-header-field-data.php:63
+msgid "Font Size"
+msgstr ""
+
+#: admin/metabox/class-metabox-sections.php:51 
+#: admin/setting/class-setting-sections.php:46
+msgid "General"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Generate a table of contents automatically from content of a post. Fixing in "
+"the page, user-friendly view."
+msgstr ""
+
+#: admin/field-data/class-contents-header-field-data.php:202
+msgid "Header"
+msgstr ""
+
+#: admin/field-data/class-contents-header-field-data.php:164
+msgid "Heading Tag"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:79
+msgid "Headings"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:64
+msgid "Height"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:222
+msgid "Height In Post"
+msgstr ""
+
+#: admin/field-data/class-trigger-field-data.php:134
+msgid "Hide"
+msgstr ""
+
+#: admin/field-data/class-location-field-data.php:60
+msgid "Horizontal Offset"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://codecanyon.net/item/fixed-toc-wordpress-plugin/7264676?ref=wphigh"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/wphigh?ref=wphigh"
+msgstr ""
+
+#: admin/field-data/class-contents-header-field-data.php:201 
+#: admin/field-data/class-trigger-field-data.php:35
+msgid "Icon"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:276
+msgid ""
+"If your theme's header is fixed, click the contents link might cover the "
+"Heading. Input CSS selectors of the fixed menu in here.<br>Support multiple "
+"fixed headers."
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:32
+msgid "In/Out"
+msgstr ""
+
+#: admin/field-data/class-field-data.php:87
+msgid "Inherit"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:226
+msgid "Initial Collapse/Expand State"
+msgstr ""
+
+#: admin/field-data/class-trigger-field-data.php:129
+msgid "Initial Visibility"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:134
+msgid "It doesn't work if you have checked the 'Display in Widget' option."
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:78
+msgid "Leftline Reveal"
+msgstr ""
+
+#: admin/field-data/class-trigger-field-data.php:40
+msgid "List Bullet"
+msgstr ""
+
+#: admin/field-data/class-trigger-field-data.php:39
+msgid "List Number"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:122
+msgid "List Style Type"
+msgstr ""
+
+#: admin/customizer/class-customize-sections.php:58 
+#: admin/metabox/class-metabox-sections.php:67
+msgid "Location"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:135
+msgid "Make sure that you have unchecked the 'Display in Widget' option."
+msgstr ""
+
+#: admin/widget/class-widget.php:114
+msgid ""
+"Make sure you have added only one the Fixed TOC widget at the same page."
+msgstr ""
+
+#: admin/field-data/class-field-data.php:139
+msgid "Medium"
+msgstr ""
+
+#: admin/field-data/class-trigger-field-data.php:41
+msgid "Menu"
+msgstr ""
+
+#: admin/field-data/class-location-field-data.php:41
+msgid "Middle Left"
+msgstr ""
+
+#: admin/field-data/class-location-field-data.php:38
+msgid "Middle Right"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:146
+msgid "Nested List"
+msgstr ""
+
+#: admin/field-data/class-field-data.php:118 
+#: admin/field-data/class-field-data.php:137 
+#: admin/field-data/class-contents-field-data.php:182 
+#: admin/field-data/class-trigger-field-data.php:44 
+#: admin/field-data/class-effects-field-data.php:36 
+#: admin/field-data/class-effects-field-data.php:61
+msgid "None"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:231
+msgid "Only Expand 1st Level"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:210
+msgid "Only keeping the current sub list to expand and collapse others."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:160
+msgid ""
+"Or insert the shortcode [toc] anywhere. <a href=\"https://codex.wordpress."
+"org/Shortcode\" target=\"_blank\">What is shortcode?</a>"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:112
+msgid "or more headings are present."
+msgstr ""
+
+#: admin/field-data/class-location-field-data.php:33
+msgid "Position"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:150
+msgid "Position In Post"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:60
+msgid "Post types"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:172
+msgid "Prefix"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:250
+msgid "Quick Min"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:254
+msgid ""
+"Quick Min: Click anywhere to minimize TOC.<br>Esc: Press the \"esc\" "
+"keyboard to minimize TOC.<br>Enter: Press the \"enter\" keyboard to maximize "
+"TOC."
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:67
+msgid "Radial In"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:68
+msgid "Radial Out"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:69
+msgid "Rectangle In"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:70
+msgid "Rectangle Out"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:77
+msgid "Rightline Reveal"
+msgstr ""
+
+#: admin/field-data/class-field-data.php:157
+msgid "Round"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:79
+msgid "Round Corners"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:291
+msgid "Scroll Offset"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:41
+msgid "Select how the TOC show in and hide out."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:159
+msgid "Select the position where the TOC places."
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:45
+msgid ""
+"Set to enable or disable TOC by default. Later you can also enable/disable "
+"it on every edit page."
+msgstr ""
+
+#: admin/customizer/class-customize-sections.php:60
+msgid "Set TOC's location relative to the post container."
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:298
+msgid ""
+"Setting spacing between heading and the top of browser after clicking on the "
+"contents link. (Excluding the fixed head menu and the admin toolbar)"
+msgstr ""
+
+#: inc/init.php:71
+msgid "Settings"
+msgstr ""
+
+#: admin/customizer/class-customize-sections.php:235
+msgid "Setup special animate effects."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:87 
+#: admin/field-data/class-trigger-field-data.php:87
+msgid "Shape"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:246
+msgid "Shortcut"
+msgstr ""
+
+#: admin/field-data/class-trigger-field-data.php:133
+msgid "Show"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:186
+msgid "Show Sub List Icon"
+msgstr ""
+
+#: admin/field-data/class-trigger-field-data.php:137
+msgid ""
+"Show: Display the trigger button and hide the contents at initial state.<br>"
+"Hide: Hide the trigger button and display the contents at initial state."
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:71
+msgid "Shutter In Horizontal"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:72
+msgid "Shutter Out Horizontal"
+msgstr ""
+
+#: admin/field-data/class-trigger-field-data.php:62
+msgid "Size"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:139
+msgid ""
+"Specify heading titles to be excluded from the TOC. <br>One title per line."
+msgstr ""
+
+#: admin/field-data/class-field-data.php:122 
+#: admin/field-data/class-field-data.php:156
+msgid "Square"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:251
+msgid "Strong 1st Level Item"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:64
+msgid "Sweep To Left"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:63
+msgid "Sweep To Right"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:251
+msgid "Target Hint Color"
+msgstr ""
+
+#: admin/customizer/class-customize.php:71
+msgid ""
+"These are global options. You can't save the option here if you have changed "
+"it by widget or post meta box."
+msgstr ""
+
+#: admin/field-data/class-field-data.php:138
+msgid "Thin"
+msgstr ""
+
+#: inc/init.php:40
+#, php-format
+msgid ""
+"This plugin requires at least WordPress version %s. You are running version "
+"%s. Please upgrade and try again."
+msgstr ""
+
+#: admin/field-data/class-contents-header-field-data.php:37
+msgid "Title"
+msgstr ""
+
+#: admin/field-data/class-contents-header-field-data.php:181
+msgid "To fit the page structure for SEO."
+msgstr ""
+
+#: admin/field-data/class-location-field-data.php:40
+msgid "Top Left"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:154
+msgid "Top of the post"
+msgstr ""
+
+#: admin/field-data/class-location-field-data.php:37
+msgid "Top Right"
+msgstr ""
+
+#: admin/customizer/class-customize-sections.php:88 
+#: admin/metabox/class-metabox-sections.php:83
+msgid "Trigger Button"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:61
+msgid "Trigger Button Background Color"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:80
+msgid "Trigger Button Border Color"
+msgstr ""
+
+#: admin/field-data/class-color-field-data.php:42
+msgid "Trigger Button Color"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:75
+msgid "Underline From Center"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:74
+msgid "Underline From Left"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:73
+msgid "Underline From Right"
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:76
+msgid "Underline Reveal"
+msgstr ""
+
+#: admin/field-data/class-location-field-data.php:67 
+#: admin/field-data/class-location-field-data.php:90
+msgid "Unit: px"
+msgstr ""
+
+#: admin/field-data/class-contents-header-field-data.php:78
+msgid "Unit: px. Only accept for numbers"
+msgstr ""
+
+#: admin/field-data/class-contents-list-field-data.php:55
+msgid "Unit: px. Only accept for numbers."
+msgstr ""
+
+#: admin/field-data/class-location-field-data.php:83
+msgid "Vertical Offset"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:229
+msgid ""
+"When the TOC displays in the post.<br>Unit: px.<br>Empty means auto "
+"calculate the height."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:206
+msgid ""
+"When the TOC displays in the post.<br>Unit: px.<br>Empty means auto "
+"calculate the width."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:71
+msgid ""
+"When the TOC is fixed to the post.<br>Unit: px.<br>Empty means auto "
+"calculate the height."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:48
+msgid ""
+"When the TOC is fixed to the post.<br>Unit: px.<br>Empty means auto "
+"calculate the width."
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:41
+msgid "Width"
+msgstr ""
+
+#: admin/field-data/class-contents-field-data.php:199
+msgid "Width In Post"
+msgstr ""
+
+#. Author of the plugin
+msgid "wphigh"
+msgstr ""
+
+#: admin/field-data/class-general-field-data.php:208
+msgid "You can add your own CSS here. Only load if the current page has a TOC."
+msgstr ""
+
+#: admin/field-data/class-effects-field-data.php:38
+msgid "Zoom"
+msgstr ""

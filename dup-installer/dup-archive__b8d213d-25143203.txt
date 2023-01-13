@@ -1,0 +1,1078 @@
+{
+    "created": "2022-09-25 14:32:03",
+    "version_dup": "4.5.0",
+    "version_wp": "6.0.2",
+    "version_db": "10.3.34",
+    "version_php": "7.4.30",
+    "version_os": "Linux",
+    "dbInfo": {
+        "buildMode": "PHPCHUNKING",
+        "charSetList": [
+            "utf8mb4",
+            "latin1",
+            "utf8"
+        ],
+        "collationList": [
+            "latin1_swedish_ci",
+            "utf8_general_ci",
+            "utf8mb4_bin",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "seog_seogroups",
+        "tablesBaseCount": 72,
+        "tablesFinalCount": 72,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 6107,
+        "tablesSizeOnDisk": 10174464,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 122,
+                "insertedRows": 122,
+                "size": 180224
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 354,
+                "insertedRows": 354,
+                "size": 98304
+            },
+            "wp_cartflows_ca_cart_abandonment": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_cartflows_ca_email_history": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_cartflows_ca_email_templates": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 16384
+            },
+            "wp_cartflows_ca_email_templates_meta": {
+                "inaccurateRows": 15,
+                "insertedRows": 15,
+                "size": 32768
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 114688
+            },
+            "wp_duplicator_pro_entities": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "wp_duplicator_pro_packages": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 81920
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_litespeed_url": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_litespeed_url_file": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "wp_options": {
+                "inaccurateRows": 788,
+                "insertedRows": 800,
+                "size": 3391488
+            },
+            "wp_pinterest_automatic": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 2801,
+                "insertedRows": 2633,
+                "size": 1785856
+            },
+            "wp_posts": {
+                "inaccurateRows": 349,
+                "insertedRows": 356,
+                "size": 1622016
+            },
+            "wp_rank_math_404_logs": {
+                "inaccurateRows": 44,
+                "insertedRows": 44,
+                "size": 32768
+            },
+            "wp_rank_math_analytics_keyword_manager": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_rank_math_analytics_objects": {
+                "inaccurateRows": 35,
+                "insertedRows": 35,
+                "size": 32768
+            },
+            "wp_rank_math_internal_links": {
+                "inaccurateRows": 72,
+                "insertedRows": 72,
+                "size": 32768
+            },
+            "wp_rank_math_internal_meta": {
+                "inaccurateRows": 48,
+                "insertedRows": 48,
+                "size": 16384
+            },
+            "wp_rank_math_redirections": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_rank_math_redirections_cache": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_snippets": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 49152
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 190,
+                "insertedRows": 190,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 69,
+                "insertedRows": 69,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 188,
+                "insertedRows": 188,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 69,
+                "insertedRows": 69,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 69,
+                "insertedRows": 69,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 65536
+            },
+            "wp_wc_admin_notes": {
+                "inaccurateRows": 51,
+                "insertedRows": 50,
+                "size": 65536
+            },
+            "wp_wc_admin_note_actions": {
+                "inaccurateRows": 61,
+                "insertedRows": 61,
+                "size": 32768
+            },
+            "wp_wc_category_lookup": {
+                "inaccurateRows": 71,
+                "insertedRows": 71,
+                "size": 16384
+            },
+            "wp_wc_customer_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_product_meta_lookup": {
+                "inaccurateRows": 22,
+                "insertedRows": 22,
+                "size": 114688
+            },
+            "wp_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_sessions": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woo_shippment_provider": {
+                "inaccurateRows": 474,
+                "insertedRows": 474,
+                "size": 98304
+            },
+            "wp_wpfm_backup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wpmailsmtp_debug_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wpmailsmtp_tasks_meta": {
+                "inaccurateRows": 9,
+                "insertedRows": 9,
+                "size": 16384
+            },
+            "wp_yoast_indexable": {
+                "inaccurateRows": 67,
+                "insertedRows": 67,
+                "size": 147456
+            },
+            "wp_yoast_indexable_hierarchy": {
+                "inaccurateRows": 66,
+                "insertedRows": 66,
+                "size": 65536
+            },
+            "wp_yoast_migrations": {
+                "inaccurateRows": 23,
+                "insertedRows": 23,
+                "size": 32768
+            },
+            "wp_yoast_primary_term": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_yoast_seo_links": {
+                "inaccurateRows": 18,
+                "insertedRows": 18,
+                "size": 49152
+            }
+        },
+        "varLowerCaseTables": "0",
+        "dbEngine": "MariaDB",
+        "version": "10.3.34",
+        "versionComment": "Ubuntu 20.04",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "opts_delete": "[\"duplicator_pro_ui_view_state\",\"duplicator_pro_package_active\",\"duplicator_pro_settings\"]",
+    "blogname": "Best gifts your whole family",
+    "wproot": "\/home\/seogroups.shop\/public_html",
+    "wplogin_url": "https:\/\/seogroups.shop\/wp-login.php",
+    "relative_content_dir": "wp-content",
+    "relative_plugins_dir": "wp-content\/plugins",
+    "relative_theme_dirs": [
+        "wp-content\/themes"
+    ],
+    "exportOnlyDB": 0,
+    "secure_on": false,
+    "secure_pass": "",
+    "skipscan": 0,
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "dbpass": null,
+    "cache_wp": null,
+    "cache_path": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "seogroups.shop",
+            "path": "\/",
+            "blogname": "Best gifts your whole family",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "store1",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/seogroups.shop",
+            "fullSiteUrl": "https:\/\/seogroups.shop",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/seogroups.shop\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/seogroups.shop\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/seogroups.shop\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": -1,
+    "brand": {
+        "name": "Duplicator Professional",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator Pro",
+        "enabled": false,
+        "style": []
+    },
+    "wp_content_dir_base_name": "",
+    "dup_type": "pro",
+    "packInfo": {
+        "packageId": 7,
+        "packageName": "20220925_bestgiftsyourwholefamily",
+        "packageHash": "b8d213d-25143203",
+        "secondaryHash": "95ed7d6-25143203"
+    },
+    "fileInfo": {
+        "dirCount": 2247,
+        "fileCount": 14182,
+        "size": 85121137
+    },
+    "wpInfo": {
+        "version": "6.0.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/seogroups.shop\/public_html",
+        "targetPaths": [
+            "\/home\/seogroups.shop\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "store1",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/seogroups.shop\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "+#9suZt=P(dERO LY[<NVhl\/F?*3 Ia}Tt^oe5Dl9za#&mymZd#6f+Y0MR 7V(yY",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "(eI;^\/B4_@o3 UlxY3Pk[Py;Z[#$Q,BuY:M_-Z1=lLfx?)H]3L> E|A&6GC|I)|>",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "{=frD:Mv0a_0T7C45HPgSGnKP>yw)rPOH4 O\/$i*Q(Ps.uSj)80uQ7d+?|jn>mR4",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "Zte`HQIe2=7FJ-Y)|\/q9+K&})=P*fGkbDCd9L&h]4U; DG?xq #Z9u42L|bI Z65",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "citp#MqJJ?^iwG=GT5T@SiEj{b9,[@U?`FNw@CjewS\/kihZ23,Z=;ol&hrYxjl+@",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "f{;;Bk5PL[Dlhb|+ls-tMh<tsoPytSO%Qh7xccz)eAg0?5A`_8b)|k3RB)oX:ArE",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "~TlkNLh2_kw? @wJ{t0,oHJ[J44zHY*w3%\/c%r#<%:6s*+[YeT -CWjmYDF57**B",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "9V38iwJ%H>~i@`4<)D9;<8nSS\/Dn~Dq*tC#<i~9#tp{ju-}K=DFD2&hw6B6d0LVI",
+                    "inWpConfig": true
+                },
+                "WP_SITEURL": {
+                    "value": "https:\/\/seogroups.shop",
+                    "inWpConfig": true
+                },
+                "WP_HOME": {
+                    "value": "https:\/\/seogroups.shop",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/seogroups.shop\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/seogroups.shop\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/seogroups.shop\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/seogroups.shop\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/seogroups.shop\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/seogroups.shop\/public_html\/wp-content\/themes\/flatsome",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/seogroups.shop\/public_html\/wp-content\/themes\/bm-flatsome-child",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/seogroups.shop\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/seogroups.shop\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/seogroups.shop",
+                "homeUrl": "https:\/\/seogroups.shop",
+                "contentUrl": "https:\/\/seogroups.shop\/wp-content",
+                "uploadBaseUrl": "https:\/\/seogroups.shop\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/seogroups.shop\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/seogroups.shop\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/seogroups.shop\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/seogroups.shop\/public_html",
+                    "abs": "\/home\/seogroups.shop\/public_html",
+                    "wpconfig": "\/home\/seogroups.shop\/public_html",
+                    "wpcontent": "\/home\/seogroups.shop\/public_html\/wp-content",
+                    "uploads": "\/home\/seogroups.shop\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/seogroups.shop\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/seogroups.shop\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/seogroups.shop\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/seogroups.shop\/public_html",
+                    "abs": "\/home\/seogroups.shop\/public_html",
+                    "wpconfig": "\/home\/seogroups.shop\/public_html",
+                    "wpcontent": "\/home\/seogroups.shop\/public_html\/wp-content",
+                    "uploads": "\/home\/seogroups.shop\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/seogroups.shop\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/seogroups.shop\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/seogroups.shop\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "auto-image-attributes-from-filename-with-bulk-updater\/iaff_image-attributes-from-filename.php": {
+                "slug": "auto-image-attributes-from-filename-with-bulk-updater\/iaff_image-attributes-from-filename.php",
+                "name": "Auto Image Attributes From Filename With Bulk Updater",
+                "version": "3.2",
+                "pluginURI": "https:\/\/imageattributespro.com\/?utm_source=plugin-header&utm_medium=plugin-uri",
+                "author": "Arun Basil Lal",
+                "authorURI": "https:\/\/imageattributespro.com\/?utm_source=plugin-header&utm_medium=author-uri",
+                "description": "Automatically Add Image Title, Image Caption, Description And Alt Text From Image Filename. Since this plugin includes a bulk updater this can update both existing images in the Media Library and new images.",
+                "title": "Auto Image Attributes From Filename With Bulk Updater",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-editor\/classic-editor.php": {
+                "slug": "classic-editor\/classic-editor.php",
+                "name": "Classic Editor",
+                "version": "1.6.2",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-editor\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-editor\/",
+                "description": "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen.",
+                "title": "Classic Editor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "classic-widgets\/classic-widgets.php": {
+                "slug": "classic-widgets\/classic-widgets.php",
+                "name": "Classic Widgets",
+                "version": "0.3",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/classic-widgets\/",
+                "author": "WordPress Contributors",
+                "authorURI": "https:\/\/github.com\/WordPress\/classic-widgets\/",
+                "description": "Enables the classic widgets settings screens in Appearance - Widgets and the Customizer. Disables the block editor from managing widgets.",
+                "title": "Classic Widgets",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "code-snippets\/code-snippets.php": {
+                "slug": "code-snippets\/code-snippets.php",
+                "name": "Code Snippets",
+                "version": "3.2.0",
+                "pluginURI": "https:\/\/codesnippets.pro",
+                "author": "Code Snippets Pro",
+                "authorURI": "https:\/\/codesnippets.pro",
+                "description": "An easy, clean and simple way to run code snippets on your site. No need to edit to your theme's functions.php file again!",
+                "title": "Code Snippets",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.6.3",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator-pro\/duplicator-pro.php": {
+                "slug": "duplicator-pro\/duplicator-pro.php",
+                "name": "Duplicator Pro",
+                "version": "4.5.0",
+                "pluginURI": "http:\/\/snapcreek.com\/",
+                "author": "Snap Creek",
+                "authorURI": "http:\/\/snapcreek.com",
+                "description": "Create, schedule and transfer a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator Pro",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "ajax-search-for-woocommerce\/ajax-search-for-woocommerce.php": {
+                "slug": "ajax-search-for-woocommerce\/ajax-search-for-woocommerce.php",
+                "name": "FiboSearch - AJAX Search for WooCommerce",
+                "version": "1.20.0",
+                "pluginURI": "https:\/\/fibosearch.com?utm_source=wp-admin&utm_medium=referral&utm_campaign=author_uri&utm_gen=utmdc",
+                "author": "FiboSearch Team",
+                "authorURI": "https:\/\/fibosearch.com?utm_source=wp-admin&utm_medium=referral&utm_campaign=author_uri&utm_gen=utmdc",
+                "description": "The most popular WooCommerce product search. Gives your users a well-designed advanced AJAX search bar with live search suggestions.",
+                "title": "FiboSearch - AJAX Search for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "fixed-toc\/fixed-toc.php": {
+                "slug": "fixed-toc\/fixed-toc.php",
+                "name": "Fixed TOC",
+                "version": "3.1.24",
+                "pluginURI": "https:\/\/codecanyon.net\/item\/fixed-toc-wordpress-plugin\/7264676?ref=wphigh",
+                "author": "wphigh",
+                "authorURI": "https:\/\/codecanyon.net\/user\/wphigh?ref=wphigh",
+                "description": "Generate a table of contents automatically from content of a post. Fixing in the page, user-friendly view.",
+                "title": "Fixed TOC",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "litespeed-cache\/litespeed-cache.php": {
+                "slug": "litespeed-cache\/litespeed-cache.php",
+                "name": "LiteSpeed Cache",
+                "version": "5.2.1",
+                "pluginURI": "https:\/\/www.litespeedtech.com\/products\/cache-plugins\/wordpress-acceleration",
+                "author": "LiteSpeed Technologies",
+                "authorURI": "https:\/\/www.litespeedtech.com",
+                "description": "High-performance page caching and site optimization from LiteSpeed",
+                "title": "LiteSpeed Cache",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "order-tip-woo\/order-tip-for-woocommerce.php": {
+                "slug": "order-tip-woo\/order-tip-for-woocommerce.php",
+                "name": "Order Tip for WooCommerce",
+                "version": "1.2.2",
+                "pluginURI": "https:\/\/order-tip-for-woocommerce.tudorache.me\/",
+                "author": "Adrian Emil Tudorache",
+                "authorURI": "https:\/\/www.tudorache.me",
+                "description": "Adds a form to the cart and checkout pages where customer can add tips to the WooCommerce orders.",
+                "title": "Order Tip for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "seo-by-rank-math\/rank-math.php": {
+                "slug": "seo-by-rank-math\/rank-math.php",
+                "name": "Rank Math SEO",
+                "version": "1.0.98.1",
+                "pluginURI": "https:\/\/s.rankmath.com\/home",
+                "author": "Rank Math",
+                "authorURI": "https:\/\/s.rankmath.com\/home",
+                "description": "Rank Math is a revolutionary SEO product that combines the features of many SEO tools and lets you multiply your traffic in the easiest way possible.",
+                "title": "Rank Math SEO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "seo-by-rank-math-pro\/rank-math-pro.php": {
+                "slug": "seo-by-rank-math-pro\/rank-math-pro.php",
+                "name": "Rank Math SEO PRO",
+                "version": "3.0.19",
+                "pluginURI": "https:\/\/rankmath.com\/wordpress\/plugin\/seo-suite\/",
+                "author": "Rank Math",
+                "authorURI": "https:\/\/s.rankmath.com\/pro",
+                "description": "Super-charge your website\u2019s SEO with the Rank Math PRO options like Site Analytics, SEO Performance, Custom Schema Templates, News\/Video Sitemaps, etc.",
+                "title": "Rank Math SEO PRO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "salesgen-store-info\/salesgen-store-info.php": {
+                "slug": "salesgen-store-info\/salesgen-store-info.php",
+                "name": "SalesGen - Store Info",
+                "version": "0.3",
+                "pluginURI": "https:\/\/salesgen.io\/woocommerce-store-info\/",
+                "author": "salesgen.io",
+                "authorURI": "https:\/\/salesgen.io\/",
+                "description": "Dynamic store info for all page, widgets...",
+                "title": "SalesGen - Store Info",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "seo-woo-custom-pro\/start.php": {
+                "slug": "seo-woo-custom-pro\/start.php",
+                "name": "SEO Woo Custom",
+                "version": "4.1.4",
+                "pluginURI": "https:\/\/www.facebook.com\/nguyenvietminh93",
+                "author": "NVM",
+                "authorURI": "https:\/\/www.facebook.com\/nguyenvietminh93",
+                "description": "SEO Woo Custom plugin. This is the plugin edited by NVM gift for Mr. Hoa.",
+                "title": "SEO Woo Custom",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "very-simple-contact-form\/vscf.php": {
+                "slug": "very-simple-contact-form\/vscf.php",
+                "name": "Very Simple Contact Form",
+                "version": "12.3",
+                "pluginURI": "",
+                "author": "Guido",
+                "authorURI": "https:\/\/www.guido.site",
+                "description": "This is a lightweight plugin to create a customized contact form. Add shortcode [contact] on a page or use the widget to display your form.",
+                "title": "Very Simple Contact Form",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "6.9.3",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An eCommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce-advanced-bulk-edit\/advanced-bulk-edit.php": {
+                "slug": "woocommerce-advanced-bulk-edit\/advanced-bulk-edit.php",
+                "name": "Woocommerce Advanced Bulk Edit",
+                "version": "3.9",
+                "pluginURI": "http:\/\/wpmelon.w3examples.com\/advanced-bulk-edit",
+                "author": "George Iron",
+                "authorURI": "http:\/\/wpmelon.w3examples.com",
+                "description": "Edit your products both individually or in bulk",
+                "title": "Woocommerce Advanced Bulk Edit",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woo-cart-abandonment-recovery\/woo-cart-abandonment-recovery.php": {
+                "slug": "woo-cart-abandonment-recovery\/woo-cart-abandonment-recovery.php",
+                "name": "WooCommerce Cart Abandonment Recovery",
+                "version": "1.2.19",
+                "pluginURI": "https:\/\/cartflows.com\/",
+                "author": "CartFlows Inc",
+                "authorURI": "https:\/\/cartflows.com\/",
+                "description": "Recover your lost revenue. Capture email address of users on the checkout page and send follow up emails if they don't complete the purchase.",
+                "title": "WooCommerce Cart Abandonment Recovery",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wordpress-importer\/wordpress-importer.php": {
+                "slug": "wordpress-importer\/wordpress-importer.php",
+                "name": "WordPress Importer",
+                "version": "0.7",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/wordpress-importer\/",
+                "author": "wordpressdotorg",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "description": "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file.",
+                "title": "WordPress Importer",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-pinterest-automatic\/pinterest-auto.php": {
+                "slug": "wp-pinterest-automatic\/pinterest-auto.php",
+                "name": "Wordpress Pinterest Automatic",
+                "version": "4.14.4",
+                "pluginURI": "http:\/\/codecanyon.net\/item\/pinterest-automatic-pin-wordpress-plugin\/2203314?ref=ValvePress",
+                "author": "ValvePress",
+                "authorURI": "http:\/\/codecanyon.net\/user\/ValvePress\/portfolio?ref=ValvePress",
+                "description": "Pin Images from your posts to your Pinterest account.",
+                "title": "Wordpress Pinterest Automatic",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "insert-headers-and-footers\/ihaf.php": {
+                "slug": "insert-headers-and-footers\/ihaf.php",
+                "name": "WPCode - Insert Headers, Footers, and Code Snippets",
+                "version": "2.0.2",
+                "pluginURI": "https:\/\/www.wpcode.com\/",
+                "author": "WPCode",
+                "authorURI": "https:\/\/www.wpcode.com\/",
+                "description": "Easily add code snippets in WordPress. Insert scripts to the header and footer, add PHP code snippets with conditional logic, insert ads pixel, custom content, and more.",
+                "title": "WPCode - Insert Headers, Footers, and Code Snippets",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "object-cache.php": {
+                "slug": "object-cache.php",
+                "name": "object-cache.php",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "",
+                "title": "",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": true
+            }
+        },
+        "themes": {
+            "bm-flatsome-child": {
+                "slug": "bm-flatsome-child",
+                "themeName": "Flatsome Child",
+                "version": "3.0",
+                "themeURI": "",
+                "parentTheme": "flatsome",
+                "template": "flatsome",
+                "stylesheet": "bm-flatsome-child",
+                "description": "This is a child theme for Flatsome Theme",
+                "author": "UX Themes",
+                "authorURI": "",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "flatsome": {
+                "slug": "flatsome",
+                "themeName": "Flatsome",
+                "version": "3.15.3",
+                "themeURI": "http:\/\/flatsome.uxthemes.com\/",
+                "parentTheme": false,
+                "template": "flatsome",
+                "stylesheet": "flatsome",
+                "description": "Multi-Purpose Responsive WooCommerce Theme",
+                "author": "UX-Themes",
+                "authorURI": "http:\/\/www.uxthemes.com\/",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            }
+        }
+    },
+    "installer_base_name": "installer.php",
+    "installer_backup_name": "20220925_bestgiftsyourwholefamily_b8d213da3dbba8ba8435_20220925143203_installer-backup.php",
+    "package_name": "20220925_bestgiftsyourwholefamily_b8d213da3dbba8ba8435_20220925143203_archive.zip",
+    "package_hash": "b8d213d-25143203",
+    "package_notes": "",
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "overwriteInstallerParams": {
+        "cpnl-dbaction": {
+            "value": "create"
+        }
+    }
+}

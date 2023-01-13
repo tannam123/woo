@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+.wp-block-navigation.is-selected,
+.wp-block-navigation.has-child-selected {
+	.wp-block-fibosearch-search-nav {
+		margin-right: 25px;
+	}
+}
+
+.wp-block-fibosearch-search-nav {
+	&__device-preview-desktop {
+		.dgwt-wcas-show-on-preview-desktop {
+			display: block;
+		}
+		.dgwt-wcas-show-on-preview-tablet, .dgwt-wcas-show-on-preview-mobile {
+			display: none;
+		}
+	}
+
+	&__device-preview-tablet, &__device-preview-mobile {
+		.dgwt-wcas-show-on-preview-desktop {
+			display: none;
+		}
+		.dgwt-wcas-show-on-preview-tablet, .dgwt-wcas-show-on-preview-mobile {
+			display: block;
+		}
+	}
+}

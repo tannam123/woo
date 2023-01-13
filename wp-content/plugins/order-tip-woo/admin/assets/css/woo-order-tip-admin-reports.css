@@ -1,0 +1,25 @@
+#woo-order-tip-reports-date-range {
+    display: flex;
+    margin: 10px 0;
+}
+
+#woo-order-tip-reports-date-range label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#displaying-from-to span {
+    font-weight: bold;
+}
+
+#woo-order-tip-reports-date-range .wot-reports-col {
+    margin-right: 20px;
+}
+
+#woo-order-tip-reports-errors {
+    color: red;
+}
+
+.order-tip-reports-settings p.submit {
+    display: none;
+}

@@ -1,0 +1,6 @@
+2022-01-23T08:58:35+00:00 CRITICAL Cannot redeclare wcpa_pro_activation() (previously declared in /home/6prints.com/public_html/wp-content/plugins/woo-custom-product-addons-pro/start.php:103) in /home/6prints.com/public_html/wp-content/plugins/seo-woo-custom-pro/start.php on line 101
+
+2022-01-23T08:58:37+00:00 CRITICAL Cannot redeclare wcpa_pro_activation() (previously declared in /home/6prints.com/public_html/wp-content/plugins/woo-custom-product-addons-pro/start.php:103) in /home/6prints.com/public_html/wp-content/plugins/seo-woo-custom-pro/start.php on line 101
+
+2022-01-23T08:58:37+00:00 CRITICAL Cannot redeclare wcpa_pro_activation() (previously declared in /home/6prints.com/public_html/wp-content/plugins/woo-custom-product-addons-pro/start.php:103) in /home/6prints.com/public_html/wp-content/plugins/seo-woo-custom-pro/start.php on line 101
+

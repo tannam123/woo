@@ -1,0 +1,12 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">wcpa_exclude_global_forms</custom-field>
+        <custom-field action="copy">_wcpa_product_meta</custom-field>
+        <custom-field action="ignore">_wcpa_fb-editor-data</custom-field>
+        <custom-field action="ignore">wcpa_drct_prchsble</custom-field>
+        <custom-field action="ignore">wcpa_meta_settings_key</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">wcpa_pt_forms</custom-type>
+    </custom-types>
+</wpml-config>

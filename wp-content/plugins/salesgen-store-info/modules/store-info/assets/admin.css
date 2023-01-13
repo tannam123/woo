@@ -1,0 +1,48 @@
+.salesgen-body-form {
+    float: left;
+    width: 100%;
+    border: none;
+    box-shadow: 1px 0px 20px rgb(0 0 0 / 8%);
+    transition: all 0.4s cubic-bezier(.35,0,.25,1);
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.salesgen-sidebar {
+    float: right;
+    margin-right: -300px;
+    width: 280px;
+}
+
+.salesgen-sidebar-box {
+    border: none;
+    background: #fff;
+    padding: 15px 16px;
+    margin-bottom: 15px;
+    box-shadow: 1px 0px 20px rgb(0 0 0 / 8%);
+    transition: all 0.4s cubic-bezier(.35,0,.25,1);
+}
+.salesgen-setting-box{
+	margin-right: 300px;
+}
+.salesgen-sidebar-box ul {
+    padding-left: 20px;
+}
+.salesgen-sidebar-box ul li {
+    list-style: disc;
+}
+.salesgen-button-sidebar {
+    background: #e55039;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 10px auto;
+    display: inline-block;
+}
+.salesgen-button-sidebar:hover {
+    background: #0a3d62;
+    color: #fff;
+}

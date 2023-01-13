@@ -1,0 +1,525 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Order Tip\n"
+"POT-Creation-Date: 2022-03-08 17:17+0100\n"
+"PO-Revision-Date: 2022-03-08 17:17+0100\n"
+"Last-Translator: Adrian Emil Tudorache <adrian@railmedia.es>\n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _;__;_e;esc_html;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/controllers/config.class.php:78
+#: admin/controllers/settings.class.php:65
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: admin/controllers/config.class.php:79
+#: admin/controllers/settings.class.php:66
+msgid "Tip Reports"
+msgstr "Rapporti mancia"
+
+#: admin/controllers/notices.class.php:38
+#, php-format
+msgid ""
+"To ensure full compatibility of the %sOrder Tip for WooCommerce%s plugin, "
+"please navigate to the plugin's %s, review the settings and save before "
+"proceeding."
+msgstr ""
+"Per garantire la compatibilità del plugin %sOrder Tip for WooCommerce%s, si "
+"prega di navigare a la %s del plugin, rivedere le impostazioni e salvare "
+"prima di procedere."
+
+#: admin/controllers/notices.class.php:41
+msgid "settings page"
+msgstr "pagina delle impostazioni"
+
+#: admin/controllers/reports.class.php:95
+#: admin/controllers/reports.class.php:98
+#, fuzzy
+#| msgid "Order Tip"
+msgid "Order Tips"
+msgstr "Mancia per l'ordine"
+
+#: admin/controllers/reports.class.php:189
+msgid "There are no orders with tips in the database just yet"
+msgstr "Non ci sono ordini con suggerimenti nel database"
+
+#: admin/controllers/reports.class.php:250
+#: admin/controllers/reports.class.php:325
+msgid "There are no orders with tips based on your date range."
+msgstr "Non ci sono ordini con suggerimenti basati sul tuo intervallo di date."
+
+#: admin/controllers/reports.class.php:372
+#: admin/views/reports.views.class.php:75
+msgid "Order ID"
+msgstr "ID Ordine"
+
+#: admin/controllers/reports.class.php:373
+#, fuzzy
+#| msgid "Tip fee name"
+msgid "Tip name"
+msgstr "Nome della mancia"
+
+#: admin/controllers/reports.class.php:374
+msgid "Tip value"
+msgstr "Valore della mancia"
+
+#: admin/controllers/reports.class.php:375
+msgid "Order date"
+msgstr "Data ordine"
+
+#: admin/controllers/reports.class.php:445
+#: admin/views/reports.views.class.php:120
+msgid "Total"
+msgstr "Totale"
+
+#: admin/controllers/reports.class.php:446
+msgid "Currency"
+msgstr "Valuta"
+
+#: admin/controllers/settings.class.php:37
+msgid "Order Tip"
+msgstr "Mancia per l'ordine"
+
+#: admin/controllers/settings.class.php:89
+msgid "Order Tip Settings"
+msgstr "Impostazioni mancia per l'ordine"
+
+#: admin/controllers/settings.class.php:96
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/controllers/settings.class.php:98
+#, php-format
+msgid ""
+"You can use the %1$s[order_tip_form]%2$s shortcode in any page, post or "
+"widget. It will automatically take the settings below. However, we %1$sdo not"
+"%2$s recommend to use the shortcode on the cart or checkout pages if you "
+"enable the tip form using the checkboxes below."
+msgstr ""
+"È possibile utilizzare il shortcode %1$s[order_tip_form]%2$s in qualsiasi "
+"pagina, post o widget. Prenderà automaticamente le impostazioni qui sotto. "
+"Tuttavia, noi %1$snon%2$s raccomandiamo di usare lo shortcode sulle pagine "
+"del carrello o del checkout se abiliti il modulo dei suggerimenti usando le "
+"caselle di controllo qui sotto."
+
+#: admin/controllers/settings.class.php:103
+msgid "Enabled on Cart page"
+msgstr "Abilitato nella pagina del carrello"
+
+#: admin/controllers/settings.class.php:105
+msgid ""
+"If checked, the tip form will appear under the Apply Coupon form on the Cart "
+"page"
+msgstr ""
+"Se spuntata, il modulo di mancia apparirà sotto il modulo Applica Buono "
+"nella pagina del Carrello"
+
+#: admin/controllers/settings.class.php:108
+#: admin/controllers/settings.class.php:136
+#: admin/controllers/settings.class.php:148
+#: admin/controllers/settings.class.php:176
+#: admin/controllers/settings.class.php:188
+#: admin/controllers/settings.class.php:247
+#: admin/controllers/settings.class.php:268
+#: admin/controllers/settings.class.php:307
+#: admin/controllers/settings.class.php:328
+#: admin/controllers/settings.class.php:340
+msgid "Yes"
+msgstr "Sì"
+
+#: admin/controllers/settings.class.php:109
+#: admin/controllers/settings.class.php:137
+#: admin/controllers/settings.class.php:149
+#: admin/controllers/settings.class.php:177
+#: admin/controllers/settings.class.php:189
+#: admin/controllers/settings.class.php:248
+#: admin/controllers/settings.class.php:269
+#: admin/controllers/settings.class.php:308
+#: admin/controllers/settings.class.php:329
+#: admin/controllers/settings.class.php:341
+msgid "No"
+msgstr "Non"
+
+#: admin/controllers/settings.class.php:111
+#: admin/controllers/settings.class.php:151
+#: admin/controllers/settings.class.php:191
+#: admin/controllers/settings.class.php:201
+#: admin/controllers/settings.class.php:210
+msgid "Enable"
+msgstr "Attivare"
+
+#: admin/controllers/settings.class.php:116
+msgid "Select position on the cart page"
+msgstr "Seleziona la posizione sulla pagina del carrello"
+
+#: admin/controllers/settings.class.php:118
+msgid ""
+"Select the position on the cart page. Please make sure to enable the tip "
+"form using the checkbox above."
+msgstr ""
+"Seleziona la posizione nella pagina del carrello. Assicurati di abilitare il "
+"modulo utilizzando la casella di controllo di cui sopra."
+
+#: admin/controllers/settings.class.php:121
+msgid "Before the cart"
+msgstr "Prima del carrello"
+
+#: admin/controllers/settings.class.php:122
+msgid "After the coupon and before the Update cart button"
+msgstr "Dopo il coupon e prima del pulsante Aggiorna carrello"
+
+#: admin/controllers/settings.class.php:123
+msgid "After the cart table"
+msgstr "Dopo la tabella del carrello"
+
+#: admin/controllers/settings.class.php:124
+msgid "Before cart totals"
+msgstr "Prima dei totali del carrello"
+
+#: admin/controllers/settings.class.php:125
+msgid "After the cart"
+msgstr "Dopo il carrello"
+
+#: admin/controllers/settings.class.php:131
+#: admin/controllers/settings.class.php:171
+msgid "Refresh the order totals on the Cart page"
+msgstr "Aggiorna i totali degli ordini nella pagina del carrello"
+
+#: admin/controllers/settings.class.php:133
+#: admin/controllers/settings.class.php:173
+msgid ""
+"If checked, the order totals on the cart page will be automatically updated "
+"when a tip is added or removed. If unchecked, the tip will not appear in the "
+"totals until a page refresh is performed."
+msgstr ""
+"Se l'opzione è attiva, i totali degli ordini nella pagina del carrello "
+"saranno automaticamente aggiornati quando viene aggiunta o rimossa una "
+"mancia. Se non è selezionata, la mancia non apparirà nei totali fino a "
+"quando non verrà eseguito un aggiornamento della pagina."
+
+#: admin/controllers/settings.class.php:143
+msgid "Enabled on Checkout page"
+msgstr "Attivato nella pagina di checkout"
+
+#: admin/controllers/settings.class.php:145
+msgid ""
+"If checked, the tip form will appear under the Checkout form on the Checkout "
+"page"
+msgstr ""
+"Se spuntata, il modulo di mancia apparirà sotto il modulo di checkout nella "
+"pagina di checkout"
+
+#: admin/controllers/settings.class.php:156
+msgid "Select position on the checkout page"
+msgstr "Seleziona la posizione nella pagina di checkout"
+
+#: admin/controllers/settings.class.php:158
+msgid ""
+"Select the position on the checkout page. Please make sure to enable the tip "
+"form using the checkbox above."
+msgstr ""
+"Seleziona la posizione nella pagina di checkout. Assicurati di abilitare il "
+"modulo dei suggerimenti usando la casella di controllo qui sopra."
+
+#: admin/controllers/settings.class.php:161
+msgid "Before the checkout form"
+msgstr "Prima del modulo di checkout"
+
+#: admin/controllers/settings.class.php:162
+msgid "Before the order notes field"
+msgstr "Prima del campo note dell'ordine"
+
+#: admin/controllers/settings.class.php:163
+msgid "After customer details"
+msgstr "Dopo i dettagli del cliente"
+
+#: admin/controllers/settings.class.php:164
+msgid "Before the order review"
+msgstr "Prima della revisione dell'ordine"
+
+#: admin/controllers/settings.class.php:165
+msgid "After the checkout form"
+msgstr "Dopo il modulo di checkout"
+
+#: admin/controllers/settings.class.php:183
+msgid "Is taxable"
+msgstr "È tassabile"
+
+#: admin/controllers/settings.class.php:185
+msgid ""
+"If checked, the tip amount will be taxed as per your WooCommerce Tax "
+"settings."
+msgstr ""
+"Se spuntata, l'importo della mancia sarà tassato in base alle impostazioni "
+"di WooCommerce Tax."
+
+#: admin/controllers/settings.class.php:196
+msgid "Tip fee name"
+msgstr "Nome della mancia"
+
+#: admin/controllers/settings.class.php:198
+msgid ""
+"The tip fee name will appear before the order total. It will always be "
+"followed by the tip amount. Default format is \"Tip (AMOUNT)\""
+msgstr ""
+"Il nome della mancia apparirà prima del totale dell'ordine. Sarà sempre "
+"seguito dall'importo della mancia. Il formato predefinito è \"Tip "
+"(IMPORTO)\"."
+
+#: admin/controllers/settings.class.php:206
+msgid "Tip form title"
+msgstr "Titolo del modulo per le mance"
+
+#: admin/controllers/settings.class.php:208
+msgid "The tip form title will appear before the tip form"
+msgstr ""
+"Il titolo del modulo di mancia apparirà prima del modulo di suggerimento"
+
+#: admin/controllers/settings.class.php:215
+msgid "Tip Type"
+msgstr "Tipo di mancia"
+
+#: admin/controllers/settings.class.php:218
+msgid "Percent of the order total"
+msgstr "Percentuale del totale dell'ordine"
+
+#: admin/controllers/settings.class.php:219
+msgid "Fixed amount"
+msgstr "Importo fisso"
+
+#: admin/controllers/settings.class.php:222
+msgid "Select the type of tip you would like to use."
+msgstr "Selezionare il tipo di mancia che si desidera utilizzare."
+
+#: admin/controllers/settings.class.php:227
+msgid "Tip Rates"
+msgstr "Tassi di mancia"
+
+#: admin/controllers/settings.class.php:239
+msgid "Enable various tip rates. Keep CTRL or CMD key pressed while selecting."
+msgstr ""
+"Attivare varie tariffe. Tenere premuto il tasto CTRL o CMD durante la "
+"selezione."
+
+#: admin/controllers/settings.class.php:244
+msgid "Enable custom tip field"
+msgstr "Abilita campo mancia personalizzata"
+
+#: admin/controllers/settings.class.php:251
+msgid ""
+"If enabled, the customer will be able to add their own fixed amount tip."
+msgstr ""
+"Se abilitato, il cliente potrà aggiungere la propria mancia a importo fisso."
+
+#: admin/controllers/settings.class.php:256
+msgid "Custom tip field label"
+msgstr "Etichetta del campo mancia personalizzata"
+
+#: admin/controllers/settings.class.php:259
+msgid ""
+"Set a label of your choice for the custom tip button. The default label is "
+"\"Custom Tip\""
+msgstr ""
+"Imposta un'etichetta di tua scelta per il pulsante della mancia "
+"personalizzata. L'etichetta predefinita è \"Custom Tip\"."
+
+#: admin/controllers/settings.class.php:261
+msgid "Custom Tip"
+msgstr "Mancia personalizzata"
+
+#: admin/controllers/settings.class.php:265
+msgid "Display custom tip field label in tip name"
+msgstr ""
+"Visualizza l'etichetta del campo della mancia personalizzata nel nome della "
+"mancia"
+
+#: admin/controllers/settings.class.php:272
+msgid ""
+"Display the custom tip field label in the tip fee name in paranthesis. Eg.: "
+"Tip (Add your own amount). If set to \"Yes\", this will appear on the cart "
+"page, on the totals page and in the order emails."
+msgstr ""
+"Visualizza l'etichetta del campo della mancia personalizzata nel nome della "
+"mancia in parantesi. Per esempio: Tip (Aggiungi il tuo importo). Se "
+"impostato su \"Sì\", questo apparirà nella pagina del carrello, nella pagina "
+"dei totali e nelle email dell'ordine."
+
+#: admin/controllers/settings.class.php:277
+msgid "Custom tip apply tip button label"
+msgstr "Etichetta del pulsante di applicazione della mancia personalizzata"
+
+#: admin/controllers/settings.class.php:280
+msgid ""
+"Set a label of your choice for the custom tip apply button. The default "
+"label is \"Add tip to order\""
+msgstr ""
+"Imposta un'etichetta a tua scelta per il pulsante di applicazione della "
+"mancia personalizzata. L'etichetta predefinita è \"Add tip to order\"."
+
+#: admin/controllers/settings.class.php:282
+msgid "Add tip to order"
+msgstr "Aggiungi mancia all'ordine"
+
+#: admin/controllers/settings.class.php:286
+msgid "Custom tip enter tip input placeholder label"
+msgstr "Etichetta personalizzata del campo per la mancia personalizzata"
+
+#: admin/controllers/settings.class.php:289
+msgid ""
+"Set a placeholder of your choice for the custom enter tip input field. The "
+"default label is \"Enter tip amount\""
+msgstr ""
+"Imposta un segnaposto a tua scelta per il campo di inserimento della mancia "
+"personalizzata. L'etichetta predefinita è \"Enter tip amount\"."
+
+#: admin/controllers/settings.class.php:291
+msgid "Enter tip amount"
+msgstr "Inserire l'importo della mancia"
+
+#: admin/controllers/settings.class.php:295
+msgid "Custom tip remove tip button label"
+msgstr "Etichetta personalizzata del pulsante di rimozione della mancia"
+
+#: admin/controllers/settings.class.php:298
+msgid ""
+"Set a label of your choice for the custom tip remove button. The default "
+"label is \"Remove tip\""
+msgstr ""
+"Imposta un'etichetta di tua scelta per il pulsante di rimozione della mancia "
+"personalizzata. L'etichetta predefinita è \"Rimuovi mancia\"."
+
+#: admin/controllers/settings.class.php:300
+#, fuzzy
+#| msgid "Remove Tip"
+msgid "Remove tip"
+msgstr "Rimuovere la mancia"
+
+#: admin/controllers/settings.class.php:304
+msgid "Enable cash tip"
+msgstr "Abilita la mancia in contanti"
+
+#: admin/controllers/settings.class.php:311
+msgid ""
+"If enabled, customers will be able to choose to tip by cash (on delivery or "
+"local pickup)."
+msgstr ""
+"Se abilitato, i clienti potranno scegliere di lasciare la mancia in contanti "
+"(alla consegna o al ritiro locale)."
+
+#: admin/controllers/settings.class.php:316
+msgid "Cash tip field label"
+msgstr "Etichetta del campo mancia in contanti"
+
+#: admin/controllers/settings.class.php:319
+msgid ""
+"Set a label of your choice for the cash tip button. The default label is "
+"\"Cash\""
+msgstr ""
+"Imposta un'etichetta di tua scelta per il pulsante della mancia in contanti. "
+"L'etichetta predefinita è \"Cash\"."
+
+#: admin/controllers/settings.class.php:321
+msgid "Cash"
+msgstr "Cash"
+
+#: admin/controllers/settings.class.php:325
+msgid "Clear tip after the order has been placed"
+msgstr "Cancella la mancia dopo l'ordine"
+
+#: admin/controllers/settings.class.php:332
+msgid ""
+"If enabled, the tip that may be added to the cart, will be removed. "
+"Otherwise, it will be preserved on future orders in the current session."
+msgstr ""
+"Se abilitato, la mancia che può essere aggiunta al carrello, verrà rimossa. "
+"In caso contrario, verrà conservata per gli ordini futuri nella sessione "
+"corrente."
+
+#: admin/controllers/settings.class.php:337
+msgid "Enable alert when removing the tip"
+msgstr "Abilitare un avviso quando si rimuove la mancia"
+
+#: admin/controllers/settings.class.php:344
+msgid "If enabled, an alert will pop up when the Remove Tip button is clicked."
+msgstr ""
+"Se l'opzione è attiva, un avviso apparirà quando si clicca sul pulsante "
+"Rimuovi mancia."
+
+#: admin/controllers/settings.class.php:349
+msgid "Remove tip confirmation message"
+msgstr "Messaggio di conferma della rimozione della mancia"
+
+#: admin/controllers/settings.class.php:352
+msgid "Set a message of your choice for the tip removal confirmation message."
+msgstr ""
+"Imposta un messaggio a tua scelta per il messaggio di conferma della "
+"rimozione della mancia."
+
+#: admin/controllers/settings.class.php:354
+msgid "Are you sure you wish to remove the tip?"
+msgstr "Sei sicuro di voler rimuovere il suggerimento?"
+
+#: admin/controllers/settings.class.php:358
+msgid "Updated to 1.1"
+msgstr "Aggiornato alla 1.1"
+
+#: admin/controllers/settings.class.php:378
+msgid "Reports"
+msgstr "Rapporti"
+
+#: admin/views/reports.views.class.php:28
+msgid "From"
+msgstr "Da"
+
+#: admin/views/reports.views.class.php:34
+msgid "To"
+msgstr "Alla"
+
+#: admin/views/reports.views.class.php:40
+#: admin/views/reports.views.class.php:76
+msgid "Order Status"
+msgstr "Stato dell'ordine"
+
+#: admin/views/reports.views.class.php:43
+msgid "All"
+msgstr "Tutti"
+
+#: admin/views/reports.views.class.php:56
+msgid "Filter"
+msgstr "Filtro"
+
+#: admin/views/reports.views.class.php:59
+msgid "Export to CSV"
+msgstr "Esportazione CSV"
+
+#: admin/views/reports.views.class.php:66
+#, php-format
+msgid "Displaying orders between %s and %s"
+msgstr "Visualizzazione degli ordini tra %s e %s"
+
+#: admin/views/reports.views.class.php:77
+msgid "Customer"
+msgstr "Cliente"
+
+#: admin/views/reports.views.class.php:78
+msgid "Type"
+msgstr "Tipo"
+
+#: admin/views/reports.views.class.php:79
+msgid "Value"
+msgstr "Valore"
+
+#: admin/views/reports.views.class.php:80
+msgid "Date/Time"
+msgstr "Data/Ora"
+
+#~ msgid "Name"
+#~ msgstr "Nome"

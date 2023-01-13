@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fibosearch/search-nav",
+  "version": "1.0.0",
+  "title": "FiboSearch navigation item",
+  "category": "widgets",
+  "description": "AJAX (live) search form for WooCommerce",
+  "keywords": [
+    "search",
+    "product"
+  ],
+  "supports": {
+    "html": false
+  },
+  "usesContext": [
+    "textColor"
+  ],
+  "parent": [
+    "core/navigation"
+  ],
+  "attributes": {
+    "inheritPluginSettings": {
+      "type": "boolean",
+      "default": false
+    },
+    "layout": {
+      "enum": [
+        "classic",
+        "icon",
+        "icon-flexible",
+        "icon-flexible-inv"
+      ],
+      "type": "string",
+      "default": "icon"
+    },
+    "darkenedBackground": {
+      "type": "boolean",
+      "default": false
+    },
+    "mobileOverlay": {
+      "type": "boolean",
+      "default": true
+    },
+    "iconColor": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "ajax-search-for-woocommerce",
+  "editorScript": "file:./index.js",
+  "editorStyle": [
+    "dgwt-wcas-style",
+    "dgwt-wcas-style-personalization",
+    "file:./index.css"
+  ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="FiboSearch - AJAX Search for WooCommerce">
+  <domain name="ajax-search-for-woocommerce">
+    <project name="FiboSearch - AJAX Search for WooCommerce" slug="ajax-search-for-woocommerce">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/ajax-search-for-woocommerce.pot</file>
+      </template>
+    </project>
+  </domain>
+  <exclude>
+    <directory>node_modules</directory>
+    <directory>vendor</directory>
+    <directory>fs</directory>
+  </exclude>
+</bundle>

@@ -1,0 +1,26 @@
+{
+    "name" : "Wordpress Pinterest Automatic Plugin",
+    "slug" : "pinterest-auto",
+    "homepage" : "https://deandev.com/",
+    "download_url" : "https://deandev.com/upgrades/plugin_update.php?id=2203314",
+    
+    "version" : "3.3.0",
+    "requires" : "3.0",
+    "tested" : "3.9",
+    "last_updated" : "2014-9-2 11:09:00",
+    "upgrade_notice" : "Upgrade to the most recent version for new features and bug fixes...",
+    
+    "author" : "ValvePress",
+    "author_homepage" : "http://codecanyon.net/user/ValvePress/portfolio?ref=ValvePress",
+    
+    "sections" : {
+        "description" : "Wordpress Pinterest Automatic automatically posts your images to Pinterest.",
+        "installation" : "Click Add New under Plugins tab and upload the plugin .zip file",
+        "changelog" : "Check item page to see changelog " 
+         
+    },
+    
+    "rating" : 90,
+    "num_ratings" : 123,
+    "downloaded" : 1234
+}

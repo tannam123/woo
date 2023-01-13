@@ -1,0 +1,215 @@
+# Copyright (C) 2018 Woocommerce Custom Product Addons
+# This file is distributed under the same license as the Woocommerce Custom Product Addons package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Custom Product Addons 1.5.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"custom-product-addons\n"
+"POT-Creation-Date: 2018-04-21 14:21:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-04-21 20:16+0530\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+
+#: includes/class-wcpa-backend.php:135
+msgid "Add New %s"
+msgstr "Adicionar Novo %s"
+
+#: includes/class-wcpa-backend.php:136
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: includes/class-wcpa-backend.php:137
+msgid "New %s"
+msgstr "Novo %s"
+
+#: includes/class-wcpa-backend.php:138 includes/class-wcpa-product-meta.php:17
+msgid "Custom Product Options"
+msgstr ""
+
+#: includes/class-wcpa-backend.php:139
+msgid "View %s"
+msgstr "Visualizar %s"
+
+#: includes/class-wcpa-backend.php:140
+msgid "Search %s"
+msgstr "Pesquisar %s"
+
+#: includes/class-wcpa-backend.php:141
+msgid "No %s Found"
+msgstr "Nenhum %s foi encontrado"
+
+#: includes/class-wcpa-backend.php:142
+msgid "No %s Found In Trash"
+msgstr "Nenhuma %s foi encontrado na Lixeira"
+
+#: includes/class-wcpa-backend.php:143
+msgid "Parent %s"
+msgstr "%s ascendente"
+
+#: includes/class-wcpa-backend.php:241 includes/class-wcpa-backend.php:250
+#: includes/class-wcpa-customer.php:53 includes/class-wcpa-customer.php:62
+#: includes/class-wcpa-settings.php:361 includes/class-wcpa-settings.php:370
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-wcpa-form.php:126
+msgid "Please fill field %s"
+msgstr "Por favor preencher campo %s"
+
+#: includes/class-wcpa-form.php:132
+msgid "Please upload file for field %s"
+msgstr "Por favor preencher campo %s"
+
+#: includes/class-wcpa-form.php:136 includes/class-wcpa-form.php:138
+msgid "The uploaded file exceeds the maximum upload limit for field %s"
+msgstr ""
+
+#: includes/class-wcpa-form.php:140
+msgid "The uploaded file error for field %s"
+msgstr ""
+
+#: includes/class-wcpa-form.php:148
+msgid "The uploaded file type is not supported %s"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:174
+msgid "Select options"
+msgstr ""
+
+#: includes/class-wcpa-settings.php:156 includes/class-wcpa-settings.php:184
+#: includes/class-wcpa-settings.php:233 includes/class-wcpa-settings.php:261
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/class-wcpa-settings.php:164 includes/class-wcpa-settings.php:241
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/class-wcpa-settings.php:168 includes/class-wcpa-settings.php:245
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/class-wcpa-settings.php:171 includes/class-wcpa-settings.php:248
+msgid "Invalid license."
+msgstr ""
+
+#: includes/class-wcpa-settings.php:175 includes/class-wcpa-settings.php:252
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/class-wcpa-settings.php:178 includes/class-wcpa-settings.php:255
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/class-wcpa-settings.php:181 includes/class-wcpa-settings.php:258
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/class-wcpa-updater.php:151
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/class-wcpa-updater.php:155
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/class-wcpa-updater.php:302
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/class-wcpa-updater.php:302
+msgid "Error"
+msgstr ""
+
+#: includes/views/order-meta-line-item.php:56
+#: includes/views/order-meta-line-item.php:118
+#: includes/views/order-meta-line-item.php:177
+msgid "Delete item"
+msgstr ""
+
+#: includes/views/settings-main.php:18
+msgid "Options Summary Label"
+msgstr ""
+
+#: includes/views/settings-main.php:29
+msgid "Product Price Label"
+msgstr ""
+
+#: includes/views/settings-main.php:40
+msgid "Total Label"
+msgstr ""
+
+#: includes/views/settings-main.php:52
+msgid "Display custom fields data in "
+msgstr ""
+
+#: includes/views/settings-main.php:61
+msgid "Show in cart"
+msgstr ""
+
+#: includes/views/settings-main.php:67
+msgid "Show in Checkout"
+msgstr ""
+
+#: includes/views/settings-main.php:73
+msgid "Show in Order"
+msgstr ""
+
+#: includes/views/settings-main.php:117
+msgid "License Key"
+msgstr ""
+
+#: includes/views/settings-main.php:121
+msgid "Enter your license key"
+msgstr ""
+
+#: includes/views/settings-main.php:127 includes/views/settings-main.php:140
+msgid "Activate License"
+msgstr ""
+
+#: includes/views/settings-main.php:131
+msgid "active"
+msgstr ""
+
+#: includes/views/settings-main.php:134
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/views/settings-migration.php:13
+msgid "Custom Product Addons Migration"
+msgstr ""
+
+#: includes/views/settings-migration.php:30
+msgid ""
+"Found some data from old version of this plugin, You can migrate the old "
+"data to compatible with new plugin by clicking the migrate now button below "
+msgstr ""
+
+#: includes/views/settings-migration.php:34
+msgid "Migrate Now"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Woocommerce Custom Product Addons"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://acowebs.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Woocommerce Product add-on plugin. Add custom fields to your Woocommerce "
+"product page. With an easy-to-use Custom Form Builder, now you can add extra "
+"product options quickly."
+msgstr ""

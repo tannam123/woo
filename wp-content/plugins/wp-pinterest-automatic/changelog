@@ -1,0 +1,297 @@
+Version 4.14.4 23 August 2021
+Fix: urgent core bug fix, all users must upgrade
+
+Version 4.14.3 2 May 2020
+Fix:JS composer integration updated 
+
+Version 4.14.2 14 August 2020
+Fix: updated to work with WordPress 5.5
+
+Version 4.14.1 27 December 2019
+Fix: fetch boards now works again without the need to reload the page
+
+Version 4.14.0 15 November 2019
+Urgent: Fetch boards back to work after a recent Pinterest change
+NEW: option to set pin link as the attachment image link 
+NEW: Search and replace in link now supports regular expressions
+NEW: Pin link points to now accepts multiple links comma separated
+Fix: Polylang integration back to work
+
+
+Version 4.13.1 18 August 2019
+Urgent: Pinterest new change caused the plugin to show a capatcha asked message which is a false positive. now sorted
+
+Version 4.13.0 17 August 2019
+NEW: Additional queue processing interval 
+NEW: PolyLang plugin support
+Improved: Pin URL from a custom field now can detect URLs inside Arrays
+Fix: Titles with new lines/carriage return was showing 404 error, now sorted
+
+Version 4.12.3 17 July 2019
+Fix: Now detects all images from WP Automatic eBay/Amazon posts
+Fix: Titles with new lines/carriage return was showing 404 error, now sorted
+
+Version 4.12.2  21 June 2019
+Urgent: Code udpated to cope with new Pinterest changes
+NEW: SOCK5 proxies support
+
+Version 4.12.1 June 2019
+Fix: Check more text now returned to the pin description
+Fix: remove extra spaces/carriage returns from added proxies
+
+Version 4.12.0 6 May 2019
+NEW: added support for fooGalleries plugin
+Fix: Excerpt auto generation for non-latin chars now works correctly
+Fix: Title trim for non-latin chars now works correctly
+
+Version 4.11.2 (21 April 2019)
+Fix: tags as hastags now works for queued pins
+Fix: Queue now displays correct pin text
+
+Version 4.11.1 (13 April 2019)
+NEW: option for the pin title 
+Improved: capture images uploaded option now gets the image alt
+Fix: tags as hastags now back to work
+Fix: blob images when uploading now get skipped
+
+Version 4.11.0 (10 April 2019)
+NEW: option to capture images uploaded to the post even if not visible in admin area
+NEW: option to skip images lower than a specific height 
+Fix:  post_tags now only consider added tags taxonomies added to the plugin settings 
+Fix: image from custom field now work when the option to skip the featured image is enabled 
+Fix: Checked images now display pending icon when clicking publish using the block editor
+
+Version 4.10.4 (14 Mar 2019)
+NEW: Queue button to reset the update interval and force cron trigger
+Fix: Proxies now back to work 
+
+Version 4.10.3 (6 Mar 2019)
+Urgent: Code updated to cope with new change from Pinterest that stopped fetching the boards
+NEW: Sections support, fetch boards button now returns the sections 
+NEW: page break support so images from multi-page posts now get pinned with the correct page URL
+Improved: The plugin can now revert to the default board if the selected board was deleted 
+
+Version 4.10.2 (9 January 2019)
+Urgent: Code updated to cope with a recent Pinterest change that automatically removed the cookie 
+New: description new tags  product_cat, product_categories, post_categories to add categories as hashtags
+Fix: Correct pin link now get reported to the plugin log/queue page
+
+
+Version 4.10.1 (21 November 2018)
+Fix: recent version of Yoast SEO conflicted with the plugin UI now sorted
+
+Version 4.10.0 (28 October 2018)
+NEW: option to skip queuing already pinned images from the same post
+Improved: Now the plugin displays a notice if the queue processing time got configured improperly
+Improved: Now the plugin can detect images after nextpage tags when bulk pinning
+Fix: post_excerpt tag now removes the shortcodes
+
+Version 4.9.0 (22 September 2018)
+- NEW: Gutenberg support
+- NEW: WooCommerce product attributes can now be CCC  added to the pin description
+- Fix: Idle time is now 1 hour 
+
+@2 September 2018 v4.8.0
+NEW: Complete random a new option to post randomly from the queue
+NEW: option to skip images from bulk pinning if the image URL contains a specific word
+NEW: option to skip the featured image from pinning 
+NEW: Alternate cron command was added
+NEW: Now the 	queue feature can detect images coming from shortcodes
+Fix: Auto check first image now works for all post types
+Fix: Code updated to cope with a minor change from Pinterest side
+Improved: exclusion rules now get applied to the featured image as well
+
+@10 March 2018 v4.7.0
+Change- Now the plugin does not require username and password but a cookie session value instead
+Fix- Parse front-end now supports more tags
+Fix- image alt text for gallery images now get captured
+
+@14 November 2017 v4.6.1
+NEW- new tag [post_category]
+fix - conflict with divi icon sorted.
+fix - [post_tags] back to work
+
+@10 October 2017 v4.6.0
+new- search and replace at pin link
+new- Custom fields support in pin text
+fix - Pin text now supports quotes
+
+@26 August 2017 v4.5.2
+fix- recent pinterest change resulted in boards not found issue now sorted
+fix - failed to be pinned images now gets automatically removed
+
+@5 August 2017 v4.5.0
+new-feature - option to set number of images to grab from posts when added to the queue and when auto pinned
+new-feature - excluded categories
+new-feature - Now captures the images from the text editor
+new-feature - option to exclude small images from being pinned
+new-feature - option to limit number of tags added to the pin text
+new-feature - option to set pin link from a custom field or a fixed link
+improvement - log and queue page now stop updating when not active
+fix - log page now auto updates
+
+@29 April 2017 v4.4.2
+Fix:a recent pinterest change coped with.
+
+@18 APRIL 2017 v4.4.1
+NEW: PHP 7 compatible
+NEW: All in one seo pack plugin compatibility so now the [post_excerpt] tag get replaced by the seo description
+NEW: option to skip checking if a full sized image exists
+NEW: option to add additional parameters to the pin link
+Fix: Recent Pinterest changes made the previous version login not work. now sorted
+Fix: Spintax class renamed to remove any conflict with other plugins that has the same class
+Fix: at some cases the plugin kept pinning images althght the idle option is active now fixed and other times it tooks longer than one hour
+Fix: proxy now get trimmed removing any extra white space that may cause a proxy connection issue.
+
+@9 September 2016 v4.3.1
+Fix: Recent pinterest change made the plugin no more display the username and correct pin url at log now fixed.
+
+@3 June 2016 v4.3.0
+NEW: Thrive content builder integration so use parse front-end for images
+New: option to upload images with no link back to the source by default
+Fix: Empty src images now get skipped
+Fix: Now pre_get_posts filters get removed because some plugins was excluding posts from disaplay and so on pinning
+Fix: 401 unauthroized reply from Pinterest now makes the plugin reauthroize itself 
+Fix: Plugin now displays the username extracted after login at the log page 
+
+@6 May 2016 v4.2.2
+Fix: Recent pinterest change stopped pinning from non us servers now handled.
+
+@10 Apr 2016 v4.2.1
+Fix: Pin link at the log page now back to work after a recent Pinterest change.
+
+@15 Mar 2016 v4.2.0
+Fix: Plugin recoded to work with major recent Pinterest changes
+Fix: Now shortcodes get skipped manually if it was not stripped using wp
+Update: now the plugin trucates description to 450 instead of 500
+
+@6/2/2016
+New: product_price tag for woo-commerce price to be posted to pinterest
+Fix: Tags to board,Category to board rewritten to work for wp 4.4.x
+
+@24/1/2016 v4.1.1
+NEW: justified image grid full image extraction from thumbnails 
+Fix: warning from the plugin updater now fixed
+
+@18/1/2016 v4.1.0
+NEW: PressThis support added so now the plugin detect pressThis posts
+Fix: Truncate the post content if it's size is over 500 chars which is pinterest limit
+Fix: If a draft post got published using the publish button it now don't get pinned twice
+Fix: when activating the trim title to xx chars option empty posts were getting created with title "..." now fixed 
+Fix: Full sized image check now works with CloudFlare hotlinking disabled
+
+@8/6/2015 v4.0.6
+NEW:Visual composer compitability out of the box
+Fix: bug fix that verify existense of the original image was returning always true
+Improved: Fetch boards link updated to use the backend ajax url
+Improved: delete old log records freeing the database
+
+@19/4/2015 v4.0.5
+Code update: updated to cope with recent pinterest changes
+Fix: queue stop fixed for some users
+Fix: false items appeared in the queue now fixed
+
+@10/3/2015 v4.0.4
+Fix : | charchter now can be added to pin text without problem
+Security improvements
+
+@1/3.2015 v4.0.3
+Fix : recent pinterest change stopped the plugin from functioning now updated to cope with the change
+Fix : follocation with full sized image existance check now used
+Fix : pin them button now appears only in supported post types
+NEW : queue processing from to
+
+@10/11/2014 v4.0.2
+Fix : some users got license inactive issue this updated should fix this one.
+
+@29/10/2014 v4.0.1
+New : Remove pinned image from queue instantly
+New : Search and replace texts for url 
+Fix : Recent pinterest change in boards selection updated
+Fix : Detect image from front end now works for all post types
+Fix : added new option to add all to the queue
+ 
+
+
+@15/10/2014 v4.0.0
+Fix : image src url now get posted encoded
+Fix : wordpress timezone considered
+Fix : some users get login failed now fixed
+NEW : Queue rewritten
+NEW : log rewritten
+NEW : one request pin performance improvments
+NEW : Tags to board
+
+
+@ 3/9/2014 v 3.3.0
+NEW : Proxy support
+NEW : Parse images from front-end
+NEW : Full image from resized image now get posted
+NEW : Automatic updates support
+NEW : pinterest password is not shown in settings
+NEW : Auto excerpt generation
+NEW : Auto update pin alt
+Fix : change pins now keep the alt tag as-is
+
+Fix : new line invalid content bug fixed
+Fix : special charachters problem at pin text
+Fix : post_link tag now shows the permalink instead of guid
+Fix : html tags stripping with post_excerpt and content 
+Fix : categories parent-child now hiraiecal
+
+
+@10/8/2013 v3.2.0 
+Fix : pinned image was getting auto checked.
+Fix : CPT tags were not read
+update: new widget
+Fix : Gallery images 150x150 now display full size
+New : next pin arrival time added
+Fix: 3 minutes interval accept
+
+@28/6/2014 v 3.1.0
+New : Cron interval
+New : clear queue.
+Fix : pinterest new update broke the plugin now it works
+Fix : empty image of tinymce separator
+Fix : change pinterest class name to relieve conflict
+
+
+@16/6/2013 v3.0.2
+Fix : pinterest new update broke the plugin now it works
+
+@24 FEB 2014 
+New version 3.0 
+
+@22/1/2014 v2.0.4
+Fix : removed encoding image source for causing lot's of errors at customers sites
+
+@15/1/2014 v2.0.3
+Fix : encoding imgsrc before pinning 
+Fix : auto pin first image now for custom post types also .
+Fix : new pinterest change returned boards names as undefined
+
+@26/10/2013
+Fix : fetch boards function updated to work with the recent pinterest change
+Fix : curl follocation warning removed for safe mode
+Improvement: bot mode featured images detecting added 
+
+
+@28/9/2013 v2.0.1
+Fix : pinterest change broke login . it is now updated.
+Fix : single quote in title no more causing internal server error .
+Fix : featured images also now get marked as pinned in not already pinned .
+
+@16/9/2013 v2.0.0
+NEW : support for bots 
+NEW : support for custom post types
+NEW : new tags added [post_content],[post_link],[post_excerpt],[post_author],[image_alt]
+Improvement: log was recoded with more details visible 
+Improvement: Mark Pinned images as pinned
+Improvement: remove conflict with wp pinner
+Improvement: curl exist check
+Improvement: auto udpae notification
+
+@30/6/2013
+Bug fix : Added support for the new login form showed by pinterest 
+modified file : core 
+modified function : login 

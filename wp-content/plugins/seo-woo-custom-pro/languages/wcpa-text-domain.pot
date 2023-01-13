@@ -1,0 +1,2463 @@
+# Copyright (C) 2021 Acowebs
+# This file is distributed under the same license as the Woocommerce Custom Product Addons plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Custom Product Addons 4.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/aco-woo-custom-product-addon-pro-dev\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-12-10T10:45:31+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wcpa-text-domain\n"
+
+#. Plugin Name of the plugin
+msgid "Woocommerce Custom Product Addons"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://acowebs.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Woocommerce Product addon plugin. Add custom fields to your Woocommerce product page. With an easy-to-use Custom Form Builder, now you can add extra product options quickly."
+msgstr ""
+
+#. Author of the plugin
+msgid "Acowebs"
+msgstr ""
+
+#: includes/class-wcpa-backend.php:200
+msgid "Please ensure you have activated license for current domain, <a href=\"%s\" target=\"_blank\" >Check our Guideline</a> for more details"
+msgstr ""
+
+#: includes/class-wcpa-backend.php:228
+#: includes/class-wcpa-backend.php:234
+#: includes/class-wcpa-backend.php:240
+msgid "WCPA Forms"
+msgstr ""
+
+#: includes/class-wcpa-backend.php:299
+msgid "Imported Form"
+msgstr ""
+
+#: includes/class-wcpa-backend.php:348
+#: includes/translations.php:19
+msgid "Copy"
+msgstr ""
+
+#: includes/class-wcpa-backend.php:409
+msgid "Duplicate Form"
+msgstr ""
+
+#: includes/class-wcpa-backend.php:572
+msgid "Product Forms"
+msgstr ""
+
+#: includes/class-wcpa-backend.php:594
+msgid "Products"
+msgstr ""
+
+#: includes/class-wcpa-form-editor.php:161
+msgid "Build your form"
+msgstr ""
+
+#: includes/class-wcpa-form-editor.php:162
+msgid "Form Settings"
+msgstr ""
+
+#: includes/class-wcpa-form.php:217
+#: includes/class-wcpa-form.php:222
+msgid "The uploaded file exceeds the maximum upload limit"
+msgstr ""
+
+#: includes/class-wcpa-form.php:224
+msgid "The uploaded file error"
+msgstr ""
+
+#: includes/class-wcpa-form.php:230
+msgid "File exceeds maximum upload size limit of %s MB"
+msgstr ""
+
+#: includes/class-wcpa-form.php:235
+#: includes/class-wcpa-form.php:946
+#: includes/class-wcpa-form.php:1013
+msgid "File is too small in size, Need %s MB or above"
+msgstr ""
+
+#: includes/class-wcpa-form.php:243
+msgid "The uploaded file type is not supported"
+msgstr ""
+
+#: includes/class-wcpa-form.php:871
+msgid "Please verify you are not a bot"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/class-wcpa-form.php:886
+#: includes/class-wcpa-form.php:919
+#: includes/class-wcpa-form.php:924
+#: includes/class-wcpa-form.php:978
+#: includes/class-wcpa-form.php:985
+#: includes/class-wcpa-form.php:991
+msgid "Field %s is required"
+msgstr ""
+
+#: includes/class-wcpa-form.php:894
+#: includes/class-wcpa-form.php:899
+msgid "You have to select minimum %s items for  field %s"
+msgstr ""
+
+#: includes/class-wcpa-form.php:907
+msgid "You can select only maximum %s items for  field %s"
+msgstr ""
+
+#: includes/class-wcpa-form.php:928
+#: includes/class-wcpa-form.php:933
+#: includes/class-wcpa-form.php:995
+#: includes/class-wcpa-form.php:1000
+msgid "The uploaded file exceeds the maximum upload limit for field %s"
+msgstr ""
+
+#: includes/class-wcpa-form.php:935
+#: includes/class-wcpa-form.php:1002
+msgid "The uploaded file error for field %s"
+msgstr ""
+
+#: includes/class-wcpa-form.php:942
+#: includes/class-wcpa-form.php:1009
+msgid "Field %s exceeds maximum upload size limit of %s MB"
+msgstr ""
+
+#: includes/class-wcpa-form.php:951
+#: includes/class-wcpa-form.php:956
+#: includes/class-wcpa-form.php:1018
+#: includes/class-wcpa-form.php:1023
+msgid "The uploaded file type is not supported for field %s"
+msgstr ""
+
+#: includes/class-wcpa-form.php:1043
+msgid "Characters %s is not supported for field %s"
+msgstr ""
+
+#: includes/class-wcpa-form.php:1053
+msgid "Value must be less than or equal to %d for field %s "
+msgstr ""
+
+#: includes/class-wcpa-form.php:1060
+msgid "Value must be greater than or equal to %d for field %s "
+msgstr ""
+
+#: includes/class-wcpa-form.php:3353
+#: includes/class-wcpa-form.php:3367
+msgid "File %s could not be uploaded."
+msgstr ""
+
+#: includes/class-wcpa-form.php:4761
+#: includes/class-wcpa-form.php:4970
+#: includes/class-wcpa-form.php:5968
+#: includes/class-wcpa-form.php:6209
+#: includes/translations.php:61
+#: includes/translations.php:89
+msgid "Other"
+msgstr ""
+
+#: includes/class-wcpa-form.php:4799
+#: includes/class-wcpa-form.php:5019
+#: includes/class-wcpa-form.php:5526
+msgid "Clear selection"
+msgstr ""
+
+#: includes/class-wcpa-form.php:5173
+msgid "Drag And Drop Files Here"
+msgstr ""
+
+#: includes/class-wcpa-form.php:5175
+#: includes/views/settings-main.php:425
+msgid "Browse"
+msgstr ""
+
+#: includes/class-wcpa-form.php:5176
+#: includes/views/settings-main.php:435
+msgid "or %s to choose a file"
+msgstr ""
+
+#: includes/class-wcpa-form.php:5183
+msgid "Drop"
+msgstr ""
+
+#: includes/class-wcpa-form.php:5188
+#: includes/class-wcpa-form.php:5196
+#: includes/class-wcpa-form.php:5201
+#: includes/views/settings-main.php:416
+msgid "Choose File"
+msgstr ""
+
+#: includes/class-wcpa-form.php:5190
+msgid "Remove all"
+msgstr ""
+
+#: includes/class-wcpa-form.php:5198
+msgid "Remove"
+msgstr ""
+
+#: includes/class-wcpa-form.php:5518
+msgid "Sorry something happened, Product Id mentioned may be wrong/repeated."
+msgstr ""
+
+#: includes/class-wcpa-form.php:6309
+msgid "Street address"
+msgstr ""
+
+#: includes/class-wcpa-form.php:6314
+msgid "City"
+msgstr ""
+
+#: includes/class-wcpa-form.php:6318
+msgid "State"
+msgstr ""
+
+#: includes/class-wcpa-form.php:6320
+msgid "Zip code"
+msgstr ""
+
+#: includes/class-wcpa-form.php:6324
+msgid "Country"
+msgstr ""
+
+#: includes/class-wcpa-form.php:6334
+#: includes/class-wcpa-front-end.php:1636
+#: includes/class-wcpa-order-meta.php:102
+#: includes/class-wcpa-order-meta.php:334
+#: includes/views/order-meta-line-item.php:277
+#: includes/views/order-meta-line-item.php:299
+msgid "Latitude:"
+msgstr ""
+
+#: includes/class-wcpa-form.php:6336
+#: includes/class-wcpa-front-end.php:1637
+#: includes/class-wcpa-order-meta.php:103
+#: includes/class-wcpa-order-meta.php:335
+#: includes/views/order-meta-line-item.php:278
+#: includes/views/order-meta-line-item.php:300
+msgid "Longitude:"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:357
+#: includes/class-wcpa-front-end.php:358
+msgid "Product Form"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:360
+msgid "Add New Product Form"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:361
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:362
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:363
+msgid "New %s"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:364
+msgid "Custom Product Options"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:365
+msgid "View %s"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:366
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:367
+msgid "No %s Found"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:368
+msgid "No %s Found In Trash"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:665
+msgid " - Discount"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:1621
+#: includes/class-wcpa-order-meta.php:87
+#: includes/class-wcpa-order-meta.php:319
+#: includes/views/order-meta-line-item.php:262
+#: includes/views/order-meta-line-item.php:292
+msgid "Street address:"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:1624
+#: includes/class-wcpa-order-meta.php:90
+#: includes/class-wcpa-order-meta.php:322
+#: includes/views/order-meta-line-item.php:265
+#: includes/views/order-meta-line-item.php:295
+msgid "City:"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:1627
+#: includes/class-wcpa-order-meta.php:93
+#: includes/class-wcpa-order-meta.php:325
+#: includes/views/order-meta-line-item.php:268
+#: includes/views/order-meta-line-item.php:296
+msgid "State:"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:1630
+#: includes/class-wcpa-order-meta.php:96
+#: includes/class-wcpa-order-meta.php:328
+#: includes/views/order-meta-line-item.php:271
+#: includes/views/order-meta-line-item.php:297
+msgid "Zip code:"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:1633
+#: includes/class-wcpa-order-meta.php:99
+#: includes/class-wcpa-order-meta.php:331
+#: includes/views/order-meta-line-item.php:274
+#: includes/views/order-meta-line-item.php:298
+msgid "Country:"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:1638
+#: includes/class-wcpa-order-meta.php:104
+#: includes/views/order-meta-line-item.php:279
+msgid "View on map"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:2201
+msgid "Files are being uploaded..."
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:2204
+msgid "Uploading..."
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:2206
+msgid "Upload error"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:2208
+msgid "{0} Selected"
+msgstr ""
+
+#: includes/class-wcpa-front-end.php:2209
+msgid "All {0} selected!"
+msgstr ""
+
+#: includes/class-wcpa-order-meta.php:490
+msgid "Other:"
+msgstr ""
+
+#: includes/class-wcpa-product-meta.php:81
+msgid "Select Form"
+msgstr ""
+
+#: includes/class-wcpa-product-meta.php:105
+msgid "Enter order (Keep blank for default)"
+msgstr ""
+
+#: includes/class-wcpa-product-meta.php:110
+msgid "Configurations"
+msgstr ""
+
+#: includes/class-wcpa-product-meta.php:118
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/helpers.php:257
+msgid "Please enter a valid quantity."
+msgstr ""
+
+#: includes/helpers.php:262
+msgid "Sorry, the product %s cannot be purchased."
+msgstr ""
+
+#: includes/helpers.php:267
+msgid "The prouct &quot;%s&quot; is out of stock. Cannot be purchased"
+msgstr ""
+
+#: includes/helpers.php:273
+msgid "You cannot add the amount of &quot;%1$s&quot; because there is not enough stock (%2$s remaining)."
+msgstr ""
+
+#: includes/helpers.php:287
+msgid "View cart"
+msgstr ""
+
+#: includes/helpers.php:288
+msgid "You cannot add the amount &mdash; we have %1$s in stock and you already have %2$s in your cart."
+msgstr ""
+
+#: includes/helpers.php:309
+#: includes/views/settings-main.php:214
+msgid "Field is required"
+msgstr ""
+
+#: includes/helpers.php:313
+#: includes/views/settings-main.php:225
+msgid "Characters %s is not supported"
+msgstr ""
+
+#: includes/helpers.php:317
+#: includes/views/settings-main.php:236
+msgid "Pattern not matching"
+msgstr ""
+
+#: includes/helpers.php:321
+#: includes/views/settings-main.php:258
+msgid "Maximum %s characters allowed"
+msgstr ""
+
+#: includes/helpers.php:325
+#: includes/views/settings-main.php:247
+msgid "Minimum %s characters required"
+msgstr ""
+
+#: includes/helpers.php:329
+#: includes/views/settings-main.php:269
+msgid "Minimum value is %s"
+msgstr ""
+
+#: includes/helpers.php:333
+#: includes/views/settings-main.php:280
+msgid "Maximum value is %s"
+msgstr ""
+
+#: includes/helpers.php:337
+#: includes/views/settings-main.php:291
+msgid "Select minimum %s fields"
+msgstr ""
+
+#: includes/helpers.php:341
+#: includes/views/settings-main.php:302
+msgid "Select maximum %s fields"
+msgstr ""
+
+#: includes/helpers.php:345
+#: includes/views/settings-main.php:313
+msgid "Maximum %s files allowed"
+msgstr ""
+
+#: includes/helpers.php:349
+#: includes/views/settings-main.php:324
+msgid "Maximum file size should be %s"
+msgstr ""
+
+#: includes/helpers.php:353
+#: includes/views/settings-main.php:335
+msgid "Minimum file size should be %s"
+msgstr ""
+
+#: includes/helpers.php:357
+#: includes/views/settings-main.php:346
+msgid "Unsupported file extension found. use from ( %s )"
+msgstr ""
+
+#: includes/helpers.php:361
+#: includes/views/settings-main.php:357
+msgid "Please enter a valid quantity"
+msgstr ""
+
+#: includes/helpers.php:365
+#: includes/views/settings-main.php:369
+msgid "Other value required"
+msgstr ""
+
+#: includes/helpers.php:369
+#: includes/views/settings-main.php:381
+msgid "%s characters left"
+msgstr ""
+
+#: includes/translations.php:3
+msgid "Add Option +"
+msgstr ""
+
+#: includes/translations.php:4
+msgid "All fields were removed."
+msgstr ""
+
+#: includes/translations.php:5
+msgid "Allow users to upload multiple files"
+msgstr ""
+
+#: includes/translations.php:6
+msgid "Autocomplete"
+msgstr ""
+
+#: includes/translations.php:7
+msgid "Button"
+msgstr ""
+
+#: includes/translations.php:8
+msgid "This field cannot be empty"
+msgstr ""
+
+#: includes/translations.php:9
+msgid "Checkbox Group"
+msgstr ""
+
+#: includes/translations.php:10
+msgid "Checkbox"
+msgstr ""
+
+#: includes/translations.php:11
+msgid "Checkboxes"
+msgstr ""
+
+#: includes/translations.php:12
+msgid "Class"
+msgstr ""
+
+#: includes/translations.php:13
+msgid "Are you sure you want to clear all fields?"
+msgstr ""
+
+#: includes/translations.php:14
+msgid "Clear"
+msgstr ""
+
+#: includes/translations.php:15
+msgid "Close"
+msgstr ""
+
+#: includes/translations.php:16
+msgid "Content"
+msgstr ""
+
+#: includes/translations.php:17
+msgid "Copy To Clipboard"
+msgstr ""
+
+#: includes/translations.php:18
+msgid "&#43;"
+msgstr ""
+
+#: includes/translations.php:20
+msgid "Date Field"
+msgstr ""
+
+#: includes/translations.php:21
+msgid "Help Text"
+msgstr ""
+
+#: includes/translations.php:22
+msgid "Description"
+msgstr ""
+
+#: includes/translations.php:23
+msgid "Developer Mode"
+msgstr ""
+
+#: includes/translations.php:24
+msgid "Edit Names"
+msgstr ""
+
+#: includes/translations.php:25
+msgid "Form Elements"
+msgstr ""
+
+#: includes/translations.php:26
+msgid "Edit XML"
+msgstr ""
+
+#: includes/translations.php:27
+msgid "Enable &quot;Other&quot;"
+msgstr ""
+
+#: includes/translations.php:28
+msgid "Let users to enter an unlisted option"
+msgstr ""
+
+#: includes/translations.php:29
+msgid "This field cannot be edited."
+msgstr ""
+
+#: includes/translations.php:30
+msgid "Are you sure ?"
+msgstr ""
+
+#: includes/translations.php:31
+msgid "File Upload"
+msgstr ""
+
+#: includes/translations.php:32
+msgid "Form Updated"
+msgstr ""
+
+#: includes/translations.php:33
+msgid "Drag a field from the right to this area"
+msgstr ""
+
+#: includes/translations.php:34
+msgid "Header"
+msgstr ""
+
+#: includes/translations.php:35
+msgid "Edit"
+msgstr ""
+
+#: includes/translations.php:36
+msgid "Hidden Input"
+msgstr ""
+
+#: includes/translations.php:37
+msgid "Inline"
+msgstr ""
+
+#: includes/translations.php:38
+msgid "Display {type} inline"
+msgstr ""
+
+#: includes/translations.php:39
+#: includes/translations.php:58
+#: includes/translations.php:69
+msgid "Label"
+msgstr ""
+
+#: includes/translations.php:40
+msgid "Field Label cannot be empty"
+msgstr ""
+
+#: includes/translations.php:41
+msgid "Limit access to one or more of the following roles:"
+msgstr ""
+
+#: includes/translations.php:42
+msgid "Mandatory"
+msgstr ""
+
+#: includes/translations.php:43
+msgid "Max Length"
+msgstr ""
+
+#: includes/translations.php:44
+msgid "Min Length"
+msgstr ""
+
+#: includes/translations.php:45
+msgid "This field requires a minimum of 2 options"
+msgstr ""
+
+#: includes/translations.php:46
+msgid "Minimum {min} selections required"
+msgstr ""
+
+#: includes/translations.php:47
+msgid "Multiple Files"
+msgstr ""
+
+#: includes/translations.php:48
+msgid "Name"
+msgstr ""
+
+#: includes/translations.php:49
+msgid "No"
+msgstr ""
+
+#: includes/translations.php:50
+#: includes/translations.php:68
+#: includes/views/form-settings.php:29
+#: includes/views/settings-main.php:40
+msgid "Price"
+msgstr ""
+
+#: includes/translations.php:51
+msgid "There are no fields to clear"
+msgstr ""
+
+#: includes/translations.php:52
+msgid "Number"
+msgstr ""
+
+#: includes/translations.php:53
+msgid "Off"
+msgstr ""
+
+#: includes/translations.php:54
+msgid "On"
+msgstr ""
+
+#: includes/translations.php:55
+msgid "Option"
+msgstr ""
+
+#: includes/translations.php:56
+#: includes/translations.php:171
+#: includes/views/order-meta-line-item.php:6
+msgid "Options"
+msgstr ""
+
+#: includes/translations.php:57
+msgid "optional"
+msgstr ""
+
+#: includes/translations.php:59
+#: includes/translations.php:67
+#: includes/translations.php:196
+#: includes/translations.php:210
+#: includes/views/order-meta-line-item.php:7
+msgid "Value"
+msgstr ""
+
+#: includes/translations.php:60
+msgid "Option value required"
+msgstr ""
+
+#: includes/translations.php:62
+msgid "Paragraph"
+msgstr ""
+
+#: includes/translations.php:63
+msgid "Static Text"
+msgstr ""
+
+#: includes/translations.php:64
+msgid "Product Group"
+msgstr ""
+
+#: includes/translations.php:65
+msgid "Separator"
+msgstr ""
+
+#: includes/translations.php:66
+msgid "Placeholder"
+msgstr ""
+
+#: includes/translations.php:72
+msgid "Enter your email"
+msgstr ""
+
+#: includes/translations.php:74
+msgid "space separated classes"
+msgstr ""
+
+#: includes/translations.php:75
+msgid "Enter your password"
+msgstr ""
+
+#: includes/translations.php:76
+msgid "ToolTip/Description"
+msgstr ""
+
+#: includes/translations.php:77
+#: includes/translations.php:433
+msgid "URL"
+msgstr ""
+
+#: includes/translations.php:78
+#: includes/translations.php:434
+msgid "Range"
+msgstr ""
+
+#: includes/translations.php:79
+msgid "Product ID"
+msgstr ""
+
+#: includes/translations.php:82
+msgid "Regex Pattern for validation"
+msgstr ""
+
+#: includes/translations.php:83
+msgid "Eg. [0-9]{3}"
+msgstr ""
+
+#: includes/translations.php:86
+msgid "Other Option text"
+msgstr ""
+
+#: includes/translations.php:87
+msgid "Label for item 'Other' in case you have enabled Other option"
+msgstr ""
+
+#: includes/translations.php:90
+msgid "Preview"
+msgstr ""
+
+#: includes/translations.php:91
+msgid "Radio Group"
+msgstr ""
+
+#: includes/translations.php:92
+msgid "Radio"
+msgstr ""
+
+#: includes/translations.php:93
+msgid "Remove Element"
+msgstr ""
+
+#: includes/translations.php:94
+msgid "Remove Option"
+msgstr ""
+
+#: includes/translations.php:95
+msgid "&#215"
+msgstr ""
+
+#: includes/translations.php:96
+msgid "Required"
+msgstr ""
+
+#: includes/translations.php:97
+msgid "Rich Text Editor"
+msgstr ""
+
+#: includes/translations.php:98
+msgid "Access"
+msgstr ""
+
+#: includes/translations.php:99
+msgid "Rows"
+msgstr ""
+
+#: includes/translations.php:101
+msgid "Required Error Message"
+msgstr ""
+
+#: includes/translations.php:104
+msgid "Allowed Characters Error Message"
+msgstr ""
+
+#: includes/translations.php:105
+msgid "%s - To display errored characters"
+msgstr ""
+
+#: includes/translations.php:108
+msgid "Pattern Error Message"
+msgstr ""
+
+#: includes/translations.php:109
+#: includes/views/settings-main.php:230
+msgid "%s - To display pattern"
+msgstr ""
+
+#: includes/translations.php:112
+msgid "Minimum Length Error Message"
+msgstr ""
+
+#: includes/translations.php:113
+msgid "%s - To display minimumm length"
+msgstr ""
+
+#: includes/translations.php:116
+msgid "Maximum Length Error Message"
+msgstr ""
+
+#: includes/translations.php:117
+msgid "%s - To display maximum length"
+msgstr ""
+
+#: includes/translations.php:120
+msgid "Minimum Value Error Message"
+msgstr ""
+
+#: includes/translations.php:121
+#: includes/views/settings-main.php:263
+msgid "%s - To display minimum value allowed"
+msgstr ""
+
+#: includes/translations.php:124
+msgid "Maximum Value Error Message"
+msgstr ""
+
+#: includes/translations.php:125
+#: includes/views/settings-main.php:274
+msgid "%s - To display maximum value allowed"
+msgstr ""
+
+#: includes/translations.php:128
+msgid "Minimum Fields Error Message"
+msgstr ""
+
+#: includes/translations.php:129
+#: includes/views/settings-main.php:285
+msgid "%s - To display minimum fields allowed"
+msgstr ""
+
+#: includes/translations.php:132
+msgid "Maximum Fields Error Message"
+msgstr ""
+
+#: includes/translations.php:133
+#: includes/views/settings-main.php:296
+msgid "%s - To display maximum fields allowed"
+msgstr ""
+
+#: includes/translations.php:136
+msgid "Maximum Files Count Error Message"
+msgstr ""
+
+#: includes/translations.php:137
+#: includes/views/settings-main.php:307
+msgid "%s - To display maximum file count"
+msgstr ""
+
+#: includes/translations.php:140
+msgid "Maximum File Size Error Message"
+msgstr ""
+
+#: includes/translations.php:141
+#: includes/views/settings-main.php:318
+msgid "%s - To display maximum file size"
+msgstr ""
+
+#: includes/translations.php:144
+msgid "Minimum File Size Error Message"
+msgstr ""
+
+#: includes/translations.php:145
+#: includes/views/settings-main.php:329
+msgid "%s - To display minimum file size"
+msgstr ""
+
+#: includes/translations.php:148
+msgid "File Extension Error Message"
+msgstr ""
+
+#: includes/translations.php:149
+#: includes/views/settings-main.php:340
+msgid "%s - To display allowed extension"
+msgstr ""
+
+#: includes/translations.php:152
+msgid "Quantity Field validation Error Message"
+msgstr ""
+
+#: includes/translations.php:153
+msgid "Error Displayed when entering invalid quantity value"
+msgstr ""
+
+#: includes/translations.php:156
+msgid "Other field validation Error Message"
+msgstr ""
+
+#: includes/translations.php:157
+msgid "Error Displayed when other field checked and no other value"
+msgstr ""
+
+#: includes/translations.php:160
+msgid "Characters Left Message"
+msgstr ""
+
+#: includes/translations.php:161
+msgid "%s - To display characters left"
+msgstr ""
+
+#: includes/translations.php:163
+msgid "Display Characters Left Message"
+msgstr ""
+
+#: includes/translations.php:164
+msgid "Display characters left message against the field"
+msgstr ""
+
+#: includes/translations.php:165
+#: includes/translations.php:167
+msgid "Map field to checkout"
+msgstr ""
+
+#: includes/translations.php:166
+msgid "Enable this map the field to checkout fields"
+msgstr ""
+
+#: includes/translations.php:168
+msgid "Checkout Field Group"
+msgstr ""
+
+#: includes/translations.php:169
+msgid "Checkout Field"
+msgstr ""
+
+#: includes/translations.php:170
+msgid "Save"
+msgstr ""
+
+#: includes/translations.php:172
+msgid "Select"
+msgstr ""
+
+#: includes/translations.php:173
+msgid "Select Relation"
+msgstr ""
+
+#: includes/translations.php:174
+msgid "Select Color"
+msgstr ""
+
+#: includes/translations.php:175
+msgid "Allow Multiple Selections"
+msgstr ""
+
+#: includes/translations.php:176
+msgid "Size"
+msgstr ""
+
+#: includes/translations.php:178
+msgid "Extra Small"
+msgstr ""
+
+#: includes/translations.php:179
+msgid "Small"
+msgstr ""
+
+#: includes/translations.php:180
+#: includes/translations.php:183
+msgid "Default"
+msgstr ""
+
+#: includes/translations.php:181
+msgid "Large"
+msgstr ""
+
+#: includes/translations.php:182
+msgid "Style"
+msgstr ""
+
+#: includes/translations.php:184
+msgid "Danger"
+msgstr ""
+
+#: includes/translations.php:185
+msgid "Info"
+msgstr ""
+
+#: includes/translations.php:186
+msgid "Primary"
+msgstr ""
+
+#: includes/translations.php:187
+msgid "Success"
+msgstr ""
+
+#: includes/translations.php:188
+msgid "Warning"
+msgstr ""
+
+#: includes/translations.php:189
+msgid "Type"
+msgstr ""
+
+#: includes/translations.php:190
+msgid "Text Field"
+msgstr ""
+
+#: includes/translations.php:191
+msgid "Password"
+msgstr ""
+
+#: includes/translations.php:192
+msgid "Email"
+msgstr ""
+
+#: includes/translations.php:193
+msgid "Text Area"
+msgstr ""
+
+#: includes/translations.php:194
+msgid "Toggle"
+msgstr ""
+
+#: includes/translations.php:195
+msgid "Warning!"
+msgstr ""
+
+#: includes/translations.php:197
+msgid "{  }"
+msgstr ""
+
+#: includes/translations.php:198
+msgid "&lt;/&gt;"
+msgstr ""
+
+#: includes/translations.php:199
+msgid "Yes"
+msgstr ""
+
+#: includes/translations.php:200
+msgid "Price Options"
+msgstr ""
+
+#: includes/translations.php:201
+#: includes/translations.php:410
+msgid "Enable Price"
+msgstr ""
+
+#: includes/translations.php:202
+#: includes/translations.php:403
+msgid "Pricing Type"
+msgstr ""
+
+#: includes/translations.php:203
+msgid "Clear Selection"
+msgstr ""
+
+#: includes/translations.php:204
+msgid "Color Picker"
+msgstr ""
+
+#: includes/translations.php:205
+msgid "Date Time"
+msgstr ""
+
+#: includes/translations.php:206
+msgid "Time"
+msgstr ""
+
+#: includes/translations.php:207
+msgid "Fields"
+msgstr ""
+
+#: includes/translations.php:208
+msgid "Logic Action"
+msgstr ""
+
+#: includes/translations.php:209
+msgid "Relation"
+msgstr ""
+
+#: includes/translations.php:212
+msgid "Image Group"
+msgstr ""
+
+#: includes/translations.php:214
+msgid "Max File Size(in MB)"
+msgstr ""
+
+#: includes/translations.php:215
+msgid "(Leave blank for no limit)"
+msgstr ""
+
+#: includes/translations.php:218
+msgid "Enable PopUp"
+msgstr ""
+
+#: includes/translations.php:219
+msgid "Users can see full image on clicking the zoom icon provided"
+msgstr ""
+
+#: includes/translations.php:223
+msgid "Min File Size Required(in MB)"
+msgstr ""
+
+#: includes/translations.php:224
+#: includes/translations.php:351
+msgid "Leave blank for no limit"
+msgstr ""
+
+#: includes/translations.php:227
+msgid "Select form"
+msgstr ""
+
+#: includes/translations.php:228
+msgid "You can select a form to include here"
+msgstr ""
+
+#: includes/translations.php:230
+msgid "Google Place Selector"
+msgstr ""
+
+#: includes/translations.php:231
+msgid "Global Form"
+msgstr ""
+
+#: includes/translations.php:232
+msgid "Map Height (in px)"
+msgstr ""
+
+#: includes/translations.php:233
+msgid "Color Group"
+msgstr ""
+
+#: includes/translations.php:234
+msgid "Item selection style"
+msgstr ""
+
+#: includes/translations.php:235
+msgid "Item display size in pixel(px)"
+msgstr ""
+
+#: includes/translations.php:237
+msgid "Image display size in pixel"
+msgstr ""
+
+#: includes/translations.php:238
+msgid "(Leave blank or 0 to use default image size)"
+msgstr ""
+
+#: includes/translations.php:240
+msgid "Box display type"
+msgstr ""
+
+#: includes/translations.php:242
+msgid "Display color box in cart"
+msgstr ""
+
+#: includes/translations.php:243
+msgid "It can be the same box as like in product page or just label/values"
+msgstr ""
+
+#: includes/translations.php:246
+msgid "Characters to exlude"
+msgstr ""
+
+#: includes/translations.php:247
+msgid "Enter all characters to exlude for counting, use \\s for space, or enable regular expression from below and enter regex code "
+msgstr ""
+
+#: includes/translations.php:250
+msgid "Allowed Characters(Regex)"
+msgstr ""
+
+#: includes/translations.php:251
+msgid "Use regular expression "
+msgstr ""
+
+#: includes/translations.php:253
+msgid "Image selection type"
+msgstr ""
+
+#: includes/translations.php:255
+msgid "Configuration (JSON format)"
+msgstr ""
+
+#: includes/translations.php:256
+msgid "Wordpress SHORTCODE is also supported"
+msgstr ""
+
+#: includes/translations.php:258
+msgid "Field ID"
+msgstr ""
+
+#: includes/translations.php:260
+msgid "File extentions Supported"
+msgstr ""
+
+#: includes/translations.php:261
+msgid "Example: jpg,jpeg,png,gif (leave blank for using default wordpress types)"
+msgstr ""
+
+#: includes/translations.php:264
+msgid "Fee Label"
+msgstr ""
+
+#: includes/translations.php:265
+msgid "(Applicable in case it is fee type, Leave blank to use label itself)"
+msgstr ""
+
+#: includes/translations.php:268
+msgid "Minimum fields to select"
+msgstr ""
+
+#: includes/translations.php:269
+#: includes/translations.php:273
+msgid "(Leave blank for no restriction )"
+msgstr ""
+
+#: includes/translations.php:272
+msgid "Maximum fields can select"
+msgstr ""
+
+#: includes/translations.php:276
+msgid "Max Date"
+msgstr ""
+
+#: includes/translations.php:277
+msgid "(Disable all days after this)"
+msgstr ""
+
+#: includes/translations.php:280
+msgid "Min Date"
+msgstr ""
+
+#: includes/translations.php:281
+msgid "(Disable all days before this)"
+msgstr ""
+
+#: includes/translations.php:284
+msgid "Show as Product Image"
+msgstr ""
+
+#: includes/translations.php:285
+msgid "Image selected will be shown as product gallery image"
+msgstr ""
+
+#: includes/translations.php:288
+msgid "Show Product Image"
+msgstr ""
+
+#: includes/translations.php:289
+msgid "Show product image of options"
+msgstr ""
+
+#: includes/translations.php:291
+msgid "Enable quantity field"
+msgstr ""
+
+#: includes/translations.php:292
+msgid "Enable this to display a quantity field. Default : 1"
+msgstr ""
+
+#: includes/translations.php:293
+msgid "Independent Quantity"
+msgstr ""
+
+#: includes/translations.php:294
+msgid "Enable this to add products to cart independent of base product quantity - Not supported for indepent products in cart"
+msgstr ""
+
+#: includes/translations.php:295
+msgid "Disable Zoom Image in Mobile"
+msgstr ""
+
+#: includes/translations.php:296
+msgid "Disable zoom image for width less than 480px devices"
+msgstr ""
+
+#: includes/translations.php:297
+msgid "In Stock"
+msgstr ""
+
+#: includes/translations.php:298
+msgid "Out of Stock"
+msgstr ""
+
+#: includes/translations.php:299
+msgid "On Backorder"
+msgstr ""
+
+#: includes/translations.php:300
+msgid "You must setup Google Map API keys in plugin settings at (Settings>>Custom Product Addons>>Others) in order to work this place selector"
+msgstr ""
+
+#: includes/translations.php:301
+msgid "This fied has similar properties like paragraph field. But It has label settings"
+msgstr ""
+
+#: includes/translations.php:302
+msgid "Is"
+msgstr ""
+
+#: includes/translations.php:303
+msgid "Is Not"
+msgstr ""
+
+#: includes/translations.php:304
+msgid "Is In"
+msgstr ""
+
+#: includes/translations.php:305
+msgid "Is Not In"
+msgstr ""
+
+#: includes/translations.php:306
+msgid "Is Empty"
+msgstr ""
+
+#: includes/translations.php:307
+msgid "Is Not Empty"
+msgstr ""
+
+#: includes/translations.php:308
+msgid "Is Greater Than"
+msgstr ""
+
+#: includes/translations.php:309
+msgid "Is Less Than"
+msgstr ""
+
+#: includes/translations.php:310
+msgid "Is Greater Than Or Equal"
+msgstr ""
+
+#: includes/translations.php:311
+msgid "Is Less Than Or Equal"
+msgstr ""
+
+#: includes/translations.php:312
+msgid "Text Contains"
+msgstr ""
+
+#: includes/translations.php:313
+msgid "Text Not Contains"
+msgstr ""
+
+#: includes/translations.php:314
+msgid "Text Starts With"
+msgstr ""
+
+#: includes/translations.php:315
+msgid "Text Ends With"
+msgstr ""
+
+#: includes/translations.php:316
+msgid "Date Is"
+msgstr ""
+
+#: includes/translations.php:317
+msgid "Date Is Before"
+msgstr ""
+
+#: includes/translations.php:318
+msgid "Date Is After"
+msgstr ""
+
+#: includes/translations.php:319
+msgid "Time Is"
+msgstr ""
+
+#: includes/translations.php:320
+msgid "Time Is Before"
+msgstr ""
+
+#: includes/translations.php:321
+msgid "Time Is After"
+msgstr ""
+
+#: includes/translations.php:322
+msgid "[empty label]"
+msgstr ""
+
+#: includes/translations.php:323
+msgid "[Product Quantity]"
+msgstr ""
+
+#: includes/translations.php:324
+msgid "[Attributes/Variations]"
+msgstr ""
+
+#: includes/translations.php:325
+msgid "[Product IDs]"
+msgstr ""
+
+#: includes/translations.php:326
+msgid "[Stock Status]"
+msgstr ""
+
+#: includes/translations.php:327
+msgid "[Stock Quantity]"
+msgstr ""
+
+#: includes/translations.php:328
+msgid "[WCPA Custom Field]"
+msgstr ""
+
+#: includes/translations.php:329
+msgid "Select Field"
+msgstr ""
+
+#: includes/translations.php:330
+msgid "Show"
+msgstr ""
+
+#: includes/translations.php:331
+msgid "Hide"
+msgstr ""
+
+#: includes/translations.php:332
+msgid "Field if below condtions are true"
+msgstr ""
+
+#: includes/translations.php:333
+msgid "Remove Group"
+msgstr ""
+
+#: includes/translations.php:334
+msgid "+ Add Group"
+msgstr ""
+
+#: includes/translations.php:335
+msgid "Enable Conditional Logic"
+msgstr ""
+
+#: includes/translations.php:336
+msgid "Show helptext as Tooltip"
+msgstr ""
+
+#: includes/translations.php:337
+msgid "WPML/PolyLang"
+msgstr ""
+
+#: includes/translations.php:339
+msgid "Tooltip/Description for each items"
+msgstr ""
+
+#: includes/translations.php:340
+msgid "Enable tooltip/description option for each items"
+msgstr ""
+
+#: includes/translations.php:341
+#: includes/translations.php:342
+msgid "Enable Product Image"
+msgstr ""
+
+#: includes/translations.php:343
+msgid "Independent Products"
+msgstr ""
+
+#: includes/translations.php:344
+msgid "Enable this to add the products to cart independently"
+msgstr ""
+
+#: includes/translations.php:345
+msgid "Ajax File Upload"
+msgstr ""
+
+#: includes/translations.php:346
+msgid "Enable Ajax file upload"
+msgstr ""
+
+#: includes/translations.php:347
+msgid "Multiple File Upload"
+msgstr ""
+
+#: includes/translations.php:348
+msgid "Enable Multiple File Upload"
+msgstr ""
+
+#: includes/translations.php:350
+msgid "Max File Count - Multiple Upload"
+msgstr ""
+
+#: includes/translations.php:353
+msgid "Range Selector"
+msgstr ""
+
+#: includes/translations.php:354
+msgid "Enable this to display number field as range selector"
+msgstr ""
+
+#: includes/translations.php:355
+msgid "Droppable Upload"
+msgstr ""
+
+#: includes/translations.php:356
+msgid "Enable Droppable Upload"
+msgstr ""
+
+#: includes/translations.php:357
+msgid "Enable Sumo Select"
+msgstr ""
+
+#: includes/translations.php:358
+msgid "Apply sumo select style to select field"
+msgstr ""
+
+#: includes/translations.php:359
+msgid "Disable Manual input"
+msgstr ""
+
+#: includes/translations.php:360
+msgid "Will disable entering value manually"
+msgstr ""
+
+#: includes/translations.php:361
+msgid "Custom styled Upload button"
+msgstr ""
+
+#: includes/translations.php:362
+msgid "Enable custom styled upload button"
+msgstr ""
+
+#: includes/translations.php:363
+msgid "Upload Preview"
+msgstr ""
+
+#: includes/translations.php:364
+msgid "Show Image preview on Upload"
+msgstr ""
+
+#: includes/translations.php:365
+msgid "In Cart, Checkout & Order Detail"
+msgstr ""
+
+#: includes/translations.php:366
+msgid "Show this in Cart, Checkout and Order Details pages"
+msgstr ""
+
+#: includes/translations.php:367
+msgid "Show Google Map"
+msgstr ""
+
+#: includes/translations.php:368
+msgid "Show Address fields"
+msgstr ""
+
+#: includes/translations.php:369
+msgid "(City, State, Country, Postal code and so on)"
+msgstr ""
+
+#: includes/translations.php:370
+msgid "None"
+msgstr ""
+
+#: includes/translations.php:371
+msgid "Today"
+msgstr ""
+
+#: includes/translations.php:372
+msgid "Yesterday"
+msgstr ""
+
+#: includes/translations.php:373
+msgid "Tomorrow"
+msgstr ""
+
+#: includes/translations.php:374
+msgid "Squircle"
+msgstr ""
+
+#: includes/translations.php:375
+msgid "Square"
+msgstr ""
+
+#: includes/translations.php:376
+msgid "Circle"
+msgstr ""
+
+#: includes/translations.php:377
+msgid "Tick"
+msgstr ""
+
+#: includes/translations.php:378
+msgid "Tick with Border"
+msgstr ""
+
+#: includes/translations.php:379
+msgid "Border"
+msgstr ""
+
+#: includes/translations.php:380
+msgid "Text Mode"
+msgstr ""
+
+#: includes/translations.php:381
+msgid "Box"
+msgstr ""
+
+#: includes/translations.php:382
+msgid "Zoom Image On Hover"
+msgstr ""
+
+#: includes/translations.php:384
+msgid "All devices"
+msgstr ""
+
+#: includes/translations.php:385
+msgid "In touch devices only"
+msgstr ""
+
+#: includes/translations.php:386
+msgid "Desktop only"
+msgstr ""
+
+#: includes/translations.php:387
+msgid "Outline"
+msgstr ""
+
+#: includes/translations.php:388
+msgid "Shadow"
+msgstr ""
+
+#: includes/translations.php:389
+msgid "Tick with Shadow"
+msgstr ""
+
+#: includes/translations.php:390
+msgid "Show Label inside field"
+msgstr ""
+
+#: includes/translations.php:391
+msgid "Show Label inside of the color field"
+msgstr ""
+
+#: includes/translations.php:392
+msgid "Adjust width based on label"
+msgstr ""
+
+#: includes/translations.php:393
+msgid "Adjust width based on the label inside"
+msgstr ""
+
+#: includes/translations.php:394
+msgid "Pricing Options"
+msgstr ""
+
+#: includes/translations.php:395
+msgid "Different Price for Each Options"
+msgstr ""
+
+#: includes/translations.php:396
+msgid "Product Price"
+msgstr ""
+
+#: includes/translations.php:397
+msgid "Same Price for All Options"
+msgstr ""
+
+#: includes/translations.php:398
+msgid "Fixed Price"
+msgstr ""
+
+#: includes/translations.php:399
+msgid "Multiply by Value"
+msgstr ""
+
+#: includes/translations.php:400
+msgid "Percentage of Product Price"
+msgstr ""
+
+#: includes/translations.php:401
+msgid "Custom Formula"
+msgstr ""
+
+#: includes/translations.php:402
+msgid "Per Character"
+msgstr ""
+
+#: includes/translations.php:404
+msgid "Use Regular expression"
+msgstr ""
+
+#: includes/translations.php:405
+msgid "Regular expression can be used to exlude/include charactes"
+msgstr ""
+
+#: includes/translations.php:406
+msgid "Use price as Fee"
+msgstr ""
+
+#: includes/translations.php:407
+msgid "Price will be counting once per order irresepective of quantity"
+msgstr ""
+
+#: includes/translations.php:408
+msgid "Use just for show"
+msgstr ""
+
+#: includes/translations.php:409
+msgid "It can use just to show the price value, price will not count in total amount"
+msgstr ""
+
+#: includes/translations.php:411
+msgid "This will override the prices of products in options"
+msgstr ""
+
+#: includes/translations.php:412
+msgid "Is Field Required?"
+msgstr ""
+
+#: includes/translations.php:413
+msgid "+ Add Condition"
+msgstr ""
+
+#: includes/translations.php:414
+msgid "Select or Upload Media Of Your Chosen "
+msgstr ""
+
+#: includes/translations.php:415
+msgid "Use this media"
+msgstr ""
+
+#: includes/translations.php:416
+msgid "(This will be multiplied by the value customer enter)"
+msgstr ""
+
+#: includes/translations.php:417
+msgid "Percentage of the product base price"
+msgstr ""
+
+#: includes/translations.php:418
+msgid "Percentage "
+msgstr ""
+
+#: includes/translations.php:419
+msgid "Price per character"
+msgstr ""
+
+#: includes/translations.php:420
+msgid " (eg: ({value}>2?{value}*10:0), here value will be the value entered by customer)"
+msgstr ""
+
+#: includes/translations.php:421
+msgid "General"
+msgstr ""
+
+#: includes/translations.php:422
+msgid "Advanced"
+msgstr ""
+
+#: includes/translations.php:423
+msgid "Conditional Logic"
+msgstr ""
+
+#: includes/translations.php:424
+msgid "Validation"
+msgstr ""
+
+#: includes/translations.php:425
+msgid "Select a Form"
+msgstr ""
+
+#: includes/translations.php:426
+msgid "(required)"
+msgstr ""
+
+#: includes/translations.php:427
+msgid "No preview available for place selector here, You can check it at front end"
+msgstr ""
+
+#: includes/translations.php:428
+msgid "Enable Clear selection"
+msgstr ""
+
+#: includes/translations.php:429
+msgid "Show Clear selection button after options"
+msgstr ""
+
+#: includes/translations.php:430
+msgid "Minimum Value"
+msgstr ""
+
+#: includes/translations.php:431
+msgid "Maximum Value"
+msgstr ""
+
+#: includes/translations.php:432
+msgid "Step Value"
+msgstr ""
+
+#: includes/views/form-edit.php:24
+msgid "This editor can use only for translating Labels, Values, Help Text, Place holder and condtional logic value. All other configurations and paramaters will be populating from original form."
+msgstr ""
+
+#: includes/views/form-edit.php:59
+msgid "Form JSON code"
+msgstr ""
+
+#: includes/views/form-edit.php:60
+msgid "Edit only if you are expert on json. Other wise it can break this form"
+msgstr ""
+
+#: includes/views/form-settings.php:13
+#: includes/views/settings-main.php:18
+msgid "Display Settings"
+msgstr ""
+
+#: includes/views/form-settings.php:14
+msgid "Pricing Settings"
+msgstr ""
+
+#: includes/views/form-settings.php:15
+#: includes/views/settings-main.php:22
+msgid "Contents/Strings"
+msgstr ""
+
+#: includes/views/form-settings.php:16
+msgid "Other settings"
+msgstr ""
+
+#: includes/views/form-settings.php:17
+#: includes/views/settings-main.php:881
+msgid "Export Form"
+msgstr ""
+
+#: includes/views/form-settings.php:25
+#: includes/views/form-settings.php:132
+msgid "Use Global settings"
+msgstr ""
+
+#: includes/views/form-settings.php:35
+#: includes/views/settings-main.php:46
+msgid "Show price against each fields"
+msgstr ""
+
+#: includes/views/form-settings.php:40
+msgid "Hide options price ( applicable for fields having options)"
+msgstr ""
+
+#: includes/views/form-settings.php:45
+#: includes/views/settings-main.php:50
+msgid "Price Summary Section"
+msgstr ""
+
+#: includes/views/form-settings.php:51
+#: includes/views/settings-main.php:57
+msgid "Show Total"
+msgstr ""
+
+#: includes/views/form-settings.php:57
+msgid "Show Product price"
+msgstr ""
+
+#: includes/views/form-settings.php:64
+#: includes/views/settings-main.php:71
+msgid "Show Options Price"
+msgstr ""
+
+#: includes/views/form-settings.php:78
+msgid " Override product base price if options price is higher"
+msgstr ""
+
+#: includes/views/form-settings.php:86
+msgid " Override product base price if options price is greater than zero"
+msgstr ""
+
+#: includes/views/form-settings.php:95
+msgid "Override product base price fully. It can cause the price of product zero in case no options selected"
+msgstr ""
+
+#: includes/views/form-settings.php:104
+msgid "Set this form price as Fee - Fee will be counted once irrespective of the quantity"
+msgstr ""
+
+#: includes/views/form-settings.php:111
+msgid "Exclude this form price from applying discounts"
+msgstr ""
+
+#: includes/views/form-settings.php:118
+msgid "Count the options price only once for a product irrespective of the quantity"
+msgstr ""
+
+#: includes/views/form-settings.php:120
+msgid "Please use fee instead of this feature, This wont be no longer supporting"
+msgstr ""
+
+#: includes/views/form-settings.php:139
+#: includes/views/settings-main.php:155
+msgid "Options Price Label:"
+msgstr ""
+
+#: includes/views/form-settings.php:147
+#: includes/views/settings-main.php:164
+msgid "Product Price Label:"
+msgstr ""
+
+#: includes/views/form-settings.php:157
+#: includes/views/settings-main.php:173
+msgid "Total Label:"
+msgstr ""
+
+#: includes/views/form-settings.php:165
+msgid "Fee:"
+msgstr ""
+
+#: includes/views/form-settings.php:180
+msgid "Allow direct purchase from archive/listing pages without selecting options"
+msgstr ""
+
+#: includes/views/form-settings.php:186
+msgid "Please ensure you have not added any mandatory fields, else it will throw validation errors"
+msgstr ""
+
+#: includes/views/form-settings.php:194
+msgid "Enable reCAPTCHA for this forms"
+msgstr ""
+
+#: includes/views/form-settings.php:196
+msgid "You need to configure the reCAPTCHA keys at %s. Enabling Captcha is not recommended always, Avoid using captcha if there is no partcular reason"
+msgstr ""
+
+#: includes/views/form-settings.php:203
+msgid "Bind field with quantity"
+msgstr ""
+
+#: includes/views/form-settings.php:205
+msgid "You can use custom formula for binding to quantity "
+msgstr ""
+
+#: includes/views/form-settings.php:209
+msgid "If you want to bind a field with quantity, You can use %s"
+msgstr ""
+
+#: includes/views/form-settings.php:222
+msgid "You can copy this data to export the form"
+msgstr ""
+
+#: includes/views/order-meta-line-item.php:8
+msgid "Cost"
+msgstr ""
+
+#: includes/views/order-meta-line-item.php:33
+#: includes/views/order-meta-line-item.php:66
+#: includes/views/order-meta-line-item.php:71
+#: includes/views/order-meta-line-item.php:83
+#: includes/views/order-meta-line-item.php:108
+msgid "Label:"
+msgstr ""
+
+#: includes/views/order-meta-line-item.php:67
+#: includes/views/order-meta-line-item.php:72
+#: includes/views/order-meta-line-item.php:88
+#: includes/views/order-meta-line-item.php:92
+#: includes/views/order-meta-line-item.php:110
+msgid "Value:"
+msgstr ""
+
+#: includes/views/order-meta-line-item.php:101
+msgid "Product ID:"
+msgstr ""
+
+#: includes/views/order-meta-line-item.php:103
+msgid "Quantity:"
+msgstr ""
+
+#: includes/views/order-meta-line-item.php:201
+msgid "File URL:"
+msgstr ""
+
+#: includes/views/settings-main.php:25
+#: includes/views/settings-main.php:444
+msgid "Other Settings"
+msgstr ""
+
+#: includes/views/settings-main.php:28
+#: includes/views/settings-main.php:770
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/views/settings-main.php:31
+msgid "Import/Export"
+msgstr ""
+
+#: includes/views/settings-main.php:34
+#: includes/views/settings-main.php:922
+msgid "License Key"
+msgstr ""
+
+#: includes/views/settings-main.php:64
+msgid "Show Product Price"
+msgstr ""
+
+#: includes/views/settings-main.php:75
+msgid "Custom options data"
+msgstr ""
+
+#: includes/views/settings-main.php:81
+msgid "Show in Cart"
+msgstr ""
+
+#: includes/views/settings-main.php:88
+#: includes/views/settings-main.php:111
+msgid "Show in Checkout"
+msgstr ""
+
+#: includes/views/settings-main.php:95
+#: includes/views/settings-main.php:118
+msgid "Show in Order"
+msgstr ""
+
+#: includes/views/settings-main.php:98
+msgid "Show or Hide Price In"
+msgstr ""
+
+#: includes/views/settings-main.php:104
+msgid "Show in cart"
+msgstr ""
+
+#: includes/views/settings-main.php:125
+msgid "Add in Order Meta( Price will be saved along with order meta, Third party plugins will be using this data)"
+msgstr ""
+
+#: includes/views/settings-main.php:128
+msgid "Hide  Zero Price"
+msgstr ""
+
+#: includes/views/settings-main.php:134
+msgid "Hide Zero In option prices"
+msgstr ""
+
+#: includes/views/settings-main.php:141
+msgid "Hide Zero in cart"
+msgstr ""
+
+#: includes/views/settings-main.php:150
+msgid "Price Summary Section Labels"
+msgstr ""
+
+#: includes/views/settings-main.php:180
+msgid "Fee Label:"
+msgstr ""
+
+#: includes/views/settings-main.php:187
+msgid "Format for showing price in field options:"
+msgstr ""
+
+#: includes/views/settings-main.php:194
+msgid "Preview:"
+msgstr ""
+
+#: includes/views/settings-main.php:202
+msgid "Error Messages On Validation"
+msgstr ""
+
+#: includes/views/settings-main.php:209
+msgid "Error on required field validation"
+msgstr ""
+
+#: includes/views/settings-main.php:218
+msgid "Error on allowed characters validation"
+msgstr ""
+
+#: includes/views/settings-main.php:219
+msgid "%s - Display characters not allowed"
+msgstr ""
+
+#: includes/views/settings-main.php:229
+msgid "Error on pattern validation"
+msgstr ""
+
+#: includes/views/settings-main.php:240
+msgid "Error on minimum length validation"
+msgstr ""
+
+#: includes/views/settings-main.php:241
+msgid "%s - To display minimum length allowed"
+msgstr ""
+
+#: includes/views/settings-main.php:251
+msgid "Error on maximum length validation"
+msgstr ""
+
+#: includes/views/settings-main.php:252
+msgid "%s - To display maximum length allowed"
+msgstr ""
+
+#: includes/views/settings-main.php:262
+msgid "Error on minimum value validation"
+msgstr ""
+
+#: includes/views/settings-main.php:273
+msgid "Error on maximum value validation"
+msgstr ""
+
+#: includes/views/settings-main.php:284
+msgid "Error on minimum fields validation"
+msgstr ""
+
+#: includes/views/settings-main.php:295
+msgid "Error on maximum fields validation"
+msgstr ""
+
+#: includes/views/settings-main.php:306
+msgid "Error on maximum files count validation"
+msgstr ""
+
+#: includes/views/settings-main.php:317
+msgid "Error on maximum file size validation"
+msgstr ""
+
+#: includes/views/settings-main.php:328
+msgid "Error on minimum file size validation"
+msgstr ""
+
+#: includes/views/settings-main.php:339
+msgid "Error on file extension support validation"
+msgstr ""
+
+#: includes/views/settings-main.php:350
+msgid "Error on quantity validation error"
+msgstr ""
+
+#: includes/views/settings-main.php:351
+msgid "Error product quantity validation"
+msgstr ""
+
+#: includes/views/settings-main.php:362
+msgid "Error on other value validation error"
+msgstr ""
+
+#: includes/views/settings-main.php:363
+msgid "Error other value required validation"
+msgstr ""
+
+#: includes/views/settings-main.php:374
+msgid "Message for characters left"
+msgstr ""
+
+#: includes/views/settings-main.php:375
+msgid "Message to display in characters left validation"
+msgstr ""
+
+#: includes/views/settings-main.php:394
+msgid "Add to Cart button text"
+msgstr ""
+
+#: includes/views/settings-main.php:395
+msgid "Add to cart button text in archive/product listing page in case product has additional fields"
+msgstr ""
+
+#: includes/views/settings-main.php:403
+msgid "Product Price prefix"
+msgstr ""
+
+#: includes/views/settings-main.php:404
+msgid "Set a prefix text before the price in archive and product page. Leave blank if no prefix needed. eg: 'Starting at' "
+msgstr ""
+
+#: includes/views/settings-main.php:412
+msgid "File Upload Button Text"
+msgstr ""
+
+#: includes/views/settings-main.php:413
+msgid "Change default file upload field button text "
+msgstr ""
+
+#: includes/views/settings-main.php:421
+msgid "Droppable File Upload Action Text"
+msgstr ""
+
+#: includes/views/settings-main.php:422
+msgid "Change default droppable file upload clickable text - %s"
+msgstr ""
+
+#: includes/views/settings-main.php:431
+msgid "Droppable File Upload Description Text"
+msgstr ""
+
+#: includes/views/settings-main.php:432
+msgid "Change default droppable file upload description text- Use {action} to insert action in between"
+msgstr ""
+
+#: includes/views/settings-main.php:451
+msgid "Load form in recency order"
+msgstr ""
+
+#: includes/views/settings-main.php:453
+msgid "If a product has assigned multiple forms, it will be loaded based on form created order"
+msgstr ""
+
+#: includes/views/settings-main.php:466
+msgid "Hide empty fields in cart"
+msgstr ""
+
+#: includes/views/settings-main.php:468
+msgid "Hide empty fields in cart, checkout and order"
+msgstr ""
+
+#: includes/views/settings-main.php:481
+msgid "Update summary price as quantity change"
+msgstr ""
+
+#: includes/views/settings-main.php:483
+msgid "In price summary section, price will be updated as quantity change"
+msgstr ""
+
+#: includes/views/settings-main.php:496
+msgid "Show JSON code editor for form builder"
+msgstr ""
+
+#: includes/views/settings-main.php:498
+msgid "You can see the JSON code and make changes manually for each forms."
+msgstr ""
+
+#: includes/views/settings-main.php:511
+msgid "Use Jquery Sumo Selector for multi selector dropdown"
+msgstr ""
+
+#: includes/views/settings-main.php:513
+msgid "Sumo Selector is a jQuery plugin for customized dropdown "
+msgstr ""
+
+#: includes/views/settings-main.php:527
+msgid "Load all custom plugins scripts(for datepicker,colorpicker,SumoSelect) in all pages"
+msgstr ""
+
+#: includes/views/settings-main.php:529
+msgid "By default custom scripts will be loading in product page only. But if you want to use custom fields in quick view popups, it needs to loads scripts in all pages "
+msgstr ""
+
+#: includes/views/settings-main.php:542
+msgid "Enable ajax add to cart in product detail page"
+msgstr ""
+
+#: includes/views/settings-main.php:552
+msgid "Additional class for add to cart button in archieve page"
+msgstr ""
+
+#: includes/views/settings-main.php:562
+msgid "Custom fields for products"
+msgstr ""
+
+#: includes/views/settings-main.php:567
+msgid "This fields can be used in custom price formula with prefix 'wcpa_pcf_'"
+msgstr ""
+
+#: includes/views/settings-main.php:569
+msgid "Example: "
+msgstr ""
+
+#: includes/views/settings-main.php:573
+#: includes/views/settings-main.php:583
+#: includes/views/settings-main.php:600
+msgid "Custom Field Slug"
+msgstr ""
+
+#: includes/views/settings-main.php:574
+#: includes/views/settings-main.php:587
+#: includes/views/settings-main.php:603
+msgid "Default Value"
+msgstr ""
+
+#: includes/views/settings-main.php:613
+msgid "Custom Extensions Support"
+msgstr ""
+
+#: includes/views/settings-main.php:623
+msgid "Choose to Enable the Extensions"
+msgstr ""
+
+#: includes/views/settings-main.php:649
+msgid "Add Custom Extensions"
+msgstr ""
+
+#: includes/views/settings-main.php:651
+#: includes/views/settings-main.php:673
+msgid "Extension"
+msgstr ""
+
+#: includes/views/settings-main.php:652
+#: includes/views/settings-main.php:675
+msgid "MiME Type"
+msgstr ""
+
+#: includes/views/settings-main.php:687
+msgid "reCAPTCHA Site Key:"
+msgstr ""
+
+#: includes/views/settings-main.php:706
+msgid "reCAPTCHA Secret Key:"
+msgstr ""
+
+#: includes/views/settings-main.php:727
+msgid "Google Map API Key:"
+msgstr ""
+
+#: includes/views/settings-main.php:730
+msgid "Don't forget to restrict the API key by site domains."
+msgstr ""
+
+#: includes/views/settings-main.php:746
+msgid "Google Map Place Selector Country Restriction:"
+msgstr ""
+
+#: includes/views/settings-main.php:749
+msgid "Provide Country ISO (2 letter) code for Countries comma seperated. Leave Blank for no retstrictions"
+msgstr ""
+
+#: includes/views/settings-main.php:771
+msgid "These are experimental features. Editing these settings are not recommended. Change only if necessory."
+msgstr ""
+
+#: includes/views/settings-main.php:778
+msgid "Consider Product Tax Configuration"
+msgstr ""
+
+#: includes/views/settings-main.php:780
+#: includes/views/settings-main.php:800
+msgid "Default  : enable"
+msgstr ""
+
+#: includes/views/settings-main.php:788
+msgid "Consider Fee once in an order"
+msgstr ""
+
+#: includes/views/settings-main.php:790
+#: includes/views/settings-main.php:810
+#: includes/views/settings-main.php:820
+#: includes/views/settings-main.php:830
+#: includes/views/settings-main.php:840
+msgid "Default  : disable"
+msgstr ""
+
+#: includes/views/settings-main.php:798
+msgid "Show Fee in Sub Total displaying section"
+msgstr ""
+
+#: includes/views/settings-main.php:808
+msgid "Apply coupon discount also for the Fee"
+msgstr ""
+
+#: includes/views/settings-main.php:818
+msgid "Show assigned products list at form listing page"
+msgstr ""
+
+#: includes/views/settings-main.php:828
+msgid "Show options price multiplied by quantity"
+msgstr ""
+
+#: includes/views/settings-main.php:838
+msgid "Show field for setting priority for forms, in a product"
+msgstr ""
+
+#: includes/views/settings-main.php:847
+msgid "Disable applying discounts for form fields"
+msgstr ""
+
+#: includes/views/settings-main.php:849
+msgid "Enable this to avoid applying the discount for product form fields, Default : disable"
+msgstr ""
+
+#: includes/views/settings-main.php:861
+msgid "This can be used to import single product form"
+msgstr ""
+
+#: includes/views/settings-main.php:865
+msgid "Input the exported data here and press <strong>Import From</strong>"
+msgstr ""
+
+#: includes/views/settings-main.php:870
+msgid "Import Form"
+msgstr ""
+
+#: includes/views/settings-main.php:875
+msgid "Export All Forms"
+msgstr ""
+
+#: includes/views/settings-main.php:887
+msgid "Import All Forms"
+msgstr ""
+
+#: includes/views/settings-main.php:888
+msgid "You can import the xml file using Wordpress default post import option at <a href=\""
+msgstr ""
+
+#: includes/views/settings-main.php:907
+msgid "Plugin License"
+msgstr ""
+
+#: includes/views/settings-main.php:909
+msgid "Status: "
+msgstr ""
+
+#: includes/views/settings-main.php:911
+msgid "Active"
+msgstr ""
+
+#: includes/views/settings-main.php:915
+msgid "Inactive"
+msgstr ""
+
+#: includes/views/settings-main.php:931
+msgid "Enter your license key here"
+msgstr ""
+
+#: includes/views/settings-main.php:941
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/views/settings-main.php:948
+msgid "Activate License"
+msgstr ""

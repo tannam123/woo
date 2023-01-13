@@ -1,0 +1,526 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Order Tip\n"
+"POT-Creation-Date: 2022-03-08 17:16+0100\n"
+"PO-Revision-Date: 2022-03-08 17:16+0100\n"
+"Last-Translator: Adrian Emil Tudorache <adrian@railmedia.es>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _;__;_e;esc_html;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/controllers/config.class.php:78
+#: admin/controllers/settings.class.php:65
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/controllers/config.class.php:79
+#: admin/controllers/settings.class.php:66
+msgid "Tip Reports"
+msgstr "Rapports des pourboires"
+
+#: admin/controllers/notices.class.php:38
+#, php-format
+msgid ""
+"To ensure full compatibility of the %sOrder Tip for WooCommerce%s plugin, "
+"please navigate to the plugin's %s, review the settings and save before "
+"proceeding."
+msgstr ""
+"Pour assurer la compatibilité totale du plugin %sOrder Tip for WooCommerce"
+"%s, veuillez naviguer vers les %s du plugin, vérifier les paramètres et "
+"enregistrer avant de continuer."
+
+#: admin/controllers/notices.class.php:41
+msgid "settings page"
+msgstr "page de configuration"
+
+#: admin/controllers/reports.class.php:95
+#: admin/controllers/reports.class.php:98
+#, fuzzy
+#| msgid "Order Tip"
+msgid "Order Tips"
+msgstr "Pourboire commande"
+
+#: admin/controllers/reports.class.php:189
+msgid "There are no orders with tips in the database just yet"
+msgstr ""
+"Il n'y a pas encore de commandes avec des pourboire dans la base de données"
+
+#: admin/controllers/reports.class.php:250
+#: admin/controllers/reports.class.php:325
+msgid "There are no orders with tips based on your date range."
+msgstr ""
+"Il n'y a pas de commandes avec des pourboire basés sur votre fourchette de "
+"dates."
+
+#: admin/controllers/reports.class.php:372
+#: admin/views/reports.views.class.php:75
+msgid "Order ID"
+msgstr "ID commande"
+
+#: admin/controllers/reports.class.php:373
+msgid "Tip name"
+msgstr "Nom du pourboir"
+
+#: admin/controllers/reports.class.php:374
+msgid "Tip value"
+msgstr "Valeur du pourboire"
+
+#: admin/controllers/reports.class.php:375
+msgid "Order date"
+msgstr "Date commande"
+
+#: admin/controllers/reports.class.php:445
+#: admin/views/reports.views.class.php:120
+msgid "Total"
+msgstr "Total"
+
+#: admin/controllers/reports.class.php:446
+msgid "Currency"
+msgstr "Monnaie"
+
+#: admin/controllers/settings.class.php:37
+msgid "Order Tip"
+msgstr "Pourboire commande"
+
+#: admin/controllers/settings.class.php:89
+msgid "Order Tip Settings"
+msgstr "Paramètres pourboire de commande"
+
+#: admin/controllers/settings.class.php:96
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/controllers/settings.class.php:98
+#, php-format
+msgid ""
+"You can use the %1$s[order_tip_form]%2$s shortcode in any page, post or "
+"widget. It will automatically take the settings below. However, we %1$sdo not"
+"%2$s recommend to use the shortcode on the cart or checkout pages if you "
+"enable the tip form using the checkboxes below."
+msgstr ""
+"Vous pouvez utiliser le shortcode %1$s[order_tip_form]%2$s dans n'importe "
+"quelle page, post ou widget. Il prendra automatiquement les paramètres ci-"
+"dessous. Cependant, nous recommandons d'utiliser le shortcode %1$s et non "
+"%2$s dans le panier ou sur les pages de paiement si vous activez le "
+"formulaire de conseil en utilisant les cases à cocher ci-dessous."
+
+#: admin/controllers/settings.class.php:103
+msgid "Enabled on Cart page"
+msgstr "Activé sur la page du panier"
+
+#: admin/controllers/settings.class.php:105
+msgid ""
+"If checked, the tip form will appear under the Apply Coupon form on the Cart "
+"page"
+msgstr ""
+"S'il est activé, le formulaire de pourboire apparaîtra sous le formulaire de "
+"demande de coupon sur la page du panier"
+
+#: admin/controllers/settings.class.php:108
+#: admin/controllers/settings.class.php:136
+#: admin/controllers/settings.class.php:148
+#: admin/controllers/settings.class.php:176
+#: admin/controllers/settings.class.php:188
+#: admin/controllers/settings.class.php:247
+#: admin/controllers/settings.class.php:268
+#: admin/controllers/settings.class.php:307
+#: admin/controllers/settings.class.php:328
+#: admin/controllers/settings.class.php:340
+msgid "Yes"
+msgstr "Oui"
+
+#: admin/controllers/settings.class.php:109
+#: admin/controllers/settings.class.php:137
+#: admin/controllers/settings.class.php:149
+#: admin/controllers/settings.class.php:177
+#: admin/controllers/settings.class.php:189
+#: admin/controllers/settings.class.php:248
+#: admin/controllers/settings.class.php:269
+#: admin/controllers/settings.class.php:308
+#: admin/controllers/settings.class.php:329
+#: admin/controllers/settings.class.php:341
+msgid "No"
+msgstr "Non"
+
+#: admin/controllers/settings.class.php:111
+#: admin/controllers/settings.class.php:151
+#: admin/controllers/settings.class.php:191
+#: admin/controllers/settings.class.php:201
+#: admin/controllers/settings.class.php:210
+msgid "Enable"
+msgstr "Activer"
+
+#: admin/controllers/settings.class.php:116
+msgid "Select position on the cart page"
+msgstr "Sélectionnez la position sur la page du panier"
+
+#: admin/controllers/settings.class.php:118
+msgid ""
+"Select the position on the cart page. Please make sure to enable the tip "
+"form using the checkbox above."
+msgstr ""
+"Sélectionnez la position sur la page du panier. Assurez-vous d'activer le "
+"formulaire de pourboire en utilisant la case à cocher ci-dessus."
+
+#: admin/controllers/settings.class.php:121
+msgid "Before the cart"
+msgstr "Avant le panier"
+
+#: admin/controllers/settings.class.php:122
+msgid "After the coupon and before the Update cart button"
+msgstr "Après le coupon et avant le bouton Mettre à jour le panier"
+
+#: admin/controllers/settings.class.php:123
+msgid "After the cart table"
+msgstr "Après la table du le panier"
+
+#: admin/controllers/settings.class.php:124
+msgid "Before cart totals"
+msgstr "Avant les totaux du le panier"
+
+#: admin/controllers/settings.class.php:125
+msgid "After the cart"
+msgstr "Après le panier"
+
+#: admin/controllers/settings.class.php:131
+#: admin/controllers/settings.class.php:171
+msgid "Refresh the order totals on the Cart page"
+msgstr "Actualiser les totaux de commande sur la page du panier"
+
+#: admin/controllers/settings.class.php:133
+#: admin/controllers/settings.class.php:173
+msgid ""
+"If checked, the order totals on the cart page will be automatically updated "
+"when a tip is added or removed. If unchecked, the tip will not appear in the "
+"totals until a page refresh is performed."
+msgstr ""
+"Si cette option est cochée, les totaux de la commande sur la page du panier "
+"seront automatiquement mis à jour lorsqu'un conseil est ajouté ou supprimé. "
+"Si cette case n'est pas cochée, le pourboire n'apparaîtra pas dans les "
+"totaux tant que la page n'aura pas été actualisée."
+
+#: admin/controllers/settings.class.php:143
+msgid "Enabled on Checkout page"
+msgstr "Activé sur la page de paiement"
+
+#: admin/controllers/settings.class.php:145
+msgid ""
+"If checked, the tip form will appear under the Checkout form on the Checkout "
+"page"
+msgstr ""
+"S'il est activé, le formulaire de pourboire apparaîtra sous le formulaire de "
+"paiement sur la page de paiement"
+
+#: admin/controllers/settings.class.php:156
+msgid "Select position on the checkout page"
+msgstr "Choisissez la position sur la page de paiement"
+
+#: admin/controllers/settings.class.php:158
+msgid ""
+"Select the position on the checkout page. Please make sure to enable the tip "
+"form using the checkbox above."
+msgstr ""
+"Sélectionnez la position sur la page de paiement. Assurez-vous d'activer le "
+"formulaire de pourboire en utilisant la case à cocher ci-dessus."
+
+#: admin/controllers/settings.class.php:161
+msgid "Before the checkout form"
+msgstr "Avant le formulaire de paiement"
+
+#: admin/controllers/settings.class.php:162
+msgid "Before the order notes field"
+msgstr "Avant le champ des notes de commande"
+
+#: admin/controllers/settings.class.php:163
+msgid "After customer details"
+msgstr "Après les détails du client"
+
+#: admin/controllers/settings.class.php:164
+msgid "Before the order review"
+msgstr "Avant la révision de le commande"
+
+#: admin/controllers/settings.class.php:165
+msgid "After the checkout form"
+msgstr "Après le formulaire de paiement"
+
+#: admin/controllers/settings.class.php:183
+msgid "Is taxable"
+msgstr "Est taxable"
+
+#: admin/controllers/settings.class.php:185
+msgid ""
+"If checked, the tip amount will be taxed as per your WooCommerce Tax "
+"settings."
+msgstr ""
+"S'il est activé, le pourboire sera taxé selon vos paramètres WooCommerce Tax."
+
+#: admin/controllers/settings.class.php:196
+msgid "Tip fee name"
+msgstr "Titre du pourboir"
+
+#: admin/controllers/settings.class.php:198
+msgid ""
+"The tip fee name will appear before the order total. It will always be "
+"followed by the tip amount. Default format is \"Tip (AMOUNT)\""
+msgstr ""
+"Le titre du pourboire apparaîtra avant le total de la commande. Il sera "
+"toujours suivi du montant du pourboire. Le format par défaut est \"Tip "
+"(MONTANT)\""
+
+#: admin/controllers/settings.class.php:206
+msgid "Tip form title"
+msgstr "Titre du formulaire de pourboire"
+
+#: admin/controllers/settings.class.php:208
+msgid "The tip form title will appear before the tip form"
+msgstr ""
+"Le titre du formulaire de pourboire apparaîtra avant le formulaire de "
+"renseignements"
+
+#: admin/controllers/settings.class.php:215
+msgid "Tip Type"
+msgstr "Type de pourboire"
+
+#: admin/controllers/settings.class.php:218
+msgid "Percent of the order total"
+msgstr "Pourcentage du total de la commande"
+
+#: admin/controllers/settings.class.php:219
+msgid "Fixed amount"
+msgstr "Montant fixe"
+
+#: admin/controllers/settings.class.php:222
+msgid "Select the type of tip you would like to use."
+msgstr "Sélectionnez le type de pourboire que vous souhaitez utiliser."
+
+#: admin/controllers/settings.class.php:227
+msgid "Tip Rates"
+msgstr "Tarifs des pourboires"
+
+#: admin/controllers/settings.class.php:239
+msgid "Enable various tip rates. Keep CTRL or CMD key pressed while selecting."
+msgstr ""
+"Activer les différents taux de pourboire. Maintenez la touche CTRL ou CMD "
+"enfoncée pendant la sélection."
+
+#: admin/controllers/settings.class.php:244
+msgid "Enable custom tip field"
+msgstr "Activer le champ de pourboire personnalisé"
+
+#: admin/controllers/settings.class.php:251
+msgid ""
+"If enabled, the customer will be able to add their own fixed amount tip."
+msgstr ""
+"S'il est activé, le client pourra ajouter son propre pourboire à montant "
+"fixe."
+
+#: admin/controllers/settings.class.php:256
+msgid "Custom tip field label"
+msgstr "Étiquette de champ de pourboire personnalisé"
+
+#: admin/controllers/settings.class.php:259
+msgid ""
+"Set a label of your choice for the custom tip button. The default label is "
+"\"Custom Tip\""
+msgstr ""
+"Définissez une étiquette de votre choix pour le bouton de pourboire "
+"personnalisé. L'étiquette par défaut est \"Custom Tip\""
+
+#: admin/controllers/settings.class.php:261
+msgid "Custom Tip"
+msgstr "Pourboire personnalisé"
+
+#: admin/controllers/settings.class.php:265
+msgid "Display custom tip field label in tip name"
+msgstr ""
+"Afficher l'étiquette du champ de pourboire personnalisé dans le nom du "
+"pourboire"
+
+#: admin/controllers/settings.class.php:272
+msgid ""
+"Display the custom tip field label in the tip fee name in paranthesis. Eg.: "
+"Tip (Add your own amount). If set to \"Yes\", this will appear on the cart "
+"page, on the totals page and in the order emails."
+msgstr ""
+"Affichez le libellé du champ de pourboire personnalisé dans le nom du "
+"pourboire, entre parenthèses. Par exemple : Pourboire (Ajoutez votre propre "
+"montant). Si cette option est définie sur \"Oui\", elle apparaîtra sur la "
+"page du panier, sur la page des totaux et dans les e-mails de commande."
+
+#: admin/controllers/settings.class.php:277
+msgid "Custom tip apply tip button label"
+msgstr "Étiquette de bouton d'application de pourboire"
+
+#: admin/controllers/settings.class.php:280
+msgid ""
+"Set a label of your choice for the custom tip apply button. The default "
+"label is \"Add tip to order\""
+msgstr ""
+"Définissez une étiquette de votre choix pour le bouton d'application de "
+"pourboire personnalisés. Le étiquette par défaut est \"Add tip to order\""
+
+#: admin/controllers/settings.class.php:282
+msgid "Add tip to order"
+msgstr "Ajouter pourboire à la commande"
+
+#: admin/controllers/settings.class.php:286
+msgid "Custom tip enter tip input placeholder label"
+msgstr "Pourboire personnalisé étiquette du champ"
+
+#: admin/controllers/settings.class.php:289
+msgid ""
+"Set a placeholder of your choice for the custom enter tip input field. The "
+"default label is \"Enter tip amount\""
+msgstr ""
+"Définissez une étiquette personnalisé pour le champ de pourboire "
+"personnalisé. Le titre par défaut est \"Enter tip amount\"."
+
+#: admin/controllers/settings.class.php:291
+msgid "Enter tip amount"
+msgstr "Entrez le montant du pourboire"
+
+#: admin/controllers/settings.class.php:295
+msgid "Custom tip remove tip button label"
+msgstr "Étiquette personnalisée du bouton de retrait de le pourboire"
+
+#: admin/controllers/settings.class.php:298
+msgid ""
+"Set a label of your choice for the custom tip remove button. The default "
+"label is \"Remove tip\""
+msgstr ""
+"Définissez une étiquette de votre choix pour le bouton de supprimer le "
+"pourboire. L'étiquette par défaut est \"Remove tip\"."
+
+#: admin/controllers/settings.class.php:300
+#, fuzzy
+#| msgid "Remove Tip"
+msgid "Remove tip"
+msgstr "Supprimer le pourboire"
+
+#: admin/controllers/settings.class.php:304
+msgid "Enable cash tip"
+msgstr "Activer le pourboire en espèces"
+
+#: admin/controllers/settings.class.php:311
+msgid ""
+"If enabled, customers will be able to choose to tip by cash (on delivery or "
+"local pickup)."
+msgstr ""
+"S'il est activé, les clients pourront choisir de donner un pourboire en "
+"espèces (à la livraison ou lors d'un ramassage local)."
+
+#: admin/controllers/settings.class.php:316
+msgid "Cash tip field label"
+msgstr "Étiquette du champ de pourboire cash"
+
+#: admin/controllers/settings.class.php:319
+msgid ""
+"Set a label of your choice for the cash tip button. The default label is "
+"\"Cash\""
+msgstr ""
+"Définissez une étiquette de votre choix pour le bouton de pourboire cash. "
+"L'étiquette par défaut est \"Cash\""
+
+#: admin/controllers/settings.class.php:321
+msgid "Cash"
+msgstr "Cash"
+
+#: admin/controllers/settings.class.php:325
+msgid "Clear tip after the order has been placed"
+msgstr "Supprimer le pourboire après la commande"
+
+#: admin/controllers/settings.class.php:332
+msgid ""
+"If enabled, the tip that may be added to the cart, will be removed. "
+"Otherwise, it will be preserved on future orders in the current session."
+msgstr ""
+"S'il est activé, la pourboire qui peut être ajoutée au panier, sera retirée. "
+"Sinon, il sera conservé pour les commandes futures de la session en cours."
+
+#: admin/controllers/settings.class.php:337
+msgid "Enable alert when removing the tip"
+msgstr "Activer une alerte lors de la suppression du pourboire"
+
+#: admin/controllers/settings.class.php:344
+msgid "If enabled, an alert will pop up when the Remove Tip button is clicked."
+msgstr ""
+"Si cette option est activée, une alerte apparaîtra lorsque vous cliquerez "
+"sur le bouton \"Supprimer le conseil\"."
+
+#: admin/controllers/settings.class.php:349
+msgid "Remove tip confirmation message"
+msgstr "Message de confirmation por supprimer le pourboire"
+
+#: admin/controllers/settings.class.php:352
+msgid "Set a message of your choice for the tip removal confirmation message."
+msgstr ""
+"Définissez un message de votre choix pour le message de confirmation du "
+"supprimer du pourboire."
+
+#: admin/controllers/settings.class.php:354
+msgid "Are you sure you wish to remove the tip?"
+msgstr "Êtes-vous sûr de vouloir supprimer le pourboire?"
+
+#: admin/controllers/settings.class.php:358
+msgid "Updated to 1.1"
+msgstr "Mis à jour à 1.1"
+
+#: admin/controllers/settings.class.php:378
+msgid "Reports"
+msgstr "Rapports"
+
+#: admin/views/reports.views.class.php:28
+msgid "From"
+msgstr "À partir de"
+
+#: admin/views/reports.views.class.php:34
+msgid "To"
+msgstr "À"
+
+#: admin/views/reports.views.class.php:40
+#: admin/views/reports.views.class.php:76
+msgid "Order Status"
+msgstr "Statut de la commande"
+
+#: admin/views/reports.views.class.php:43
+msgid "All"
+msgstr "Tous"
+
+#: admin/views/reports.views.class.php:56
+msgid "Filter"
+msgstr "Filtre"
+
+#: admin/views/reports.views.class.php:59
+msgid "Export to CSV"
+msgstr "Exportation CSV"
+
+#: admin/views/reports.views.class.php:66
+#, php-format
+msgid "Displaying orders between %s and %s"
+msgstr "Affichage des commandes entre %s et %s"
+
+#: admin/views/reports.views.class.php:77
+msgid "Customer"
+msgstr "Client"
+
+#: admin/views/reports.views.class.php:78
+msgid "Type"
+msgstr "Type"
+
+#: admin/views/reports.views.class.php:79
+msgid "Value"
+msgstr "Valeur"
+
+#: admin/views/reports.views.class.php:80
+msgid "Date/Time"
+msgstr "Date/Heure"
+
+#~ msgid "Name"
+#~ msgstr "Nom"

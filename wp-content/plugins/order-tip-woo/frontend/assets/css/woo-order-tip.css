@@ -1,0 +1,14 @@
+#wooot_order_tip_form {
+    text-align: left;
+}
+
+#wooot_order_tip_form a {
+    display: inline;
+}
+.woo_order_tip.active {
+    background:#000;
+    color:#fff;
+}
+#wooot_order_tip_form .order_tip_title {
+    font-size: 18px;
+}

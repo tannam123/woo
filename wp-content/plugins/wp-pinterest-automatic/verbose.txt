@@ -1,0 +1,67 @@
+* About to connect() to hu.pinterest.com port 443 (#23)
+*   Trying 23.219.11.246...
+* Adding handle: conn: 0x49ef0b0
+* Adding handle: send: 0
+* Adding handle: recv: 0
+* Curl_addHandleToPipeline: length: 1
+* - Conn 23 (0x49ef0b0) send_pipe: 1, recv_pipe: 0
+* Connected to hu.pinterest.com (23.219.11.246) port 443 (#23)
+* successfully set certificate verify locations:
+*   CAfile: /opt/lampp/share/curl/curl-ca-bundle.crt
+  CApath: none
+* SSL connection using ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: C=US; ST=CA; L=San Francisco; O=Pinterest Inc; OU=Techops; CN=*.pinterest.com
+* 	 start date: 2016-01-14 10:26:58 GMT
+* 	 expire date: 2017-01-14 10:26:56 GMT
+* 	 subjectAltName: hu.pinterest.com matched
+* 	 issuer: C=NL; L=Amsterdam; O=Verizon Enterprise Solutions; OU=Cybertrust; CN=Verizon Akamai SureServer CA G14-SHA2
+* 	 SSL certificate verify ok.
+> POST /resource/PinResource/create/ HTTP/1.1
+Host: hu.pinterest.com
+Accept-Encoding: deflate, gzip
+Cookie: csrftoken=Qpmfgu25x4iuph7CqdBONUDcFGrRDYLN; _pinterest_sess="TWc9PSZ0OVNVWjYrM2ZTTjNOMzRlOTIyeVVCZE9GU0FZQXZtQ0ViMXhabTVYeXoxeEZrREFSbEd4Y3FldC85M2kzR1REZjMvM0RTSWV4Z2wrZ2pINWYrb1NYRGk0aCtYeTZ3U0NRZCtTUlBwaC9TM0RxekJNWjBpRkpBTW5vcGJxdkcyeC9qVURDUE5XUG9lSllXT2loNkxhSEtSdEE4eWlwNGYzak9BRG8yL1ByMjVBYmNuTlpvM3N3Q1dBSUREVVVrenRKS3dTQkk3SW5IeElxVUN5aHFTUEI0UkZHclRBeEo2RDh1ZWZCdDg3YStLTlRkSzBDb0xiUkNzMEVtQzN3c0RxRnlXeC9ueVNwN2FTS3ZraVJXQU9SdmR6bXVhUVliZ0orYVNhb1hWMlRTVWxoL01Pa0UzNUdtdnBwZGd2cUxKYisyRGdkZ0thTkdrQndDems4UGRjR0d2YW9LZDBJaHd3L0pYbzZwWmxPVEU4ZjJrUkZzb2F0ejIvQSszV1RhY3JKNUtHVDZnbGZhOENmZ3BUaHJkTnh5Tk43U056TlNhcDF6L1JjeW9mZmFYcHROVGFUMnR3czZ4bmdRaCtPRmVuem5sWVJGbDN0b2xyQk42Nis1QURlNEg1UlFQNlNoeC9qQW9pRUZnczFjMD0mazJsWE5vODdEK0FRdDJnRUJsWThmTTRVQkZFPQ=="; c_dpr=1
+Origin: https://hu.pinterest.com
+Accept:application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.8,ar;q=0.6
+X-Requested-With: XMLHttpRequest
+X-NEW-APP: 1
+X-CSRFToken: Qpmfgu25x4iuph7CqdBONUDcFGrRDYLN
+X-APP-VERSION: 5567f7f
+X-Pinterest-AppState: active
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/40.0.2214.111 Chrome/40.0.2214.111 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://hu.pinterest.com
+Content-Length: 664
+
+* upload completely sent off: 664 out of 664 bytes
+< HTTP/1.1 200 OK
+< Accept-Ranges: bytes
+< Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+< Content-Encoding: gzip
+< Content-Type: application/json; charset=utf-8
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Pinterest-Generated-By: coreapp-webapp-prod-75141222
+< Pinterest-Version: 475d7d0
+< Pragma: no-cache
+* Server nginx is not blacklisted
+< Server: nginx
+< Strict-Transport-Security: max-age=31556926;
+< Vary: User-Agent, Accept-Encoding
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< X-Pinterest-RID: 390748756811
+< X-Varnish: 1120913064
+< X-Xss-Protection: 1; mode=block
+< Content-Length: 1636
+< Date: Tue, 15 Mar 2016 20:58:38 GMT
+< Connection: keep-alive
+* Added cookie _b=""ARqPpeFI6aFNQoywliL2bFcp1fJT2CYyr6/yi4fAM+NLNZ/+UIa3RdKNow4C3cQSFjI="" for domain pinterest.com, path /, expire 1773435518
+< Set-Cookie: _b="ARqPpeFI6aFNQoywliL2bFcp1fJT2CYyr6/yi4fAM+NLNZ/+UIa3RdKNow4C3cQSFjI="; Domain=.pinterest.com; expires=Fri, 13-Mar-2026 20:58:38 GMT; Max-Age=315360000; Path=/
+* Added cookie _pinterest_pfob="disabled" for domain pinterest.com, path /, expire 1552683517
+< Set-Cookie: _pinterest_pfob=disabled; Domain=.pinterest.com; expires=Fri, 15-Mar-2019 20:58:38 GMT; Max-Age=94607999; Path=/
+* Added cookie _auth="1" for domain pinterest.com, path /, expire 1489179517
+< Set-Cookie: _auth=1; Domain=.pinterest.com; expires=Fri, 10-Mar-2017 20:58:38 GMT; httponly; Max-Age=31103999; Path=/; secure
+< 
+* Connection #23 to host hu.pinterest.com left intact
